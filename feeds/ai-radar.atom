@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>AI Radar</title>
   <id>urn:ai-radar:feed</id>
-  <updated>2026-11-24T06:23:33Z</updated>
+  <updated>2026-11-24T06:29:31Z</updated>
   <author>
     <name>ai-radar</name>
   </author>
@@ -25,6 +25,7 @@
     <summary type="text">Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Want to avoid the Christmas shopping hordes? Then let your AI agent do it. Mark Zuckerberg’s Meta is launching its Muse AI assistant in the UK and is encouraging users to let it loose on their apps – and the high street. Muse has been a hit in the US and is ranked first and second respectively…</summary>
     <category term="news" />
     <category term="agents" />
+    <link rel="related" href="https://www.unite.ai/meta-brings-muse-personal-ai-agent-to-uk-with-purchase-controls/" title="Meta Brings Muse Personal AI Agent to UK With Purchase Controls" />
   </entry>
   <entry>
     <title>Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’</title>

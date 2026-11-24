@@ -1,6 +1,6 @@
 # AI Radar · 2026-11-24
 
-> **670 new items** grouped into **647 stories** · paper 285 · news 122 · blog 81 · repo 61 · release 39 · model 35 · tool 26 · dataset 14 · discussion 7 · 76 of 76 sources ok
+> **671 new items** grouped into **647 stories** · paper 285 · news 123 · blog 81 · repo 61 · release 39 · model 35 · tool 26 · dataset 14 · discussion 7 · 76 of 76 sources ok
 
 ## Top stories
 
@@ -32,16 +32,19 @@
     - X says every Grok output is screened, but state AGs say Grok is still making CSAM.
     - covered by [The Verge](https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes"), [WIRED](https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/ "States Sue SpaceX Over Grok Deepfakes")
 11. **[Declare is a UI language for you and your AI](https://davidtemkin.github.io/declarelang/)** — Hacker News · 3h ago
-    - HN 32 pts · 15 comments · discussion: [HN](https://news.ycombinator.com/item?id=50622854)
+    - HN 33 pts · 16 comments · discussion: [HN](https://news.ycombinator.com/item?id=50622854)
 12. **[Latent Introspection: LLMs Can Detect Prior Concept Injections](https://arxiv.org/abs/2602.20031)** — Hacker News · 7h ago · `llm`
     - HN 51 pts · 4 comments · discussion: [HN](https://news.ycombinator.com/item?id=50620328)
 
 ## News (104)
 
+- **[Meta launches Muse in UK – the AI agent that can do your Christmas shopping](https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping)** — The Guardian · 29m ago · `agents`
+  - Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Want to avoid the Christmas shopping hordes? Then let your AI agent do it. Mark Zuckerberg’s Meta is launching its…
+  - covered by [Unite.AI](https://www.unite.ai/meta-brings-muse-personal-ai-agent-to-uk-with-purchase-controls/ "Meta Brings Muse Personal AI Agent to UK With Purchase Controls")
 - **[Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/)** — TechCrunch · 8h ago · `coding` `agents` `llm`
   - As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.
   - covered by [Unite.AI](https://www.unite.ai/anthropic-launches-claude-ship-to-review-fix-and-approve-prs/ "Anthropic Launches Claude Ship to Review, Fix and Approve PRs")
-- **[Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist](https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/)** — TechCrunch · 8h ago · `infra`
+- **[Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist](https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/)** — TechCrunch · 9h ago · `infra`
   - Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.
   - covered by [BBC News](https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo "US to blacklist Asian AI firm Megaspeed after Nvidia scandal")
 - **[Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ](https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/)** — TechCrunch · 9h ago · `infra`
@@ -59,11 +62,9 @@
 - **[Nvidia reverses course and brings Jensen Huang back as CEO](https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/)** — TechCrunch · 16h ago · `infra`
   - The stunning reversal was supported by senior officials in the U.S. government.
   - covered by [WIRED](https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/ "Jensen Huang Is Back, and So Is Nvidia’s Stock") ×2
-- **[Meta launches Muse in UK – the AI agent that can do your Christmas shopping](https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping)** — The Guardian · 23m ago · `agents`
-  - Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Want to avoid the Christmas shopping hordes? Then let your AI agent do it. Mark Zuckerberg’s Meta is launching its…
-- **[Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’](https://www.theguardian.com/technology/2026/nov/24/kate-bush-grace-jones-australian-artists-copyright-law-ai)** — The Guardian · 25m ago · `policy`
+- **[Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’](https://www.theguardian.com/technology/2026/nov/24/kate-bush-grace-jones-australian-artists-copyright-law-ai)** — The Guardian · 31m ago · `policy`
   - Singers among 7,000 artists and creatives urging Labor to protect copyright law in face of lobbying from AI companies Kate Bush, Grace Jones and Sir Ian Rankin have joined 7,000 artists and creatives around the world…
-- **[Trump engineered a risky comeback for Jensen Huang](https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated)** — The Verge · 7h ago · `infra`
+- **[Trump engineered a risky comeback for Jensen Huang](https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated)** — The Verge · 8h ago · `infra`
   - After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on…
 - **[Welcome to elite impunity, Jensen Huang](https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang)** — The Verge · 8h ago · `infra`
   - I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened…
@@ -108,8 +109,8 @@
   - The best arguments for — and against — an AI bubble, a cyber-apocalypse, and recursive self-improvement.
 - **[Many languages, one common neural code](https://news.mit.edu/2026/many-languages-one-common-neural-code-1123)** — MIT News · 9h ago
   - Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the human brain may represent meaning in much the same way.
-- **[Comparing AI R&D compute caps and deployment lags](https://www.alignmentforum.org/posts/e758PJCpwAwyodvEj/comparing-ai-r-and-d-compute-caps-and-deployment-lags)** — AI Alignment Forum · 3h ago
-  - I’m publishing this a bit rougher than usual because it’s very pertinent to Evan Hubinger’s recent shortform , which advocates for blocking internal deployment as a pacing mechanism over compute reallocation (he mostly…
+- **[Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement](https://www.anthropic.com/news/ipo-close)** — Anthropic · 4d ago
+  - Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise…
 - _…and 57 more stories in the day's archive file._
 
 ## Research papers (285)
@@ -253,7 +254,7 @@
 
 - **[inclusionAI/Ling-3.2-air](https://huggingface.co/inclusionAI/Ling-3.2-air)** — HF Models · 1d ago · `open-source`
   - Trending model on Hugging Face · 121 likes.
-  - ♥ 126 on HF
+  - ♥ 127 on HF
 - **[unsloth/Inkling-2-Mini-GGUF](https://huggingface.co/unsloth/Inkling-2-Mini-GGUF)** — HF Models · 3d ago · `open-source`
   - Trending image-text-to-text on Hugging Face · 1,139 likes · 1,292,888 downloads.
   - ♥ 1.1k on HF
@@ -262,7 +263,7 @@
   - ♥ 5.6k on HF
 - **[AtomicChat/Inkling-2-Mini-Uncensored-GGUF](https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF)** — HF Models · 3d ago · `open-source`
   - Trending image-text-to-text on Hugging Face · 672 likes · 329,497 downloads.
-  - ♥ 676 on HF
+  - ♥ 677 on HF
 - **[inworld/voice-isolator](https://huggingface.co/inworld/voice-isolator)** — HF Models · 10d ago · `multimodal` `open-source`
   - Trending audio-to-audio on Hugging Face · 750 likes.
   - ♥ 751 on HF
@@ -289,7 +290,7 @@
   - ♥ 1.1k on HF
 - **[chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized](https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized)** — HF Models · 20d ago · `infra` `llm` `multimodal` `open-source`
   - Trending text-to-image on Hugging Face · 864 likes · 427,005 downloads.
-  - ♥ 865 on HF
+  - ♥ 866 on HF
 - **[RadixArk/DaisyRose-27B](https://huggingface.co/RadixArk/DaisyRose-27B)** — HF Models · 6d ago · `llm` `open-source`
   - Trending image-text-to-text on Hugging Face · 347 likes · 2,130 downloads.
   - ♥ 348 on HF
@@ -300,7 +301,7 @@
 
 ## Releases (39)
 
-- **[vllm v0.34.1rc0: \[Perf\]\[Qwen4Exp\] Add SM100 TP=2 and TP=8 skinny GEMM plans (#69529)](https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0)** — GitHub Releases · 21m ago · `agents` `infra` `llm`
+- **[vllm v0.34.1rc0: \[Perf\]\[Qwen4Exp\] Add SM100 TP=2 and TP=8 skinny GEMM plans (#69529)](https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0)** — GitHub Releases · 27m ago · `agents` `infra` `llm`
   - Signed-off-by: Johnsonms lizhaofu@gmail.com Co-authored-by: vllm-agent claw@inferact.ai
 - **[crewAI 1.15.45](https://github.com/crewAIInc/crewAI/releases/tag/1.15.45)** — GitHub Releases · 2h ago
   - What's Changed Features Add ability to save HTML or markdown output as a PDF artifact. Bug Fixes Fix dependency issue by bumping e2b for Python \>=3.11 to pull patched wcmatch. Wrap file-like inputs in…
@@ -345,4 +346,4 @@
 - **[0rwx – A simple model of AI usage, inspired by Unix permissions](https://0rwx.com/)** — Hacker News · 1d ago
   - HN 69 pts · 17 comments · discussion: [HN](https://news.ycombinator.com/item?id=50605445)
 
-_Generated 2026-11-24 06:23 UTC by ai-radar._
+_Generated 2026-11-24 06:29 UTC by ai-radar._

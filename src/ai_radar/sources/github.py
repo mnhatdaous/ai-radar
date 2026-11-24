@@ -18,9 +18,13 @@ from ai_radar.text import clean_html, clean_title, parse_datetime, truncate
 
 SEARCH_API = "https://api.github.com/search/repositories"
 # Tags nobody wants in a digest: pre-releases, nightlies, CI builds, "bleeding edge" channels.
+# The word either stands apart (v1.4-rc1, nightly-2026-11-24, trunk/abc) or, in Python-style
+# versions, is glued to the number (1.4.0rc3, 2.0.0b1). A lone "a" or "b" only counts with a digit
+# on each side, so build numbers such as b4567 are kept.
 _PRERELEASE = re.compile(
     r"(?i)(?:^|[-._/])(?:rc|alpha|beta|nightly|canary|bleeding|dev|preview|pre|snapshot"
     r"|trunk|viable|ciflow)[-._/]?\d*(?:$|[-._/])"
+    r"|(?<=\d)(?:(?:rc|alpha|beta|pre|dev)\d*|[ab]\d+)(?:$|[-._/])"
 )
 _FAR_PAST = datetime.min.replace(tzinfo=UTC)
 

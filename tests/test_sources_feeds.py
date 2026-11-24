@@ -203,6 +203,46 @@ def test_github_releases_skip_prereleases_and_ci_builds() -> None:
     assert warnings == []
 
 
+@pytest.mark.parametrize(
+    "tag",
+    [
+        "v2.0.0-beta.1",
+        "v1.4.0-rc1",
+        "v0.34.1rc0",  # Python style: the word is glued to the number
+        "1.0.0rc5",
+        "2.0.0b3",
+        "1.0.0a1",
+        "4.5.0.dev0",
+        "nightly-2026-11-24",
+        "ciflow/trunk/12345",
+    ],
+)
+def test_pre_release_tags_are_skipped_whatever_the_spelling(tag: str) -> None:
+    feed = release_feed("acme/tool", (tag, tag, "2026-11-09T10:00:00Z", "Notes"))
+    router = Router().add("acme/tool/releases.atom", text=feed)
+    items, _ = fetch(router, "github_releases", repos=["acme/tool"])
+    assert items == []
+
+
+@pytest.mark.parametrize(
+    "tag",
+    [
+        "v1.3.0",
+        "b4567",  # a build number, not a beta
+        "v2026.11.24",
+        "v1.0.0.post1",
+        "@ai-sdk/xai@5.0.49",
+        "sdk==0.4.14",
+        "prefix1",
+    ],
+)
+def test_ordinary_release_tags_are_not_mistaken_for_pre_releases(tag: str) -> None:
+    feed = release_feed("acme/tool", (tag, tag, "2026-11-09T10:00:00Z", "Notes"))
+    router = Router().add("acme/tool/releases.atom", text=feed)
+    items, _ = fetch(router, "github_releases", repos=["acme/tool"])
+    assert len(items) == 1
+
+
 def test_github_releases_survive_one_broken_repo_but_not_all() -> None:
     feed = release_feed("acme/tool", ("v1.0.0", "v1.0.0", "2026-11-09T10:00:00Z", "Notes"))
     router = Router().add("acme/tool/releases.atom", text=feed)

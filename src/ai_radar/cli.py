@@ -296,7 +296,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.set_defaults(func=cmd_stats)
 
     p = sub.add_parser(
-        "site", help="build the website (digests, archive, feed) that GitHub Pages serves"
+        "site", help="build the GitHub Pages website: a page per day, a list of days, the feed"
     )
     p.add_argument("--out", metavar="DIR", help="where to write it (default: ./site)")
     p.add_argument(

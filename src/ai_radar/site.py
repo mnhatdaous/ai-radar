@@ -1,8 +1,8 @@
 """A static website for the digests: what GitHub Pages serves right after each crawl.
 
 The digests (``digests/YYYY-MM-DD.md``) are the report. This turns them into linked HTML pages,
-an archive and a copy of the Atom feed. No database and no network are involved, so the site can
-be rebuilt from the repo alone.
+a list of every day and a copy of the Atom feed. No database and no network are involved, so the
+site can be rebuilt from the repo alone.
 """
 
 from __future__ import annotations
@@ -189,9 +189,9 @@ def _day_body(day: Day, previous: Day | None, following: Day | None) -> str:
     )
 
 
-def _archive_body(days: list[Day]) -> str:
+def _digests_body(days: list[Day]) -> str:
     if not days:
-        return "<h1>Archive</h1><p>No digests yet.</p>"
+        return "<h1>Digests</h1><p>No digests yet.</p>"
     rows = []
     for d in reversed(days):  # newest first
         items = "" if d.items is None else str(d.items)
@@ -202,14 +202,14 @@ def _archive_body(days: list[Day]) -> str:
             f'<td class="num">{items}</td><td class="num">{stories}</td><td>{top}</td></tr>'
         )
     return (
-        "<h1>Archive</h1>"
+        "<h1>Digests</h1>"
         '<table><thead><tr><th>Day</th><th class="num">Items</th><th class="num">Stories</th>'
         "<th>Top story</th></tr></thead><tbody>" + "".join(rows) + "</tbody></table>"
     )
 
 
 def _page(title: str, body: str, *, has_feed: bool, repo: str | None) -> str:
-    links = ['<a href="archive.html">Archive</a>']
+    links = ['<a href="digests.html">Digests</a>']
     feed_link = ""
     if has_feed:
         links.append(f'<a href="{FEED_NAME}">Feed</a>')
@@ -251,7 +251,7 @@ def build_site(
 ) -> list[Path]:
     """Write the site into ``out_dir`` and return the files written.
 
-    ``index.html`` is the newest digest, ``YYYY-MM-DD.html`` one page per day, ``archive.html``
+    ``index.html`` is the newest digest, ``YYYY-MM-DD.html`` one page per day, ``digests.html``
     lists them all and ``ai-radar.atom`` is a copy of the feed. Nothing in ``out_dir`` is deleted,
     so a stale page can linger if you remove a digest; build into a fresh folder to avoid that.
     """
@@ -286,7 +286,7 @@ def build_site(
     else:
         empty = "<h1>AI Radar</h1><p>No digests yet. Run <code>uv run ai-radar daily</code> to make the first one.</p>"
         write("index.html", page("AI Radar", empty))
-    write("archive.html", page("AI Radar · Archive", _archive_body(days)))
+    write("digests.html", page("AI Radar · Digests", _digests_body(days)))
     if has_feed and feed is not None:
         shutil.copyfile(feed, out_dir / FEED_NAME)
         written.append(out_dir / FEED_NAME)

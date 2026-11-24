@@ -59,7 +59,7 @@ def test_read_days_ignores_everything_but_dated_digests(tmp_path: Path) -> None:
 # ---- the site ----------------------------------------------------------------------------
 
 
-def test_the_site_has_a_page_per_day_an_index_an_archive_and_the_feed(tmp_path: Path) -> None:
+def test_the_site_has_a_page_per_day_an_index_a_digest_list_and_the_feed(tmp_path: Path) -> None:
     digests = write_digests(tmp_path / "digests", "2026-11-09", "2026-11-10", "2026-11-11")
     feed = tmp_path / "feed.atom"
     feed.write_text("<feed/>", encoding="utf-8")
@@ -74,7 +74,7 @@ def test_the_site_has_a_page_per_day_an_index_an_archive_and_the_feed(tmp_path: 
             "2026-11-09.html",
             "2026-11-10.html",
             "2026-11-11.html",
-            "archive.html",
+            "digests.html",
             "index.html",
         ]
     )
@@ -83,6 +83,7 @@ def test_the_site_has_a_page_per_day_an_index_an_archive_and_the_feed(tmp_path: 
     index = (out / "index.html").read_text()
     assert "Top of 2026-11-11" in index and "Top of 2026-11-10" not in index  # the newest digest
     assert 'rel="alternate" type="application/atom+xml"' in index  # feed autodiscovery
+    assert '<a href="digests.html">Digests</a>' in index  # the link to the list of days
     assert 'href="https://github.com/me/ai-radar"' in index
 
     first = (out / "2026-11-09.html").read_text()
@@ -92,9 +93,10 @@ def test_the_site_has_a_page_per_day_an_index_an_archive_and_the_feed(tmp_path: 
     assert 'href="2026-11-09.html"' in middle and 'href="2026-11-11.html"' in middle
     assert "←" in last and "→" not in last  # no later day
 
-    archive = (out / "archive.html").read_text()
-    assert archive.index("2026-11-11") < archive.index("2026-11-10") < archive.index("2026-11-09")
-    assert '<td class="num">557</td><td class="num">512</td><td>Top of 2026-11-11</td>' in archive
+    listing = (out / "digests.html").read_text()
+    assert "<title>AI Radar · Digests</title>" in listing and "<h1>Digests</h1>" in listing
+    assert listing.index("2026-11-11") < listing.index("2026-11-10") < listing.index("2026-11-09")
+    assert '<td class="num">557</td><td class="num">512</td><td>Top of 2026-11-11</td>' in listing
 
 
 def test_a_day_page_has_anchors_a_filter_and_link_tooltips(tmp_path: Path) -> None:
@@ -146,7 +148,7 @@ def test_an_empty_digest_folder_still_builds_a_site(tmp_path: Path) -> None:
     out = tmp_path / "site"
     build_site(tmp_path / "none", out)
     assert "No digests yet" in (out / "index.html").read_text()
-    assert "No digests yet" in (out / "archive.html").read_text()
+    assert "No digests yet" in (out / "digests.html").read_text()
     assert not (out / FEED_NAME).exists()
 
 

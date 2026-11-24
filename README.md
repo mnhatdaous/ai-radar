@@ -58,9 +58,9 @@ Things to know:
 
 ### The report as a website (GitHub Pages)
 
-After each crawl the workflow also builds a small static site from the digests and publishes it to the `gh-pages` branch with `peaceiris/actions-gh-pages`. You get one page per day, an archive, the Atom feed, and a filter box on every page.
+After each crawl the workflow also builds a small static site from the digests and publishes it to the `gh-pages` branch with `peaceiris/actions-gh-pages`. You get one page per day, a Digests page that lists them all, the Atom feed, and a filter box on every page.
 
-- `https://<you>.github.io/<repo>/` is the newest digest, `…/archive.html` lists every day and `…/ai-radar.atom` is the feed.
+- `https://<you>.github.io/<repo>/` is the newest digest, `…/digests.html` lists every day and `…/ai-radar.atom` is the feed.
 - One-time setup: after the first workflow run has created the `gh-pages` branch, open **Settings → Pages**, choose **Deploy from a branch**, then `gh-pages` and `/ (root)`.
 - GitHub Pages needs a **public** repo on a free account.
 - To see it locally: `uv run ai-radar site && open site/index.html`.

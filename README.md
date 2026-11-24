@@ -51,7 +51,7 @@ Things to know:
 
 - Change the time by editing the `cron` line.
 - If the push step fails with a 403, enable **Settings → Actions → General → Workflow permissions → Read and write**.
-- Reddit blocks most cloud IPs, so the workflow runs with `--skip reddit-ai`. Remove the flag to try it anyway.
+- Reddit and three Substack newsletters (`import-ai`, `zvi`, `gary-marcus`: `*.substack.com` answers 403) block GitHub's servers, so the workflow runs with a `--skip` for each. They work from a home connection, so run `scripts/daily.sh` on your Mac if you want them; the archive merges both. Remove a flag to try that source from GitHub anyway.
 - The first run from GitHub's servers is the real test: some sites treat datacenter IPs differently from your home connection. Anything that fails shows up under "Source health"; for a persistent offender use `--skip ID` in the workflow or `enabled: false` in the config.
 - The job fails (and GitHub emails you) only when *every* source failed. One broken source never stops a run; it shows up under "Source health" in that day's digest.
 - GitHub pauses scheduled workflows on public repos after 60 days without repo activity. The daily commits normally keep it alive; if runs ever stop, look at the Actions tab.

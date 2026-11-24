@@ -96,8 +96,10 @@ sources:
     name: DeepSeek
     type: sitemap
     url: "https://api-docs.deepseek.com/sitemap.xml"
-    include: '^https://api-docs\.deepseek\.com/news/news\d{6}$'
-    date_regex: 'news(\d{6})$'     # no lastmod: the date is in the slug (news261017 = 2026-10-17)
+    include: '^https://api-docs\.deepseek\.com/news/news\d{6}/?$'
+    # No lastmod: the date is in the slug (news261017 = 2026-10-17). The sitemap once switched to
+    # trailing slashes, so both forms are accepted.
+    date_regex: 'news(\d{6})/?$'
     date_format: "%y%m%d"
     kind: blog
     weight: 1.0
@@ -112,7 +114,7 @@ sources:
     max_pages: 8
 
   # ---- Newsletters and expert blogs -------------------------------------------------------
-  - { id: import-ai, name: Import AI, type: rss, url: "https://importai.substack.com/feed", kind: blog, weight: 0.8, max_age_days: 7 }
+  - { id: import-ai, name: Import AI, type: rss, url: "https://importai.substack.com/feed", kind: blog, weight: 0.8, max_age_days: 7 }  # *.substack.com answers 403 to GitHub's servers: the workflow skips it
   - { id: latent-space, name: Latent Space, type: rss, url: "https://www.latent.space/feed", kind: blog, weight: 0.8 }
   - { id: interconnects, name: Interconnects, type: rss, url: "https://www.interconnects.ai/feed", kind: blog, weight: 0.8, max_age_days: 7 }
   - { id: simon-willison, name: Simon Willison, type: rss, url: "https://simonwillison.net/atom/everything/", kind: blog, weight: 0.9, ai_filter: loose }
@@ -123,8 +125,8 @@ sources:
   - { id: eugene-yan, name: Eugene Yan, type: rss, url: "https://eugeneyan.com/rss/", kind: blog, weight: 0.6, ai_filter: loose, max_age_days: 30 }
   - { id: hamel-husain, name: Hamel Husain, type: rss, url: "https://hamel.dev/index.xml", kind: blog, weight: 0.6, ai_filter: loose, max_age_days: 30 }
   - { id: one-useful-thing, name: One Useful Thing, type: rss, url: "https://www.oneusefulthing.org/feed", kind: blog, weight: 0.7, max_age_days: 7 }
-  - { id: zvi, name: Don't Worry About the Vase, type: rss, url: "https://thezvi.substack.com/feed", kind: blog, weight: 0.5 }
-  - { id: gary-marcus, name: Marcus on AI, type: rss, url: "https://garymarcus.substack.com/feed", kind: blog, weight: 0.5, max_age_days: 7 }
+  - { id: zvi, name: Don't Worry About the Vase, type: rss, url: "https://thezvi.substack.com/feed", kind: blog, weight: 0.5 }  # *.substack.com answers 403 to GitHub's servers: the workflow skips it
+  - { id: gary-marcus, name: Marcus on AI, type: rss, url: "https://garymarcus.substack.com/feed", kind: blog, weight: 0.5, max_age_days: 7 }  # *.substack.com answers 403 to GitHub's servers: the workflow skips it
   - { id: ai-as-normal-technology, name: AI as Normal Technology, type: rss, url: "https://www.normaltech.ai/feed", kind: blog, weight: 0.6, max_age_days: 30 }
   - { id: understanding-ai, name: Understanding AI, type: rss, url: "https://www.understandingai.org/feed", kind: blog, weight: 0.6, max_age_days: 7 }
   - { id: last-week-in-ai, name: Last Week in AI, type: rss, url: "https://lastweekin.ai/feed", kind: blog, weight: 0.5, max_age_days: 14 }

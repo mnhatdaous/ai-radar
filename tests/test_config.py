@@ -1,3 +1,4 @@
+import re
 from pathlib import Path
 
 import pytest
@@ -5,6 +6,7 @@ import pytest
 from ai_radar.config import ConfigError, load_config
 from ai_radar.models import KINDS
 from ai_radar.sources import REGISTRY
+from ai_radar.sources.sitemap import date_from_url
 from helpers import ROOT
 
 TOPICS = "ai_terms:\n  strong: ['openai']\ntopics:\n  llm: ['llm']\n"
@@ -116,3 +118,32 @@ def test_story_grouping_settings_have_sane_defaults_and_bounds(tmp_path: Path) -
         text = f"settings:\n  digest: {{story_overlap: {bad}}}\nsources: []\n"
         with pytest.raises(ConfigError, match="story_overlap"):
             load_config(write_config(tmp_path, text))
+
+
+def test_the_deepseek_patterns_accept_urls_with_and_without_a_trailing_slash() -> None:
+    # Their sitemap switched to trailing slashes once, which silently emptied this source.
+    source = next(s for s in load_config(ROOT / "config").sources if s.id == "deepseek-news")
+    include = re.compile(source.opt("include"))
+    date_regex = re.compile(source.opt("date_regex"))
+    for url in (
+        "https://api-docs.deepseek.com/news/news261017",
+        "https://api-docs.deepseek.com/news/news261017/",
+    ):
+        assert include.search(url), url
+        parsed = date_from_url(url, date_regex, source.opt("date_format"))
+        assert parsed is not None and parsed.date().isoformat() == "2026-10-17", url
+    assert not include.search("https://api-docs.deepseek.com/news/news0725/")  # old MMDD pages
+    assert not include.search("https://api-docs.deepseek.com/api/create-chat-completion")
+
+
+def test_every_source_the_workflow_skips_exists() -> None:
+    # An unknown id makes `ai-radar daily` fail, which would break the scheduled run.
+    workflow = (ROOT / ".github" / "workflows" / "daily.yml").read_text(encoding="utf-8")
+    commands = [
+        line
+        for line in workflow.splitlines()
+        if "ai-radar daily" in line and not line.lstrip().startswith("#")
+    ]  # the command itself, not the comments that mention --skip
+    skipped = [name for line in commands for name in re.findall(r"--skip\s+([\w-]+)", line)]
+    assert skipped, "the workflow is expected to skip the sources that block GitHub's servers"
+    assert set(skipped) <= {s.id for s in load_config(ROOT / "config").sources}

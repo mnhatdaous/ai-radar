@@ -32,8 +32,9 @@ jobs:
         env:
           # Lifts the GitHub search limit from 10 to 30 requests/minute.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        # Reddit blocks most cloud IPs, so it is left out here. Remove --skip to try it anyway.
-        run: uv run ai-radar daily --skip reddit-ai
+        # Reddit and three *.substack.com newsletters answer 403/429 to GitHub's servers (they work
+        # from a home connection), so they are left out here. Remove a --skip to try it anyway.
+        run: uv run ai-radar daily --skip reddit-ai --skip import-ai --skip zvi --skip gary-marcus
 
       - name: Commit the results
         run: |

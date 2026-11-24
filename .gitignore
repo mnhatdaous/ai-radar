@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+dist/
+*.egg-info/
+.DS_Store
+.env
+
+# Local query cache. It is rebuilt from data/items/*.jsonl, so it is never committed.
+data/radar.db
+data/radar.db-*
+
+# Log of the local scheduled job (see deploy/)
+data/daily.log
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# The website is built in CI (ai-radar site) and published to gh-pages
+site/

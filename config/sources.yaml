@@ -1,0 +1,281 @@
+# ai-radar source list.
+#
+# URLs were checked against the live endpoints on 2026-11-10. Re-check anytime with
+#   uv run ai-radar crawl --dry-run              # every enabled source
+#   uv run ai-radar crawl --dry-run --source ID  # one source (also works for disabled ones)
+#
+# Common fields:  id, name, type, kind, weight, ai_filter, max_items, max_age_days, enabled
+#   kind       news | blog | paper | repo | tool | model | dataset | release | discussion | video
+#   weight     0..1 trust. It sets the base score, and the most trusted source owns a shared URL.
+#   ai_filter  off (default) | loose (title+summary) | strict (title only). Use it on general
+#              sources so that only AI-related items get through. Rules: config/topics.yaml.
+# Type options are documented in README.md ("Adding a source").
+
+settings:
+  user_agent: "ai-radar/0.1 (+personal AI news aggregator)"
+  max_age_days: 3        # ignore anything published longer ago than this (also bounds the first run)
+  respect_robots: true   # robots.txt is enforced for HTML pages; feeds and public APIs are not gated
+  hosts:                 # politeness per host: seconds between requests, parallel requests
+    export.arxiv.org: { min_interval: 3.1, max_concurrency: 1 }
+    api.github.com: { min_interval: 2.2, max_concurrency: 1 }
+    github.com: { min_interval: 0.6, max_concurrency: 2 }
+    www.reddit.com: { min_interval: 3.0, max_concurrency: 1 }
+    api.gdeltproject.org: { min_interval: 6.0, max_concurrency: 1 }
+    hn.algolia.com: { min_interval: 0.2, max_concurrency: 2 }
+    huggingface.co: { min_interval: 0.5, max_concurrency: 2 }
+  digest:
+    top_n: 12
+    # Front-page mix: news+blogs / discussions+video / papers, repos, tools, models, releases.
+    top_mix: { editorial: 6, community: 3, builders: 3 }
+    max_per_section: 15
+    group_stories: true     # show coverage of one event once, with the other outlets listed
+    story_overlap: 0.5      # how alike two headlines must be to count as one story (lower = groups more)
+
+defaults:
+  kind: news
+  weight: 0.5
+  max_items: 25
+
+sources:
+  # ---- AI labs and companies --------------------------------------------------------------
+  - { id: openai-news, name: OpenAI, type: rss, url: "https://openai.com/news/rss.xml", kind: blog, weight: 1.0, max_items: 30 }
+  - { id: deepmind-blog, name: Google DeepMind, type: rss, url: "https://deepmind.google/blog/rss.xml", kind: blog, weight: 1.0 }
+  - { id: google-ai-blog, name: Google AI, type: rss, url: "https://blog.google/innovation-and-ai/technology/ai/rss/", kind: blog, weight: 0.9 }
+  - { id: google-research-blog, name: Google Research, type: rss, url: "https://research.google/blog/rss/", kind: blog, weight: 0.9 }
+  - { id: mistral-news, name: Mistral AI, type: rss, url: "https://mistral.ai/news/rss", kind: blog, weight: 1.0 }
+  - { id: huggingface-blog, name: Hugging Face, type: rss, url: "https://huggingface.co/blog/feed.xml", kind: blog, weight: 0.9 }
+  - { id: ai2-blog, name: Ai2, type: rss, url: "https://allenai.org/rss.xml", kind: blog, weight: 0.8 }
+  - { id: apple-ml-research, name: Apple ML Research, type: rss, url: "https://machinelearning.apple.com/rss.xml", kind: blog, weight: 0.7 }
+  - { id: microsoft-research, name: Microsoft Research, type: rss, url: "https://www.microsoft.com/en-us/research/feed/", kind: blog, weight: 0.8, ai_filter: loose }
+  - { id: nvidia-blog, name: NVIDIA Blog, type: rss, url: "https://blogs.nvidia.com/feed/", kind: blog, weight: 0.7, ai_filter: loose }
+  - { id: nvidia-developer-blog, name: NVIDIA Technical Blog, type: rss, url: "https://developer.nvidia.com/blog/feed/", kind: blog, weight: 0.7, ai_filter: loose }
+  - { id: aws-ml-blog, name: AWS Machine Learning, type: rss, url: "https://aws.amazon.com/blogs/machine-learning/feed/", kind: blog, weight: 0.6 }
+  - { id: github-blog-ai, name: GitHub Blog, type: rss, url: "https://github.blog/ai-and-ml/feed/", kind: blog, weight: 0.6 }
+  - { id: cloudflare-ai-blog, name: Cloudflare AI, type: rss, url: "https://blog.cloudflare.com/tag/ai/rss/", kind: blog, weight: 0.6 }
+  - { id: replicate-blog, name: Replicate, type: rss, url: "https://replicate.com/blog/rss", kind: blog, weight: 0.5 }
+  - { id: together-ai-blog, name: Together AI, type: rss, url: "https://www.together.ai/blog/rss.xml", kind: blog, weight: 0.5 }
+  - { id: elevenlabs-blog, name: ElevenLabs, type: rss, url: "https://elevenlabs.io/blog/rss.xml", kind: blog, weight: 0.5 }
+  - { id: ollama-blog, name: Ollama, type: rss, url: "https://ollama.com/blog/rss.xml", kind: blog, weight: 0.6, max_age_days: 14 }
+  - { id: vercel-news, name: Vercel, type: rss, url: "https://vercel.com/atom", kind: blog, weight: 0.4, ai_filter: loose }
+  - { id: meta-engineering, name: Engineering at Meta, type: rss, url: "https://engineering.fb.com/feed/", kind: blog, weight: 0.5, ai_filter: loose }
+  - { id: amazon-science, name: Amazon Science, type: rss, url: "https://www.amazon.science/index.rss", kind: blog, weight: 0.5, ai_filter: loose }
+  - { id: cursor-changelog, name: Cursor changelog, type: rss, url: "https://cursor.com/changelog/rss.xml", kind: release, weight: 0.6 }
+
+  # Labs without a feed: read their sitemap (URLs + lastmod), then each new page's metadata.
+  - id: anthropic-news
+    name: Anthropic
+    type: sitemap
+    url: "https://www.anthropic.com/sitemap.xml"
+    # Articles live under /news, /research and /engineering, but launches such as
+    # /claude-fable-and-mythos-5-2 sit at the site root, so match both.
+    include: '^https://www\.anthropic\.com/(?:(?:news|research|engineering)/)?[^/?#]+$'
+    exclude: '/news/(?:announcements|features|models|partnerships|policy|product|safeguards|security)$'
+    kind: blog
+    weight: 1.0
+    max_age_days: 5
+    max_pages: 20
+    require_date: true         # skip hubs and landing pages: they declare no publish date
+  - id: xai-news
+    name: xAI
+    type: sitemap
+    url: "https://x.ai/sitemap.xml"
+    include: '^https://x\.ai/news/[^/]+$'
+    kind: blog
+    weight: 0.9
+    max_age_days: 7
+    require_date: true
+  - id: cohere-blog
+    name: Cohere
+    type: sitemap
+    url: "https://cohere.com/sitemap.xml"
+    include: '^https://cohere\.com/blog/[^/]+$'
+    kind: blog
+    weight: 0.7
+    max_age_days: 7
+  - id: deepseek-news
+    name: DeepSeek
+    type: sitemap
+    url: "https://api-docs.deepseek.com/sitemap.xml"
+    include: '^https://api-docs\.deepseek\.com/news/news\d{6}$'
+    date_regex: 'news(\d{6})$'     # no lastmod: the date is in the slug (news261017 = 2026-10-17)
+    date_format: "%y%m%d"
+    kind: blog
+    weight: 1.0
+    max_age_days: 14
+  - id: meta-ai-blog
+    name: Meta AI
+    type: html_list
+    url: "https://ai.meta.com/blog/"
+    link_regex: '^https://ai\.meta\.com/blog/(?!page/|tag/|category/)[^/?#]+/?$'
+    kind: blog
+    weight: 1.0
+    max_pages: 8
+
+  # ---- Newsletters and expert blogs -------------------------------------------------------
+  - { id: import-ai, name: Import AI, type: rss, url: "https://importai.substack.com/feed", kind: blog, weight: 0.8, max_age_days: 7 }
+  - { id: latent-space, name: Latent Space, type: rss, url: "https://www.latent.space/feed", kind: blog, weight: 0.8 }
+  - { id: interconnects, name: Interconnects, type: rss, url: "https://www.interconnects.ai/feed", kind: blog, weight: 0.8, max_age_days: 7 }
+  - { id: simon-willison, name: Simon Willison, type: rss, url: "https://simonwillison.net/atom/everything/", kind: blog, weight: 0.9, ai_filter: loose }
+  - { id: ahead-of-ai, name: Ahead of AI, type: rss, url: "https://magazine.sebastianraschka.com/feed", kind: blog, weight: 0.7, max_age_days: 14 }
+  - { id: raschka-blog, name: Sebastian Raschka, type: rss, url: "https://sebastianraschka.com/rss_feed.xml", kind: blog, weight: 0.6, max_age_days: 14 }
+  - { id: lilian-weng, name: Lil'Log, type: rss, url: "https://lilianweng.github.io/index.xml", kind: blog, weight: 0.8, max_age_days: 30 }
+  - { id: karpathy, name: Andrej Karpathy, type: rss, url: "https://karpathy.bearblog.dev/feed/", kind: blog, weight: 0.8, max_age_days: 30 }
+  - { id: eugene-yan, name: Eugene Yan, type: rss, url: "https://eugeneyan.com/rss/", kind: blog, weight: 0.6, ai_filter: loose, max_age_days: 30 }
+  - { id: hamel-husain, name: Hamel Husain, type: rss, url: "https://hamel.dev/index.xml", kind: blog, weight: 0.6, ai_filter: loose, max_age_days: 30 }
+  - { id: one-useful-thing, name: One Useful Thing, type: rss, url: "https://www.oneusefulthing.org/feed", kind: blog, weight: 0.7, max_age_days: 7 }
+  - { id: zvi, name: Don't Worry About the Vase, type: rss, url: "https://thezvi.substack.com/feed", kind: blog, weight: 0.5 }
+  - { id: gary-marcus, name: Marcus on AI, type: rss, url: "https://garymarcus.substack.com/feed", kind: blog, weight: 0.5, max_age_days: 7 }
+  - { id: ai-as-normal-technology, name: AI as Normal Technology, type: rss, url: "https://www.normaltech.ai/feed", kind: blog, weight: 0.6, max_age_days: 30 }
+  - { id: understanding-ai, name: Understanding AI, type: rss, url: "https://www.understandingai.org/feed", kind: blog, weight: 0.6, max_age_days: 7 }
+  - { id: last-week-in-ai, name: Last Week in AI, type: rss, url: "https://lastweekin.ai/feed", kind: blog, weight: 0.5, max_age_days: 14 }
+  - { id: tldr-ai, name: TLDR AI, type: rss, url: "https://tldr.tech/api/rss/ai", kind: blog, weight: 0.6 }
+  - { id: semianalysis, name: SemiAnalysis, type: rss, url: "https://newsletter.semianalysis.com/feed", kind: blog, weight: 0.7, max_age_days: 7 }
+  - { id: epoch-ai, name: Epoch AI, type: rss, url: "https://epoch.ai/atom.xml", kind: blog, weight: 0.7, max_age_days: 7 }
+  - { id: lesswrong-curated, name: LessWrong (curated), type: rss, url: "https://www.lesswrong.com/feed.xml?view=curated-rss", kind: blog, weight: 0.4, ai_filter: loose, max_age_days: 7 }
+  - { id: alignment-forum, name: AI Alignment Forum, type: rss, url: "https://www.alignmentforum.org/feed.xml", kind: blog, weight: 0.4 }
+  - { id: bair-blog, name: Berkeley AI Research, type: rss, url: "https://bair.berkeley.edu/blog/feed.xml", kind: blog, weight: 0.6, max_age_days: 14 }
+  - { id: mit-news-ai, name: MIT News, type: rss, url: "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml", kind: blog, weight: 0.5 }
+
+  # ---- News outlets -----------------------------------------------------------------------
+  - { id: techcrunch-ai, name: TechCrunch, type: rss, url: "https://techcrunch.com/category/artificial-intelligence/feed/", weight: 0.7 }
+  - { id: verge-ai, name: The Verge, type: rss, url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", weight: 0.7 }
+  - { id: ars-technica-ai, name: Ars Technica, type: rss, url: "https://arstechnica.com/ai/feed/", weight: 0.7 }
+  - { id: wired-ai, name: WIRED, type: rss, url: "https://www.wired.com/feed/tag/ai/latest/rss", weight: 0.6 }
+  - { id: mit-technology-review-ai, name: MIT Technology Review, type: rss, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", weight: 0.7 }
+  - { id: guardian-ai, name: The Guardian, type: rss, url: "https://www.theguardian.com/technology/artificialintelligenceai/rss", weight: 0.6 }
+  - { id: ieee-spectrum-ai, name: IEEE Spectrum, type: rss, url: "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss", weight: 0.5 }
+  - { id: register-ai, name: The Register, type: rss, url: "https://www.theregister.com/software/ai_ml/headlines.atom", weight: 0.5 }
+  - { id: the-decoder, name: The Decoder, type: rss, url: "https://the-decoder.com/feed/", weight: 0.6 }
+  - { id: marktechpost, name: MarkTechPost, type: rss, url: "https://www.marktechpost.com/feed/", weight: 0.4 }
+  - { id: unite-ai, name: Unite.AI, type: rss, url: "https://www.unite.ai/feed/", weight: 0.3 }
+  # General tech feeds: keep only what is about AI.
+  - { id: bbc-tech, name: BBC News, type: rss, url: "https://feeds.bbci.co.uk/news/technology/rss.xml", weight: 0.5, ai_filter: loose }
+  - { id: nyt-tech, name: New York Times, type: rss, url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml", weight: 0.6, ai_filter: loose }
+  - { id: cnbc-tech, name: CNBC, type: rss, url: "https://www.cnbc.com/id/19854910/device/rss/rss.html", weight: 0.5, ai_filter: loose }
+  # Breadth: thousands of outlets, but title and URL only, so the filter is strict. Off by default:
+  # GDELT allows one request per 5 s per IP and often times out or answers 429. Enable if you want it.
+  - id: gdelt-ai
+    name: GDELT news
+    type: gdelt
+    enabled: false
+    queries:
+      - '"artificial intelligence" OR "generative AI" OR OpenAI OR Anthropic OR ChatGPT OR "large language model"'
+    timespan: 1d
+    max_records: 100
+    ai_filter: strict
+    weight: 0.3
+    max_items: 40
+
+  # ---- Research ---------------------------------------------------------------------------
+  - id: arxiv
+    name: arXiv
+    type: arxiv
+    categories: [cs.AI, cs.CL, cs.LG, cs.CV, cs.MA]
+    max_results: 40            # per category, newest submissions first
+    kind: paper
+    weight: 0.3
+    max_items: 150
+  # Curated by the community and ranked by upvotes. `days` = how many completed UTC days to read.
+  - { id: hf-daily-papers, name: HF Daily Papers, type: huggingface, mode: daily_papers, days: 3, limit: 100, kind: paper, weight: 0.8, max_items: 40 }
+  - { id: nature-ml, name: Nature, type: rss, url: "https://www.nature.com/subjects/machine-learning.rss", kind: paper, weight: 0.5, max_age_days: 7 }
+
+  # ---- Tools, models, repos ---------------------------------------------------------------
+  - { id: producthunt-ai, name: Product Hunt, type: rss, flavor: producthunt, url: "https://www.producthunt.com/feed?category=artificial-intelligence", kind: tool, weight: 0.6 }
+  - { id: hf-trending-spaces, name: HF Spaces, type: huggingface, mode: spaces, limit: 40, kind: tool, weight: 0.5, max_age_days: 30, max_items: 15 }
+  - { id: hf-trending-models, name: HF Models, type: huggingface, mode: models, limit: 40, kind: model, weight: 0.7, max_age_days: 30, max_items: 15 }
+  - { id: hf-trending-datasets, name: HF Datasets, type: huggingface, mode: datasets, limit: 40, kind: dataset, weight: 0.5, max_age_days: 30, max_items: 15 }
+  - { id: openrouter-models, name: OpenRouter, type: openrouter, kind: model, weight: 0.8, max_age_days: 14, max_items: 20 }
+  - id: github-new-ai-repos
+    name: GitHub
+    type: github_search
+    topics: [llm, ai-agents, mcp, generative-ai, rag, agentic-ai]
+    created_within_days: 7
+    max_age_days: 7            # keep the age filter in step with the search window
+    min_stars: 25
+    per_page: 15
+    kind: repo
+    weight: 0.6
+    max_items: 40
+  - id: github-trending
+    name: GitHub Trending
+    type: github_trending
+    languages: ["", python, typescript]
+    kind: repo
+    weight: 0.6
+    ai_filter: loose
+    max_items: 25
+  - id: github-releases
+    name: GitHub Releases
+    type: github_releases
+    kind: release
+    weight: 0.6
+    max_per_repo: 2
+    max_age_days: 7
+    max_items: 40
+    repos:
+      - openai/openai-python
+      - openai/codex
+      - openai/openai-agents-python
+      - anthropics/claude-code
+      - anthropics/anthropic-sdk-python
+      - google-gemini/gemini-cli
+      - modelcontextprotocol/python-sdk
+      - modelcontextprotocol/typescript-sdk
+      - huggingface/transformers
+      - huggingface/diffusers
+      - huggingface/trl
+      - huggingface/smolagents
+      - ollama/ollama
+      - vllm-project/vllm
+      - sgl-project/sglang
+      - pytorch/pytorch
+      - langchain-ai/langgraph
+      - run-llama/llama_index
+      - crewAIInc/crewAI
+      - pydantic/pydantic-ai
+      - microsoft/autogen
+      - comfyanonymous/ComfyUI
+      - open-webui/open-webui
+      - unslothai/unsloth
+      - NVIDIA/TensorRT-LLM
+      - cline/cline
+      - Aider-AI/aider
+      - vercel/ai
+      - mastra-ai/mastra
+      - browser-use/browser-use
+      - mem0ai/mem0
+      - langfuse/langfuse
+
+  # ---- Community --------------------------------------------------------------------------
+  - id: hn-ai
+    name: Hacker News
+    type: hackernews
+    queries: [AI, LLM, GPT, OpenAI, Anthropic, Claude, Gemini, Llama, DeepSeek, Mistral, Nvidia, "machine learning", "neural network", diffusion, agent, agents, transformer, RAG, chatbot]
+    min_points: 25
+    window_hours: 30
+    kind: discussion
+    weight: 0.5
+    ai_filter: loose
+    max_items: 40
+  - id: hn-show-ai
+    name: Show HN
+    type: hackernews
+    hn_tag: show_hn
+    queries: [AI, LLM, GPT, Claude, MCP, agent, agents, RAG, model, OpenAI]
+    min_points: 8
+    window_hours: 30
+    kind: tool
+    weight: 0.5
+    ai_filter: loose
+    max_items: 25
+  - { id: lobsters-ai, name: Lobsters, type: rss, flavor: lobsters, url: "https://lobste.rs/t/ai.rss", kind: discussion, weight: 0.4 }
+  # One request for several subreddits (r/a+b+c): Reddit answers a quick second request with 429.
+  # It also often blocks cloud IPs such as GitHub Actions; it works best from a home connection.
+  - { id: reddit-ai, name: Reddit, type: rss, flavor: reddit, url: "https://www.reddit.com/r/LocalLLaMA+MachineLearning+OpenAI+ClaudeAI+artificial/top/.rss?t=day&limit=40", kind: discussion, weight: 0.4, max_items: 25 }
+  - { id: devto-ai, name: DEV Community, type: rss, url: "https://dev.to/feed/tag/ai", kind: blog, weight: 0.2, max_items: 12 }
+
+  # ---- Video ------------------------------------------------------------------------------
+  # YouTube's channel feeds answer 404 for hours at a time, so these are off by default.
+  # To add a channel: use https://www.youtube.com/feeds/videos.xml?channel_id=<id>.
+  - { id: yt-two-minute-papers, name: Two Minute Papers, type: rss, enabled: false, url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg", kind: video, weight: 0.4, max_age_days: 7 }
+  - { id: yt-ai-explained, name: AI Explained, type: rss, enabled: false, url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw", kind: video, weight: 0.4, max_age_days: 7 }

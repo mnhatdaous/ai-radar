@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  macOS launchd job: runs scripts/daily.sh every day at 07:30 local time.
+  If the Mac is asleep at that time, launchd runs the job when it wakes up.
+  __REPO__ is replaced with the path of this repo when you install it (see README, "Run it locally").
+-->
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.ai-radar.daily</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/bin/bash</string>
+      <string>__REPO__/scripts/daily.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>__REPO__</string>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Hour</key>
+      <integer>7</integer>
+      <key>Minute</key>
+      <integer>30</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>__REPO__/data/daily.log</string>
+    <key>StandardErrorPath</key>
+    <string>__REPO__/data/daily.log</string>
+  </dict>
+</plist>

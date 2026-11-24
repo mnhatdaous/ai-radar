@@ -1,0 +1,60 @@
+name: daily
+
+on:
+  schedule:
+    # Every day at 00:23 UTC (07:23 in Vietnam, 09:23 in Sydney, 16:23 the day before in California).
+    # Odd minutes dodge the top-of-the-hour rush when GitHub delays scheduled jobs.
+    - cron: "23 0 * * *"
+  workflow_dispatch: # the "Run workflow" button, for trying it out
+
+permissions:
+  contents: write # the job commits the day's digest and archive back to the repo
+
+concurrency:
+  group: daily-crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen
+
+      - name: Crawl and write today's digest
+        env:
+          # Lifts the GitHub search limit from 10 to 30 requests/minute.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # Reddit blocks most cloud IPs, so it is left out here. Remove --skip to try it anyway.
+        run: uv run ai-radar daily --skip reddit-ai
+
+      - name: Commit the results
+        run: |
+          git config user.name "ai-radar[bot]"
+          git config user.email "ai-radar-bot@users.noreply.github.com"
+          git add data/items digests feeds
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "digest: $(date -u +%F)"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - name: Build the report site
+        run: uv run ai-radar site
+
+      # Publish to the gh-pages branch, which GitHub Pages serves.
+      - name: Publish the report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site
+          force_orphan: true # the site is rebuilt from the digests every day, so keep no history

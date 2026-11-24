@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>AI Radar</title>
   <id>urn:ai-radar:feed</id>
-  <updated>2026-11-24T05:44:44Z</updated>
+  <updated>2026-11-24T06:13:12Z</updated>
   <author>
     <name>ai-radar</name>
   </author>
+  <entry>
+    <title>vllm v0.34.1rc0: [Perf][Qwen4Exp] Add SM100 TP=2 and TP=8 skinny GEMM plans (#69529)</title>
+    <id>https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0</id>
+    <link href="https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0" />
+    <updated>2026-11-24T06:01:41Z</updated>
+    <summary type="text">Signed-off-by: Johnsonms lizhaofu@gmail.com Co-authored-by: vllm-agent claw@inferact.ai</summary>
+    <category term="release" />
+    <category term="agents" />
+    <category term="infra" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>Meta launches Muse in UK – the AI agent that can do your Christmas shopping</title>
+    <id>https://theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping</id>
+    <link href="https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping" />
+    <updated>2026-11-24T06:00:07Z</updated>
+    <summary type="text">Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Want to avoid the Christmas shopping hordes? Then let your AI agent do it. Mark Zuckerberg’s Meta is launching its Muse AI assistant in the UK and is encouraging users to let it loose on their apps – and the high street. Muse has been a hit in the US and is ranked first and second respectively…</summary>
+    <category term="news" />
+    <category term="agents" />
+  </entry>
+  <entry>
+    <title>Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’</title>
+    <id>https://theguardian.com/technology/2026/nov/24/kate-bush-grace-jones-australian-artists-copyright-law-ai</id>
+    <link href="https://www.theguardian.com/technology/2026/nov/24/kate-bush-grace-jones-australian-artists-copyright-law-ai" />
+    <updated>2026-11-24T05:58:15Z</updated>
+    <summary type="text">Singers among 7,000 artists and creatives urging Labor to protect copyright law in face of lobbying from AI companies Kate Bush, Grace Jones and Sir Ian Rankin have joined 7,000 artists and creatives around the world pleading for the Australian government not to weaken copyright law, urging Labor not to “not legalise the theft of the work of the world’s creators on their soil”. The international…</summary>
+    <category term="news" />
+    <category term="policy" />
+  </entry>
   <entry>
     <title>elementalsouls/Claude-BugHunter</title>
     <id>https://github.com/elementalsouls/claude-bughunter</id>
@@ -218,6 +247,24 @@
     <category term="infra" />
   </entry>
   <entry>
+    <title>francoisokada/llm-key-pool</title>
+    <id>https://github.com/francoisokada/llm-key-pool</id>
+    <link href="https://github.com/francoisokada/llm-key-pool" />
+    <updated>2026-11-24T05:14:01Z</updated>
+    <summary type="text">One endpoint, every free LLM key you own.</summary>
+    <category term="repo" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>TegevoXi39/ccu-tool</title>
+    <id>https://github.com/tegevoxi39/ccu-tool</id>
+    <link href="https://github.com/TegevoXi39/ccu-tool" />
+    <updated>2026-11-24T05:13:42Z</updated>
+    <summary type="text">Sessions rotate, you keep working.</summary>
+    <category term="repo" />
+    <category term="llm" />
+  </entry>
+  <entry>
     <title>Introducing the Amazon Bedrock Trusted Access API with Anthropic’s Enterprise Frontier Safeguards and Enterprise Data Controls</title>
     <id>https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls</id>
     <link href="https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/" />
@@ -227,14 +274,6 @@
     <category term="llm" />
     <link rel="related" href="https://www.unite.ai/aws-makes-bedrock-trusted-access-program-api-generally-available/" title="AWS Makes Bedrock Trusted Access Program API Generally Available" />
     <link rel="related" href="https://www.unite.ai/anthropic-launches-zero-retention-enterprise-frontier-safeguards-beta/" title="Anthropic Launches Zero-Retention Enterprise Frontier Safeguards Beta" />
-  </entry>
-  <entry>
-    <title>‘Produce a good result by any means’: how AI is testing South Korea’s exam obsession</title>
-    <id>https://theguardian.com/world/2026/nov/24/produce-a-good-result-by-any-means-how-ai-is-testing-south-koreas-exam-obsession</id>
-    <link href="https://www.theguardian.com/world/2026/nov/24/produce-a-good-result-by-any-means-how-ai-is-testing-south-koreas-exam-obsession" />
-    <updated>2026-11-24T04:47:11Z</updated>
-    <summary type="text">South Korea has made exams a career-defining way to level the playing field, but AI has plunged the system into chaos “I have never worn glasses in my life,” Yun Jeong-hu says to the camera, holding up a tax law textbook, and flipping through pages plastered with notes and dotted with highlighted sections. In the 22-minute video , the 25-year-old talks viewers through his study methods, naming…</summary>
-    <category term="news" />
   </entry>
   <entry>
     <title>[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft</title>
@@ -320,7 +359,6 @@
     <category term="coding" />
     <category term="agents" />
     <category term="llm" />
-    <link rel="related" href="https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests" title="Claude AI can review pull requests and ship fixes on its own now" />
     <link rel="related" href="https://www.unite.ai/anthropic-launches-claude-ship-to-review-fix-and-approve-prs/" title="Anthropic Launches Claude Ship to Review, Fix and Approve PRs" />
   </entry>
   <entry>
@@ -332,15 +370,6 @@
     <category term="news" />
     <category term="business" />
     <category term="agents" />
-  </entry>
-  <entry>
-    <title>Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal</title>
-    <id>https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal</id>
-    <link href="https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/" />
-    <updated>2026-11-23T21:47:41Z</updated>
-    <summary type="text">"The mistake has been corrected," Elon Musk chimed in.</summary>
-    <category term="news" />
-    <category term="infra" />
   </entry>
   <entry>
     <title>Karimk899/free-llm-router</title>
@@ -392,16 +421,6 @@
     <category term="open-source" />
   </entry>
   <entry>
-    <title>AI data centers throw another wrench into chaotic UN climate talks</title>
-    <id>https://theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit</id>
-    <link href="https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit" />
-    <updated>2026-11-23T21:09:37Z</updated>
-    <summary type="text">The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that came to a chaotic and unsatisfying close in Antalya, Turkey, on Sunday. Each year, attendees […]</summary>
-    <category term="news" />
-    <category term="infra" />
-    <category term="science-health" />
-  </entry>
-  <entry>
     <title>TekihiXac52/unfiltered-ai-chat</title>
     <id>https://github.com/tekihixac52/unfiltered-ai-chat</id>
     <link href="https://github.com/TekihiXac52/unfiltered-ai-chat" />
@@ -433,6 +452,17 @@
     <updated>2026-11-23T20:30:08Z</updated>
     <summary type="text">Meetsaini/emulator</summary>
     <category term="repo" />
+  </entry>
+  <entry>
+    <title>Claude AI can review pull requests and ship fixes on its own now</title>
+    <id>https://theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests</id>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests" />
+    <updated>2026-11-23T20:00:00Z</updated>
+    <summary type="text">Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was […]</summary>
+    <category term="news" />
+    <category term="coding" />
+    <category term="llm" />
+    <link rel="related" href="https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/" title="Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes" />
   </entry>
   <entry>
     <title>How Jensen Huang ended up as Nvidia CEO again</title>
@@ -531,16 +561,6 @@
     <updated>2026-11-23T16:01:20Z</updated>
     <summary type="text">Buckle Up the AI Bubble Is Popping</summary>
     <category term="discussion" />
-  </entry>
-  <entry>
-    <title>SpaceX Sued By Oregon and Virginia Over A.I.-Generated Sexualized Images</title>
-    <id>https://nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html</id>
-    <link href="https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html" />
-    <updated>2026-11-23T13:40:06Z</updated>
-    <summary type="text">The states accused Elon Musk’s company of violating consumer protection laws with its Grok Imagine artificial intelligence tool, which created the images.</summary>
-    <category term="news" />
-    <category term="llm" />
-    <link rel="related" href="https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html" title="SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims" />
   </entry>
   <entry>
     <title>Amodei reportedly suggested games could pacify masses after AI took their jobs (2015)</title>
@@ -704,17 +724,6 @@
     <category term="multimodal" />
   </entry>
   <entry>
-    <title>Taking Apart and Putting Together: Tracking Objects Through Physical Transformations</title>
-    <id>https://arxiv.org/abs/2611.27398</id>
-    <link href="https://arxiv.org/abs/2611.27398" />
-    <updated>2026-11-23T00:00:00Z</updated>
-    <summary type="text">A training-free framework tracks objects through physical assemblies and disassemblies by generating and evaluating split/merge proposals and querying a multimodal large language model for verification and labeling, achieving state-of-the-art accuracy and faster performance on a new benchmark.</summary>
-    <category term="paper" />
-    <category term="evals" />
-    <category term="llm" />
-    <category term="multimodal" />
-  </entry>
-  <entry>
     <title>From Points to Trajectories: Rethinking Multimodal Alignment for Physical Events</title>
     <id>https://arxiv.org/abs/2611.24249</id>
     <link href="https://arxiv.org/abs/2611.24249" />
@@ -724,6 +733,27 @@
     <category term="multimodal" />
     <category term="rag-search" />
     <category term="safety" />
+  </entry>
+  <entry>
+    <title>Seeing the Invisible: How Vision-Language Models Read, Predict and Trace Radio Fields</title>
+    <id>https://arxiv.org/abs/2611.28123</id>
+    <link href="https://arxiv.org/abs/2611.28123" />
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="text">Operating in the physical world requires reasoning beyond what cameras directly capture. In a city, radio signals are invisible to the lens, yet their strength is governed by the buildings and streets an image does show. Given only these visible structures, can vision-language models (VLMs) infer the invisible radio field they shape? Probing true physical reasoning requires exact fields in real…</summary>
+    <category term="paper" />
+    <category term="llm" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>Taking Apart and Putting Together: Tracking Objects Through Physical Transformations</title>
+    <id>https://arxiv.org/abs/2611.27398</id>
+    <link href="https://arxiv.org/abs/2611.27398" />
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="text">A training-free framework tracks objects through physical assemblies and disassemblies by generating and evaluating split/merge proposals and querying a multimodal large language model for verification and labeling, achieving state-of-the-art accuracy and faster performance on a new benchmark.</summary>
+    <category term="paper" />
+    <category term="evals" />
+    <category term="llm" />
+    <category term="multimodal" />
   </entry>
   <entry>
     <title>How Feedback-Free Self-Evolution Reshapes Agent Skills: A Systematic Study</title>
@@ -776,16 +806,6 @@
     <category term="infra" />
     <category term="llm" />
     <category term="research" />
-  </entry>
-  <entry>
-    <title>Seeing the Invisible: How Vision-Language Models Read, Predict and Trace Radio Fields</title>
-    <id>https://arxiv.org/abs/2611.28123</id>
-    <link href="https://arxiv.org/abs/2611.28123" />
-    <updated>2026-11-23T00:00:00Z</updated>
-    <summary type="text">Operating in the physical world requires reasoning beyond what cameras directly capture. In a city, radio signals are invisible to the lens, yet their strength is governed by the buildings and streets an image does show. Given only these visible structures, can vision-language models (VLMs) infer the invisible radio field they shape? Probing true physical reasoning requires exact fields in real…</summary>
-    <category term="paper" />
-    <category term="llm" />
-    <category term="multimodal" />
   </entry>
   <entry>
     <title>Explicit Style Extraction for Personalized Long-Form Text Generation</title>
@@ -941,17 +961,6 @@
     <category term="open-source" />
   </entry>
   <entry>
-    <title>sous-labs/songe</title>
-    <id>https://github.com/sous-labs/songe</id>
-    <link href="https://github.com/sous-labs/songe" />
-    <updated>2026-11-20T11:01:20Z</updated>
-    <summary type="text">A training engine for your local model, using your idle compute</summary>
-    <category term="repo" />
-    <category term="agents" />
-    <category term="coding" />
-    <category term="llm" />
-  </entry>
-  <entry>
     <title>ThreatDefence/agentic-attack-detections</title>
     <id>https://github.com/threatdefence/agentic-attack-detections</id>
     <link href="https://github.com/ThreatDefence/agentic-attack-detections" />
@@ -979,16 +988,6 @@
     <summary type="text">Trending image-text-to-text on Hugging Face · 5,547 likes · 41,888 downloads.</summary>
     <category term="model" />
     <category term="llm" />
-    <category term="open-source" />
-  </entry>
-  <entry>
-    <title>inworld/voice-isolator</title>
-    <id>https://huggingface.co/inworld/voice-isolator</id>
-    <link href="https://huggingface.co/inworld/voice-isolator" />
-    <updated>2026-11-14T02:14:35Z</updated>
-    <summary type="text">Trending audio-to-audio on Hugging Face · 750 likes.</summary>
-    <category term="model" />
-    <category term="multimodal" />
     <category term="open-source" />
   </entry>
 </feed>

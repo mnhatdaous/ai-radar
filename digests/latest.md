@@ -1,316 +1,251 @@
-# AI Radar · 2026-11-25
+# AI Radar · 2026-11-26
 
-> **360 new items** grouped into **342 stories** · paper 156 · news 88 · blog 34 · tool 29 · discussion 18 · release 13 · repo 11 · model 7 · dataset 4 · 76 of 76 sources ok
+> **280 new items** grouped into **273 stories** · paper 131 · news 67 · blog 32 · tool 24 · repo 11 · release 7 · dataset 3 · discussion 3 · model 2 · 76 of 76 sources ok
 
 ## Top stories
 
-1. **[GPT-6 models demonstrate intrinsic protein-design capabilities](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities)** — OpenAI · 19h ago · `llm` `science-health`
-   - GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.
-   - HN 252 pts · 76 comments · discussion: [HN](https://news.ycombinator.com/item?id=50634658)
-   - covered by [Unite.AI](https://www.unite.ai/openai-reports-gpt-6-designs-proteins-with-reasoning-and-code/ "OpenAI Reports GPT-6 Designs Proteins With Reasoning and Code")
-2. **[Tidal bans 100% AI-generated music with plans to delete more than 27m tracks](https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music)** — The Guardian · 6h ago · `policy`
-   - Streaming service says 43% of uploads to platform in past 90 days were made entirely by artificial intelligence The music streaming service Tidal has announced it will ban entirely AI-generated music from its platform…
-   - covered by [Hacker News](https://news.ycombinator.com/item?id=50630309 "Tidal bans AI-generated music"), [Ars Technica](https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/ "Tidal announces ban on AI-generated music; 27 million tracks will be deleted"), [TechCrunch](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/ "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming")
-3. **[Anthropic shares fall below IPO price, a worrying sign for AI startups](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/)** — TechCrunch · 14h ago · `business`
-   - Anthropic’s post-IPO slump could put pressure on AI startup valuations.
-   - covered by [Hacker News](https://news.ycombinator.com/item?id=50627836 "Anthropic breaks below $83 IPO price") ×2
-4. **[Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control](https://arxiv.org/abs/2611.29897)** — HF Daily Papers · 1d ago · `robotics` `agents` `infra` `multimodal`
-   - Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing…
-   - ▲ 187 on HF
-5. **[WorldLeague: Benchmarking Physical Agency](https://arxiv.org/abs/2611.30989)** — HF Daily Papers · 1d ago · `robotics` `agents` `evals` `llm`
-   - WorldLeague benchmarks 13 AI systems on 60 simulated robot tasks spanning exploration, rearrangement, and adaptation, measuring progress and success to compare autonomous physical goal achievement.
-   - ▲ 139 on HF
-6. **[LLM agents work for their parent companies, not for you](https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/)** — Hacker News · 20h ago · `agents` `llm`
-   - HN 966 pts · 402 comments · discussion: [HN](https://news.ycombinator.com/item?id=50627340)
-7. **[Meta brings its Muse AI assistant directly into Instagram DMs](https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/)** — TechCrunch · 15h ago · `agents`
-   - The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.
-   - covered by [The Guardian](https://www.theguardian.com/technology/2026/nov/24/have-you-downloaded-metas-ai-assistant-muse-or-do-you-plan-to "Have you downloaded Meta’s AI assistant Muse or do you plan to?"), [CNBC](https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html "How Meta is using Instagram to get an ad boost from its Muse personal AI agent"), [Unite.AI](https://www.unite.ai/meta-adds-muse-ai-agent-to-instagram-dms-for-saved-content-planning/ "Meta Adds Muse AI Agent to Instagram DMs for Saved-Content Planning")
-8. **[Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?](https://news.ycombinator.com/item?id=50630809)** — Hacker News · 16h ago · `evals`
-   - Basically the title. Anthropic is accusing me and my company of using their API for distillation. We are not. We do not train our own models. Our only usage which I think could get us flagged is automated regression…
-   - HN 265 pts · 203 comments
-9. **[prism-ml/Ternary-Bonsai-2.5-27B-GGUF](https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF)** — HF Models · 16h ago · `open-source` `llm`
-   - Trending text-generation on Hugging Face · 177 likes.
-   - ♥ 177 on HF
-10. **[Jensen Huang’s Return Shows Nvidia Is Too Big to Police](https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/)** — WIRED · 9h ago · `infra`
-    - Nvidia’s place at the center of the US economy may have outweighed concerns about its CEO’s ties to a suspected Chinese intelligence asset, national security and foreign policy experts say.
-    - covered by [The Guardian](https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang "Tech sell-off resumes as euphoria from Jensen Huang’s Nvidia return subsides") ×3, [WIRED](https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/ "Jensen Huang Apologizes to Nvidia Employees in First All-Hands Since His Return"), [CNBC](https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips")
-11. **[Three LLM inflection points in twelve months](https://simonwillison.net/2026/Nov/24/llm-inflection-points/)** — Simon Willison · 9h ago · `llm` `agents` `coding`
-    - I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve…
-12. **[9/UX: a Macintosh-inspired desktop for 9front](https://progrium.github.io/9ux/)** — Lobsters · 14h ago
-    - I have written a story about this on the Register, but of course I can't post that here. I think this is a quite astonishing effort and could make 9front considerably more usable... but it's bot-assisted, so I don't…
-    - discussion: [Lobsters](https://lobste.rs/s/vciex6/9_ux_macintosh_inspired_desktop_for)
+1. **[Antom 3-in-1 Transformer: A Payment Foundation Model](https://arxiv.org/abs/2611.25403)** — HF Daily Papers · 1d ago · `llm`
+   - We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters…
+   - ▲ 105 on HF
+2. **[Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents](https://arxiv.org/abs/2611.28947)** — HF Daily Papers · 1d ago · `infra` `agents` `llm` `multimodal`
+   - NightWatch adds a lightweight streaming watcher to vision-language computer-use agents to keep perception synchronized with dynamic interfaces, reducing latency and wasted time while maintaining or improving task…
+   - ▲ 99 on HF
+3. **[Much shorter version of GRH Lean verification from Anthropic](https://github.com/lsernau/grh-lean)** — Hacker News · 10h ago
+   - HN 436 pts · 222 comments · discussion: [HN](https://news.ycombinator.com/item?id=50648050)
+4. **[OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster](https://twitter.com/thsottiaux/status/2125784147889393806)** — Hacker News · 4h ago · `llm`
+   - HN 199 pts · 99 comments · discussion: [HN](https://news.ycombinator.com/item?id=50651117)
+5. **[New York bans AI toys, including those using internet to talk to children](https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys)** — The Guardian · 17h ago · `policy` `llm` `robotics`
+   - The state attorney general says she would ‘not hesitate to enforce’ the five-year ban signed by Governor Kathy Hochul The New York governor, Kathy Hochul , signed legislation on Wednesday that places a five-year ban on…
+   - HN 53 pts · 11 comments · discussion: [HN](https://news.ycombinator.com/item?id=50644909)
+6. **[Migrating our Messages API to Rust](https://www.anthropic.com/research/migrating-api-to-rust)** — Anthropic · 1d ago · `agents` `llm`
+   - How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions.
+   - covered by [DEV Community](https://dev.to/alexr/anthropic-rewrote-its-messages-api-in-rust-the-tests-said-98-production-said-25-58m7 "Anthropic rewrote its Messages API in Rust. The tests said 98%. Production said 25%."), [Unite.AI](https://www.unite.ai/anthropic-details-claude-assisted-rust-migration-of-messages-api/ "Anthropic Details Claude-Assisted Rust Migration of Messages API")
+7. **[alesha-pro/llm.asm](https://github.com/alesha-pro/llm.asm)** — GitHub · 1d ago · `llm` `infra`
+   - Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.
+   - ★ 739
+8. **[Where scientists draw the line on AI agents](https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents)** — Hugging Face · 13h ago · `agents`
+   - covered by [Ai2](https://allenai.org/blog/where-scientists-draw-the-line-on-ai-agents "Where scientists draw the line on AI agents")
+9. **[Amazon is reportedly in talks to end Muse AI shopping block](https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions)** — The Verge · 18h ago · `agents` `business`
+   - Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of…
+   - covered by [TechCrunch](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/ "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse"), [The Decoder](https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/ "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.")
+10. **[Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin)** — Hugging Face · 3h ago · `infra`
+11. **[Verifiable Social Reasoning for LLM Assistants](https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/)** — Google Research · 15h ago · `llm`
+    - Generative AI
+12. **[Browser tabs as a container runtime](https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime)** — Lobsters · 3h ago
+    - Comments
+    - discussion: [Lobsters](https://lobste.rs/s/hge0sd/browser_tabs_as_container_runtime)
 
-## News (75)
+## News (62)
 
-- **[How Trump and Silicon Valley forced Nvidia to take Jensen Huang back](https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/)** — Ars Technica · 17h ago · `infra`
-  - Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.
-  - covered by [The Guardian](https://www.theguardian.com/global/2026/nov/24/jensen-huang-nvidia-return-silicon-valley-trump "Jensen Huang returns to Nvidia as Silicon Valley rethinks its alliance with Trump")
-- **[Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion](https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/)** — TechCrunch · 8h ago · `infra` `policy`
-  - Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to "historic" personal…
-- **[‘It’s been really a mess’: Meta insiders concerned over push to AI content moderation](https://www.theguardian.com/technology/2026/nov/25/meta-insiders-concerned-push-to-ai-content-moderation)** — The Guardian · 1h ago
-  - Several employees say rapid speed at which algorithms work means mistakes can happen at greater scale Meta employees have expressed concern at the company’s push to replace human moderators with artificial intelligence…
-- **[Jensen Huang still thinks a succession plan creates unnecessary hierarchy](https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/)** — TechCrunch · 10h ago · `infra`
-  - It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.
-- **[What real or imagined horrors are waking you up at 4am? | First Dog on the Moon](https://www.theguardian.com/commentisfree/picture/2026/nov/25/what-real-or-imagined-horrors-are-waking-you-up-at-4am)** — The Guardian · 3h ago · `science-health`
-  - We are in the most globally anxious period since WW2. I made this up but it sounds true Sign up here to get an email whenever First Dog cartoons are published Get all your needs met at the First Dog shop if what you…
-- **[In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy](https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/)** — TechCrunch · 11h ago · `infra`
-  - The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.
-- **[Even the best AI agents struggle with everyday life](https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/)** — TechCrunch · 11h ago · `agents` `evals` `open-source`
-  - As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.
-- **[Walmart teams up with Meta to bring Black Friday deals to AI agent Muse](https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/)** — TechCrunch · 11h ago · `agents`
-  - Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.
-- **[Maple raises $5.3M to build AI products that protect your data, even from itself](https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/)** — TechCrunch · 11h ago · `business` `agents` `policy`
-  - The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.
-- **[What's going on with the Riemann hypothesis?](https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/)** — Ars Technica · 12h ago · `llm`
-  - A new AI-assisted proof seems to be solid, but we're not sure what it tells us.
-- **[Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired](https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology)** — The Verge · 12h ago · `infra`
-  - Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job…
-- **[OpenAI Preprint Reports 9/4 Bound for Matrix Multiplication](https://www.unite.ai/openai-preprint-reports-9-4-bound-for-matrix-multiplication/)** — Unite.AI · 4h ago · `research`
-  - OpenAI released a preprint reporting an upper bound of 9/4 for the exponent of matrix multiplication over the complex numbers. The manuscript is dated October 2, 2026, and the paper file’s initial repository commit is…
-  - covered by [Lobsters](https://lobste.rs/s/kn0pmh/matrix_multiplication_is_n_2_25 "Matrix Multiplication is Θ(n^2.25)")
-- **[Amazon drone crashes on garage after delivering shampoo, draws FAA probe](https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/)** — Ars Technica · 14h ago
-  - Amazon says Prime Air drones made “hundreds of thousands” of deliveries in 2026.
-- **[David Fincher is being dragged for suspected use of AI in his latest film](https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive)** — The Verge · 14h ago · `business`
-  - Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether…
-- **[UK warns AI-driven cyberattacks are exposing years of weak security](https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/)** — TechCrunch · 14h ago
-  - The British cyber agency says that "building strong foundations has never mattered more" as AI hacking tools rely on exploiting simple security flaws.
-- _…and 56 more stories in the day's archive file._
+- **[Elon Musk pledges to give two SpaceX shares to every child in the US](https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us)** — The Guardian · 1h ago
+  - The total value of the shares could reach almost $18bn and comes as tech companies debate how to share the spoils of the AI boom Elon Musk, the world’s richest person, has pledged to give every child in the US two…
+- **[Botty? AI helps resurrect voice of John Motson for football video game](https://www.theguardian.com/media/2026/nov/25/ai-helps-resurrect-voice-john-motson-football-video-game-fc27)** — The Guardian · 17h ago · `multimodal`
+  - Late broadcaster’s family allows EA Sports to create digital version of ‘Motty’ to commentate on popular FC27 First it was Val Kilmer, then Greta Garbo, but finally AI has resurrected a star the terraces can cheer for…
+  - covered by [BBC News](https://www.bbc.co.uk/news/articles/c65y10j841jpo "EA adds AI-generated John Motson to FC 27 video game")
+- **[S&P considers Nvidia credit downgrade over governance and ‘key man’ risks](https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/)** — TechCrunch · 9h ago · `infra`
+  - The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.
+- **[Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future](https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent)** — The Verge · 10h ago
+  - Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users…
+- **[OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/)** — TechCrunch · 12h ago · `llm`
+  - OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.
+- **[Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it](https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/)** — TechCrunch · 12h ago · `infra`
+  - Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.
+- **[Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/)** — TechCrunch · 12h ago
+  - Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.
+- **[Want to buy your kid an AI toy this Christmas? Not in New York](https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/)** — TechCrunch · 14h ago · `llm` `safety`
+  - New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.
+- **[FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space](https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers)** — The Verge · 14h ago · `infra`
+  - In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's "Starmind" initiative. With several others also pursuing…
+- **[Character.AI’s plan to auction off users’ private chats challenged by state AGs](https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/)** — TechCrunch · 14h ago · `policy` `business`
+  - The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.
+- **[Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC](https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html)** — CNBC · 15h ago · `infra`
+  - Nvidia GPU sellers are seeking new buyers after new U.S. rules tightened remote access to advanced AI chips for China-linked customers
+  - covered by [Unite.AI](https://www.unite.ai/nvidia-gpu-sellers-seek-buyers-after-u-s-remote-access-rule/ "Nvidia GPU Sellers Seek Buyers After U.S. Remote-Access Rule")
+- **[Ars Live recap: Don’t expect military attacks on data centers to stop](https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/)** — Ars Technica · 15h ago · `infra`
+  - Militaries have many reasons to target data centers and the cloud in wartime.
+- **[Nothing offers a full look at its AI earbuds and charging case](https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal)** — The Verge · 16h ago
+  - Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize…
+- **[AI data centers are becoming harder to build, and neoclouds are feeling it](https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/)** — TechCrunch · 16h ago · `infra` `business`
+  - ⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that…
+- **[How to Talk to Your Family About A.I. Doom at Thanksgiving](https://www.nytimes.com/2026/11/25/technology/thanksgiving-ai-doom-family.html)** — New York Times · 9h ago
+  - For people steeped in the world of artificial intelligence, the topic could be a minefield at this year’s dinner.
+- _…and 45 more stories in the day's archive file._
 
-## Labs, companies and newsletters (33)
+## Labs, companies and newsletters (30)
 
-- **[\[AINews\] Gemini 4 Neon marks GDM's full return as a Frontier Lab](https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/)** — Latent Space · 4h ago · `evals` `llm`
-  - November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.
-- **[Searching for distant planets with Astra](https://openai.com/index/searching-for-distant-planets-with-astra)** — OpenAI · 21h ago · `coding`
-  - See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.
-- **[GPT 6.2 Astra Solves a Historical Mystery](https://simonwillison.net/2026/Nov/24/astra-historical-mystery/)** — Simon Willison · 15h ago · `llm`
-  - GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to…
-- **[Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton](https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance)** — Hugging Face · 16h ago
-- **[How Gemini is changing the game for Golden State's organization and fans.](https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/)** — Google AI · 16h ago · `llm`
-  - Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.
-- **[An Anthropic mathematician just solved math’s most famous problem](https://www.understandingai.org/p/an-anthropic-mathematician-just-solved)** — Understanding AI · 11h ago
-  - Is solving the Riemann Hypothesis a “coal mine canary for dangerously advanced AI?”
-  - covered by [WIRED](https://www.wired.com/story/ai-solved-maths-most-famous-problem/ "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It")
-- **[Clay helps sales teams win with Codex and ChatGPT](https://openai.com/business/customer-stories/clay-plugins-openai)** — OpenAI · 1d ago · `llm` `coding`
-  - ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.
-- **[How iFood scales coding agents across 15,000 repositories](https://openai.com/business/customer-stories/ifood)** — OpenAI · 1d ago · `agents` `coding`
-- **[How Intentful uses dots to make more time for growth](https://openai.com/business/customer-stories/intentful-dots)** — OpenAI · 1d ago
-  - Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.
-- **[How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers](https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/)** — NVIDIA Technical Blog · 14h ago · `infra` `agents` `multimodal` `open-source`
-  - Running video generation models locally can be challenging when model weights and intermediate data exceed available GPU memory. NVIDIA Cosmos 3 Nano is a world...
-- **[Prepare Market Data for Forecasting with NVIDIA Megatron Core](https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core/)** — NVIDIA Technical Blog · 15h ago · `infra`
-  - Market data arrives as a stream of trades and quotes: every execution, bid, and ask, timestamped to the microsecond. Preparing this data for AI-based market...
-- **[What’s New for Game Developers: AI Animation and RTX Tools](https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/)** — NVIDIA Technical Blog · 15h ago · `infra`
-  - This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image...
-- **[Agentic system personalizes physical controls to help users “DJ their art”](https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124)** — MIT News · 13h ago · `agents`
-  - “TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.
-- **[How Yahoo Scout, a new AI answer tool from Yahoo, got a voice](https://elevenlabs.io/blog/yahoo)** — ElevenLabs · 20h ago · `multimodal`
-  - Yahoo used the ElevenAgents platform to add conversational voice to its new Yahoo Scout AI answer tool, going from kickoff to production in 6 weeks.
-- **[What is SIP trunking? A business guide to modern calls](https://elevenlabs.io/blog/what-is-sip-trunking)** — ElevenLabs · 20h ago · `agents` `multimodal`
-  - Learn what is SIP trunking, how it works, what it costs, how to choose a provider, and how to connect it to AI voice agents for customer service.
-- _…and 16 more stories in the day's archive file._
+- **[The Revolution vs The Renaissance — Thariq Shihipar, OpenAI](https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/)** — Latent Space · 10h ago
+  - AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game…
+- **[\[AINews\] Math Proofs Are Landing Faster Than We Can Read Them](https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/)** — Latent Space · 10h ago
+  - November 25, 2026 — From Erdős problems to new bounds for matrix multiplication and Fourier transforms.
+- **[An Indic Voice Agent with CUGA](https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga)** — Hugging Face · 22h ago · `agents` `multimodal`
+- **[Evaluating Recent Model Releases on GDPx](https://newsletter.semianalysis.com/p/evaluating-recent-model-releases)** — SemiAnalysis · 8h ago · `llm` `coding`
+  - GPT-6.2 Astra takes the crown but bad at software engineering, Gemini 4 Neon is an impressive improvement from Google but still overrated, Fable 5.2 is smart but expensive, and new Chinese models as well
+- **[From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity](https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/)** — Google DeepMind · 1d ago
+  - Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.
+- **[Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000](https://huggingface.co/blog/inkling-2-mini-inference-hillclimb)** — Hugging Face · 1d ago · `infra`
+- **[How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling](https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/)** — NVIDIA Technical Blog · 13h ago · `infra` `agents`
+  - Attention can be a major bottleneck when serving world foundation models, where long sequences make inference computationally demanding. On NVIDIA Hopper and...
+- **[Distilling Kimi-K3.1-Pro into Qwen3.8-27B: Teaching a model a new language](https://www.together.ai/blog/distilling-kimi-into-qwen)** — Together AI · 8h ago · `llm`
+  - Qwen3.8-27B answered in Thai when asked for Lao. We distilled Kimi-K3.1-Pro's Lao translation into it with Together Post-Training: 93% of the teacher's score, with Thai intact. Code and costs included.
+- **[How to choose the next safe step in application modernization](https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/)** — GitHub Blog · 17h ago · `agents` `coding`
+  - Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.
+- **[Introducing Search for Agents](https://blog.cloudflare.com/search-for-agents/)** — Cloudflare AI · 18h ago · `agents`
+  - Flip one toggle to make your site searchable by AI agents — complete with automatic content indexing, a discoverable search API, and native HTTP QUERY support.
+- **[Fixing the front door to government, one voice agent at a time](https://elevenlabs.io/blog/fixing-front-door-government)** — ElevenLabs · 20h ago · `agents` `multimodal`
+  - The front door to government for millions of people is an outdated IVR phone menu. Governments are now adopting AI agents for several kinds of calls.
+- **[What is GraphRAG? A practical guide to smarter AI retrieval](https://elevenlabs.io/blog/what-is-graphrag)** — ElevenLabs · 20h ago · `rag-search` `agents` `multimodal`
+  - Learn what is GraphRAG, how knowledge graph RAG works, and where it beats standard RAG. See use cases and how ElevenAgents handles RAG for voice agents.
+- **[OpenAI solves matrix math 🔢, SWE-2.1 💻, swarm limitations 🐝](https://tldr.tech/ai/2026-11-25)** — TLDR AI · 1d ago
+- **[Firecrawl Pricing in 2026: What Our AI Agents Actually Spent](https://dev.to/meikuio/firecrawl-pricing-in-2026-what-our-ai-agents-actually-spent-3b95)** — DEV Community · 4m ago · `agents`
+  - By Ryan Kowalski Firecrawl pricing starts at 1,000 free credits a month, and paid plans start at $16 a month billed annually. In the first 19 days of November, the Firecrawl account our AI agents use recorded 2,351…
+- **[FunkyMEDIA pomaga zaplanować budżet AI Search — zacznij od zakresu, za który warto zapłacić](https://dev.to/funkymedia/funkymedia-pomaga-zaplanowac-budzet-ai-search-zacznij-od-zakresu-za-ktory-warto-zaplacic-3j61)** — DEV Community · 5m ago
+  - Jak zaplanować budżet AI Search z FunkyMEDIA? Zacznij od rozpoznania problemu, ustalenia zakresu prac i sposobu odbioru. FunkyMEDIA oferuje analizę, rekomendacje, wdrożenie oraz pomiar, które można dopasować do potrzeb…
+- _…and 11 more stories in the day's archive file._
 
-## Research papers (156)
+## Research papers (131)
 
-- **[Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness](https://arxiv.org/abs/2611.31201)** — HF Daily Papers · 1d ago · `agents` `multimodal` `robotics`
-  - A systematic framework shows that frontier multimodal models can serve as robot policies when harnessed with interfaces favoring native visual reasoning and tool use, achieving high success in simulated and real…
-  - ▲ 98 on HF
-- **[3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets](https://arxiv.org/abs/2611.30013)** — HF Daily Papers · 1d ago · `agents` `evals` `llm`
-  - A new benchmark evaluates rigging and motion generation across six 3D morphology categories, compares specialized, video-based, and agent-driven paradigms, and proposes an agentic framework that writes compact…
-  - ▲ 58 on HF
-- **[A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation](https://arxiv.org/abs/2611.29338)** — HF Daily Papers · 1d ago · `llm` `multimodal` `robotics`
-  - nanoAstra combines semantic action modeling with capability-preserving supervised fine-tuning to train vision-language models for generalizable robot manipulation, achieving strong zero-shot success and faster streaming…
-  - ▲ 55 on HF
-- **[WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce](https://arxiv.org/abs/2611.30662)** — HF Daily Papers · 1d ago · `llm` `multimodal`
-  - WeMM-Ecom, a family of multimodal large language models spanning dense and mixture-of-experts sizes, is trained with continued pre-training and hybrid-thinking post-training to achieve strong e-commerce and…
-  - ▲ 54 on HF
-- **[Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood](https://arxiv.org/abs/2611.12164)** — HF Daily Papers · 1d ago · `agents` `coding`
-  - A code localizer is trained with scores from a frozen fixer via weighted supervised fine-tuning, improving bug localization and patch success for a small coding agent without tests or reinforcement learning.
-  - ▲ 52 on HF
-- **[Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation](https://arxiv.org/abs/2611.31358)** — HF Daily Papers · 1d ago · `agents` `research`
-  - Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel…
-  - ▲ 52 on HF
-- **[ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step](https://arxiv.org/abs/2611.26389)** — HF Daily Papers · 1d ago · `multimodal`
-  - ViDecide trains video diffusion models to make causal state-transition and stopping decisions, using Corrective Fine-tuning to improve multi-step planning success without policy gradients.
+- **[Rewirable Circuits in Transformers with Loom Attention](https://arxiv.org/abs/2611.30634)** — HF Daily Papers · 1d ago · `llm` `research`
+  - We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value)…
+  - ▲ 90 on HF
+- **[ACAP: Asynchronous Coding Agents for Efficient Robot Control](https://arxiv.org/abs/2611.31205)** — HF Daily Papers · 1d ago · `agents` `coding` `research` `robotics`
+  - Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an…
+  - ▲ 63 on HF
+- **[Self-Evolving Evaluation Environments for Computer-Use Agents](https://arxiv.org/abs/2611.30962)** — HF Daily Papers · 1d ago · `agents` `business` `evals`
+  - CUA-SEE is a closed-loop evaluation environment that co-evolves tasks and executable verifiers to adaptively measure computer-use agents’ capabilities, boundaries, and progress reliability.
+  - ▲ 49 on HF
+- **[S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence](https://arxiv.org/abs/2611.28649)** — HF Daily Papers · 1d ago · `llm` `multimodal`
+  - Spatial intelligence, the ability to reason about 3D space from visual observations, becomes essential as multimodal large language models (MLLMs) move into the physical world. Beyond perceiving each view, it rests on…
   - ▲ 41 on HF
-- **[Innata-0: A Native Embodied World System with Model-Agent Co-Design](https://arxiv.org/abs/2611.30254)** — HF Daily Papers · 1d ago · `agents` `llm` `robotics`
-  - Innata-0 is a native embodied world system that co-designs a world-action model and an agent to enable reliable long-horizon physical behaviors through integrated understanding, prediction, action generation, memory…
-  - ▲ 36 on HF
-- **[AutoPILOT: A Visual Agent Harness for Real-Time Gameplay](https://arxiv.org/abs/2611.28202)** — HF Daily Papers · 1d ago · `agents` `multimodal`
-  - A harness that lets multimodal foundation models emit primitive actions, open-loop macros, or closed-loop controllers improves real-time game performance and reduces API cost.
+- **[PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement](https://arxiv.org/abs/2611.32554)** — HF Daily Papers · 1d ago · `agents` `evals`
+  - A training-free agentic framework integrates pretrained 3D and 2D experts with closed-loop refinement to achieve state-of-the-art 3D part segmentation across multiple benchmarks.
   - ▲ 34 on HF
-- **[Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training](https://arxiv.org/abs/2611.27376)** — HF Daily Papers · 1d ago · `research`
-  - RL post-training typically produces domain experts that must then be consolidated into one model, and as new experts keep arriving, this consolidation becomes a continual process. Weight merging and multi-teacher…
+- **[LingSante MedGuard Technical Report](https://arxiv.org/abs/2611.25509)** — HF Daily Papers · 1d ago · `science-health` `research`
+  - As medical AI is increasingly used for patient consultation and clinical decision support, identifying harmful, non-compliant, or ethically problematic responses is essential for responsible deployment. Assessing these…
   - ▲ 30 on HF
-- **[Plan4D: Generative Plannable 4D Worlds](https://arxiv.org/abs/2611.26516)** — HF Daily Papers · 1d ago · `research`
-  - Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling. In…
-  - ▲ 29 on HF
-- **[RUIBench: What Makes a Good Robot-Use Interface?](https://arxiv.org/abs/2611.31115)** — HF Daily Papers · 1d ago · `agents` `research` `robotics`
-  - Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use…
+- **[Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation](https://arxiv.org/abs/2611.32736)** — HF Daily Papers · 1d ago · `multimodal` `llm` `research`
+  - Fine-tuning a generator on a complete high-resolution canvas requires long image sequences and substantial computation, yet local regions can still exhibit unnatural repetitive stripes when training resources are…
   - ▲ 22 on HF
-- **[Distilling Visual Agents from Limited Interaction Experience](https://arxiv.org/abs/2611.28618)** — HF Daily Papers · 1d ago · `agents`
-  - A few selected interaction trajectories combined with on-policy distillation allow a small visual agent to transfer broadly and recover most of a larger teacher's performance with minimal online experience.
-  - ▲ 20 on HF
-- **[ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild](https://arxiv.org/abs/2611.30597)** — HF Daily Papers · 1d ago · `multimodal` `research` `robotics`
-  - Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion. Recent methods leverage pretrained video diffusion model (VDM) priors to recover occluded hands directly from full-frame…
-  - ▲ 20 on HF
-- **[DiLE: Discrimination-Aware Latent-Space Learning for Universal Multimodal Embeddings](https://arxiv.org/abs/2611.25419)** — HF Daily Papers · 1d ago · `rag-search` `llm` `multimodal`
-  - A discrimination-aware latent-space learning framework combines task guidance with on-policy retrieval feedback to preserve discriminative evidence in multimodal embeddings and improve retrieval across modalities and…
+- **[KMed-31B Technical Report](https://arxiv.org/abs/2611.28719)** — HF Daily Papers · 1d ago · `llm` `open-source` `science-health`
+  - We present KMed-31B, a medical large language model post-trained from an open-weight model for on-premises deployment with limited hardware. Post-training a model for diverse medical tasks remains difficult, because…
+  - ▲ 21 on HF
+- **[ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks](https://arxiv.org/abs/2611.32183)** — HF Daily Papers · 1d ago · `multimodal`
+  - A two-stage training approach uses visual pretext tasks to generate interleaved image-text reasoning traces and automatically built demonstrations, improving multimodal reasoning over instruction tuning alone.
+  - ▲ 21 on HF
+- **[ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds](https://arxiv.org/abs/2611.32649)** — HF Daily Papers · 1d ago · `agents` `evals` `infra` `robotics`
+  - An online benchmark evaluates in-context learning across computer-use and robot-use agent tasks, revealing large gaps between digital and physical performance and between recognizing rules and acting on them.
   - ▲ 18 on HF
-- _…and 139 more stories in the day's archive file._
+- **[PhyCoVE: Benchmarking Physical Counterfactual Video Editing across Diverse Material Dynamics](https://arxiv.org/abs/2611.29184)** — HF Daily Papers · 1d ago · `agents` `coding` `evals` `llm`
+  - PhyCoVE, a 533-case benchmark, and counterfactual fidelity evaluate video editing models on physical counterfactual edits involving rigid, elastic, and fluid dynamics, showing that even the best model reproduces only…
+  - ▲ 15 on HF
+- **[Reinforcing Diffusion Models by Instantaneous Trajectory Distribution Matching](https://arxiv.org/abs/2611.30986)** — HF Daily Papers · 1d ago · `multimodal`
+  - Forward diffusion reinforcement learning (RL)---enabling deterministic ODE sampling without trajectory backpropagation---has grown increasingly popular for efficiently aligning diffusion models. However, we reveal that…
+  - ▲ 15 on HF
+- **[AFsample3 generates and selects multiple conformational states with AlphaFold3](https://www.nature.com/articles/s42003-026-11284-8)** — Nature · 1d ago · `science-health`
+- **[Can Beijing scale up its smart-city ambitions?](https://www.nature.com/articles/d41586-026-03470-9)** — Nature · 1d ago
+- **[China’s AI-powered smart-city model is going global](https://www.nature.com/articles/d41586-026-03473-6)** — Nature · 1d ago
+- _…and 114 more stories in the day's archive file._
 
-## Tools and launches (29)
+## Tools and launches (24)
 
-- **[Show HN: Carry – Save every AI conversations as Markdown, in a folder you Own](https://carry.md/)** — Show HN · 5h ago · `llm`
-  - Carry let's you automatically save your chats from Gemini, ChatGPT, Claude and Grok as Markdown in a local folder on you computer. You can easily search across all apps and handoff to other if needed with one click.
-  - HN 16 pts · 7 comments · discussion: [HN](https://news.ycombinator.com/item?id=50637995)
-- **[MAGI-2 — Sand AI's 480B model for cinematic video generation](https://www.producthunt.com/products/magi-1)** — Product Hunt · 3h ago · `multimodal`
-  - Sand AI's 480B model for cinematic video generation
-- **[Omi X 2.0 — Click any part of your app and tell Omi what to change](https://www.producthunt.com/products/omi-x)** — Product Hunt · 6h ago
-  - Click any part of your app and tell Omi what to change
-- **[Statefold — Coding agents that keep working while you're away](https://www.producthunt.com/products/statefold-2)** — Product Hunt · 7h ago · `agents` `coding`
-  - Coding agents that keep working while you're away
-- **[PeerBand — Reach every coding agent you run, from anywhere](https://www.producthunt.com/products/peerband)** — Product Hunt · 7h ago · `agents` `coding`
-  - Reach every coding agent you run, from anywhere
-- **[Falcon by Vybe — Falcon analyzes your competitors for free, then gets to work](https://www.producthunt.com/products/vybe-4)** — Product Hunt · 8h ago
-  - Falcon analyzes your competitors for free, then gets to work
-- **[Hold'em — Swipe real Black Friday cart deals across Shopify](https://www.producthunt.com/products/hold-em)** — Product Hunt · 10h ago
-  - Swipe real Black Friday cart deals across Shopify
-- **[MemoryWorks — Company memory for people and AI agents](https://www.producthunt.com/products/memoryworks)** — Product Hunt · 12h ago · `agents`
-  - Company memory for people and AI agents
-- **[Qube — An AI agent for anyone with the model of your choice](https://www.producthunt.com/products/qube-6)** — Product Hunt · 14h ago · `agents`
-  - An AI agent for anyone with the model of your choice
-- **[MyClaw 3.0 — Build an always-on AI team with shared memory](https://www.producthunt.com/products/myclaw-3-0)** — Product Hunt · 17h ago
-  - Build an always-on AI team with shared memory
-- **[Hai — Your AI assistant that actually makes the phone call](https://www.producthunt.com/products/hai-4)** — Product Hunt · 21h ago
-  - Your AI assistant that actually makes the phone call
-- **[Koed — Supercharged Agents!](https://www.producthunt.com/products/koed)** — Product Hunt · 23h ago · `agents`
-  - Supercharged Agents!
-- **[Agenda Hero Magic Labs — Any schedule. Any layout. Any style.](https://www.producthunt.com/products/agenda-hero-magic)** — Product Hunt · 1d ago
-  - Any schedule. Any layout. Any style.
-- **[Snag by Parallel — Find the best deals on products from your agents](https://www.producthunt.com/products/snag)** — Product Hunt · 1d ago · `agents`
-  - Find the best deals on products from your agents
-- **[Pinned — Ask the city where to go tonight with your friends](https://www.producthunt.com/products/pinned)** — Product Hunt · 1d ago
-  - Ask the city where to go tonight with your friends
-- _…and 14 more stories in the day's archive file._
+- **[Show HN: Rust agent with an Inkling 2 Mini inference engine for Apple Silicon](https://github.com/onatm/rustling)** — Show HN · 12h ago · `agents` `infra`
+  - HN 12 pts · discussion: [HN](https://news.ycombinator.com/item?id=50646482)
+- **[Superframes — Brief an AI Director to edit the whole video](https://www.producthunt.com/products/superframes-ai-video-editor)** — Product Hunt · 3h ago
+  - Brief an AI Director to edit the whole video
+- **[Pax by Pydantic — A coding agent where even coding is a plugin](https://www.producthunt.com/products/pydantic)** — Product Hunt · 4h ago · `agents` `coding`
+  - A coding agent where even coding is a plugin
+- **[Doodle — The stick figure on your taskbar that answers questions](https://www.producthunt.com/products/doodle-5)** — Product Hunt · 8h ago
+  - The stick figure on your taskbar that answers questions
+- **[dlouapre/looped-transformers](https://huggingface.co/spaces/dlouapre/looped-transformers)** — HF Spaces · 20h ago · `llm` `open-source`
+  - Trending Space on Hugging Face · 23 likes.
+  - ♥ 23 on HF
+- **[Upsolve Harness 2.0 — A data agent that's 2x faster and learns every user](https://www.producthunt.com/products/upsolve-ai)** — Product Hunt · 10h ago · `agents`
+  - A data agent that's 2x faster and learns every user
+- **[WhipDesk — Control AI coding agents from your phone](https://www.producthunt.com/products/whipdesk)** — Product Hunt · 10h ago · `agents` `coding`
+  - Control AI coding agents from your phone
+- **[MeetFolks — AI Notetaker for In-Person Meetings](https://www.producthunt.com/products/meetfolks)** — Product Hunt · 11h ago
+  - AI Notetaker for In-Person Meetings
+- **[Ground — Related synthetic tables where every key and total holds](https://www.producthunt.com/products/ground-2)** — Product Hunt · 12h ago
+  - Related synthetic tables where every key and total holds
+- **[Remora — The long-term memory layer for AI agents](https://www.producthunt.com/products/remora-6)** — Product Hunt · 14h ago · `agents`
+  - The long-term memory layer for AI agents
+- **[OpenChat — Open-source live chat in your own Cloudflare account](https://www.producthunt.com/products/openchat-5)** — Product Hunt · 14h ago · `open-source`
+  - Open-source live chat in your own Cloudflare account
+- **[DeskFleet — Run coding agents together across your team’s machines](https://www.producthunt.com/products/deskfleet)** — Product Hunt · 15h ago · `agents` `coding`
+  - Run coding agents together across your team’s machines
+- **[iwantmy.app — Describe a mobile app in chat and open it on your phone](https://www.producthunt.com/products/iwantmy-app)** — Product Hunt · 15h ago
+  - Describe a mobile app in chat and open it on your phone
+- **[Antipode — Share your unused Claude Code limits without breaking ToS](https://www.producthunt.com/products/antipode)** — Product Hunt · 15h ago · `coding` `llm`
+  - Share your unused Claude Code limits without breaking ToS
+- **[Flurra — Ask Claude or ChatGPT to edit your videos](https://www.producthunt.com/products/flurra)** — Product Hunt · 16h ago · `llm`
+  - Ask Claude or ChatGPT to edit your videos
+- _…and 9 more stories in the day's archive file._
 
 ## Open-source repos (11)
 
-- **[Lukcla3889/postman-agent](https://github.com/Lukcla3889/postman-agent)** — GitHub · 20h ago · `agents`
-  - Postman Agent for Windows 10/11. Runs API requests and collections on your local machine, letting you send calls to localhost, inspect responses and debug endpoints without leaving the desktop.
-  - ★ 113
-- **[bytebuildsmall/claude-desktop](https://github.com/bytebuildsmall/claude-desktop)** — GitHub · 21h ago · `agents` `llm`
-  - Claude Desktop for Windows 10/11. Chats with Claude AI to draft documents, analyze files and code, and answer questions from a native desktop app with quick access to your projects and conversations.
-  - ★ 112
-- **[brainintelli/BioSignal-Guided-LLM-Reinforcement-Learning](https://github.com/brainintelli/BioSignal-Guided-LLM-Reinforcement-Learning)** — GitHub · 1d ago · `agents` `business` `llm`
-  - Biosignal-guided reinforcement learning for LLM agents: offline organoid neural recordings as policy inputs in a Godot survival game, with paired evaluation.
-  - ★ 142
-- **[chanke17/KuroCat](https://github.com/chanke17/KuroCat)** — GitHub · 2d ago · `open-source`
-  - KuroCat — Free open-source native desktop cat pet & OBS overlay (Bongo Cat alternative, Swift/C++, 802 KB)｜开源免费原生桌面萌猫（全平台 macOS·Win·Linux·UOS / 2.5D转头捕猎 / 数位板 / OBS透明绿幕 / 在线皮肤工坊 / 零按键上传）
-  - ★ 458
-- **[EL4CTEO/shrink-anything](https://github.com/EL4CTEO/shrink-anything)** — GitHub · 1d ago · `agents` `llm`
-  - Less code, same tests passing: delete the dead code, files, dependencies and assets in any codebase, and keep each cut only if your own tests still pass.
-  - ★ 224
-- **[CajasiZep76/local-ai-chat-uncensored](https://github.com/CajasiZep76/local-ai-chat-uncensored)** — GitHub · 1d ago · `llm` `open-source` `policy`
-  - Local, private, unfiltered AI chat. Runs on your machine — nothing phones home. | llm local uncensored privacy chat | Portable x64 prebuilt for Windows
-  - ★ 52
-- **[mbzuai-oryx/LoopedWSP](https://github.com/mbzuai-oryx/LoopedWSP)** — GitHub · 2d ago · `llm` `safety`
-  - Looped Weight-Space Programming: LLM-Written Transformers for Long Algorithmic Reasoning
-  - ★ 108
-- **[tiwe0/runidbg](https://github.com/tiwe0/runidbg)** — GitHub · 5d ago · `agents`
-  - High-performance Android ARM64 .so emulator, zero-copy binary tracer, QuickJS engine, async multi-core RPC & MCP server in pure Rust
+- **[uxpilot-ai/frontend-design-skill](https://github.com/uxpilot-ai/frontend-design-skill)** — GitHub · 12h ago · `coding` `agents` `llm`
+  - Free frontend design skill for Claude Code, Codex and Cursor: designs your UI on a UX Pilot canvas, then builds it in your code
+  - ★ 189
+- **[tDupuis19341/claude-session-rotator](https://github.com/tDupuis19341/claude-session-rotator)** — GitHub · 13h ago · `llm` `coding`
+  - Claude Code Unlimited — claude-code and llm in one tool.
+  - ★ 66
+- **[YukiCatalano8591/llm-fallback-router](https://github.com/YukiCatalano8591/llm-fallback-router)** — GitHub · 13h ago · `llm`
+  - llm-router-free — router and fallback in one tool.
+  - ★ 59
+- **[matheusmongarde/garimpo](https://github.com/matheusmongarde/garimpo)** — GitHub · 1d ago · `coding` `agents` `llm` `open-source`
+  - Prospecção open source do Google Maps ao Pix: acha negócios no Maps, gera um site-prévia com o nome de cada um, conversa no WhatsApp e cobra por Pix, Mercado Pago ou Stripe. Pagou, fecha sozinho. Roda no seu PC, VPS ou…
+  - ★ 190
+- **[langchain-samples/Persistent-Agent](https://github.com/langchain-samples/Persistent-Agent)** — GitHub · 1d ago · `agents`
+  - Persistent Agent is a proactive, always-on, goal-oriented agent. Think Muse or Instinct, but for the enterprise. Comes with memory, browser use, hundreds of tools, and proactive playbooks it can run in the background to…
+  - ★ 88
+- **[sthamann/awesome-agentic-commerce](https://github.com/sthamann/awesome-agentic-commerce)** — GitHub · 1d ago · `agents` `open-source`
+  - Curated and updated daily: agentic commerce protocols (UCP, ACP, AP2, MCP, x402), SDKs, payment providers, open source implementations and the latest news.
+  - ★ 132
+- **[7wdn/7paws](https://github.com/7wdn/7paws)** — GitHub · 3d ago · `agents`
+  - Windows 与 macOS 的 3D 桌面小猫桌宠：响应全局键鼠、敲键追光标、摸猫呼噜；支持照片取色或 AI（内置 MCP）定制专属猫咪，闲置后睡觉。
+  - ★ 107
+- **[biTQ-m/awesome-antigravity-plugins](https://github.com/biTQ-m/awesome-antigravity-plugins)** — GitHub · 3d ago · `agents`
+  - 🌟 Curated list of awesome Google Antigravity plugins, UI Sidecars, Desktop HUDs, CLI statuslines, MCP bundles, Skills & Marketplace extensions (English / 中文)
   - ★ 79
-- **[byttrade/free-crypto-trading-bot](https://github.com/byttrade/free-crypto-trading-bot)** — GitHub · 4d ago · `agents`
-  - Free crypto trading bot by BYTtrade: 4 backtested 4h trend-following strategies for perpetual futures, reproducible backtest, web panel, 11 exchanges, AI-agent API. Demo first. High risk.
-  - ★ 60
-- **[BoneD-Q/contextbridge](https://github.com/BoneD-Q/contextbridge)** — GitHub · 6d ago · `agents`
-  - Skills-first AI context handoff with structured evidence, uncertainty tracking, validation, and cross-agent knowledge transfer.
-  - ★ 69
-- **[Haruhi764/OmniCAD-Skill](https://github.com/Haruhi764/OmniCAD-Skill)** — GitHub · 5d ago · `agents`
-  - Evidence-driven 2D CAD drafting and QA for editable DXF, AutoCAD DWG, and PDF
-  - ★ 65
+- **[AetherLabsAI/GameAnything](https://github.com/AetherLabsAI/GameAnything)** — GitHub · 2d ago · `coding` `llm` `agents`
+  - Turn anything your like (photos, videos, novels, films, memories) into worlds you can play in games you love. Coding agents (Claude Code, Codex, Gemini CLI, OpenCode…) build, playtest and refine the mod while you just…
+  - ★ 31
+- **[bazongotalato-cyber/coregold-usdt-vcc-agentic-ai-billing-knowledge-guide](https://github.com/bazongotalato-cyber/coregold-usdt-vcc-agentic-ai-billing-knowledge-guide)** — GitHub · 5d ago · `agents`
+  - Agentic AI 多步执行与高频工具调用普及的趋势，深入拆解 BIN 属性、AVS 账单校验、多卡隔离与数字钱包验证等实用知识点，附 CoreGold 极简开卡指南。
+  - ★ 63
 
-## Models and datasets (11)
+## Models and datasets (5)
 
-- **[Upstage: Solar Mini 4.5 (Preview)](https://openrouter.ai/upstage/solar-mini-4-5)** — OpenRouter · 9h ago · `llm`
-  - Solar Mini 4.5 is Upstage's compact language model, built on a proprietary mixture-of-experts architecture with 35B total and 3B active parameters and a 524K context window. It is a step... · 524,288 token context…
-- **[Upstage: Solar Pro 4 Contributor](https://openrouter.ai/upstage/solar-pro-4-contributor)** — OpenRouter · 9h ago
-  - Solar Pro 4 Contributor is the same Solar Pro 4 model from Upstage, offered at a lower rate in exchange for allowing Upstage to use interaction data to improve its... · 524,288 token context, $0.09/$0.36 per M tokens
-- **[nari-labs/Qwen3.8-27B-NariQ-GGUF](https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF)** — HF Models · 5d ago · `llm` `open-source`
-  - Trending image-text-to-text on Hugging Face · 126 likes · 8,795 downloads.
-  - ♥ 126 on HF
-- **[inclusionAI/LingSante-3.1-flash](https://huggingface.co/inclusionAI/LingSante-3.1-flash)** — HF Models · 6d ago · `open-source`
-  - Trending text-generation on Hugging Face · 168 likes · 1,070 downloads.
-  - ♥ 168 on HF
-- **[llamaindex/OCRia-nano-1](https://huggingface.co/llamaindex/OCRia-nano-1)** — HF Models · 21d ago · `open-source`
-  - Trending image-to-text on Hugging Face · 182 likes.
-  - ♥ 182 on HF
-- **[Xiaomi: MiMo-V2.6-Flash-MOPD](https://openrouter.ai/xiaomi/mimo-v2.6-flash-mopd)** — OpenRouter · 1d ago · `multimodal`
-  - MiMo-V2.6-Flash-MOPD is an updated checkpoint of Xiaomi's MiMo-V2.6-Flash, a Mixture-of-Experts model with 309B total and 15B active parameters, a 1M-token context window, and native multimodal… · 1,048,576 token…
-- **[Sandflow/sand3d-nature](https://huggingface.co/datasets/Sandflow/sand3d-nature)** — HF Datasets · 1d ago · `open-source`
-  - Sand3D Nature Sand3D Nature contains 10,057 organic 3D assets written as Python programs with sand3d. It covers plants, trees, rocks, ground patches, corals… Trending dataset on Hugging Face · 9 likes.
+- **[strata-engine/Inkling-2-Mini-Strata](https://huggingface.co/strata-engine/Inkling-2-Mini-Strata)** — HF Models · 4d ago · `open-source`
+  - Trending image-text-to-text on Hugging Face · 167 likes · 2,965 downloads.
+  - ♥ 167 on HF
+- **[Aleph-Alpha/Kolibri-1.1](https://huggingface.co/Aleph-Alpha/Kolibri-1.1)** — HF Models · 5d ago · `infra` `open-source`
+  - Trending text-generation on Hugging Face · 160 likes · 837 downloads.
+  - ♥ 160 on HF
+- **[yurun-chen/EgoUseBench](https://huggingface.co/datasets/yurun-chen/EgoUseBench)** — HF Datasets · 20h ago · `agents` `evals` `open-source`
+  - EgoUseBench This repository contains the task definitions and sampled first-person frames for EgoUseBench: Benchmarking Computer-Use Agents under Evolving… Trending dataset on Hugging Face · 9 likes.
   - ♥ 9 on HF
-- **[hyperbots-inc/synthetic-fine-print](https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print)** — HF Datasets · 23h ago · `open-source`
-  - Synthetic Fine Print 100 business documents with a terms-and-conditions block set in 4 to 6 point type. The clauses hold facts that matter downstream: payment… Trending dataset on Hugging Face · 10 likes.
-  - ♥ 10 on HF
-- **[hyperbots-inc/synthetic-logo-vendor-names](https://huggingface.co/datasets/hyperbots-inc/synthetic-logo-vendor-names)** — HF Datasets · 2d ago · `open-source`
-  - Synthetic Logo-Only Vendor Names 100 business documents where the issuing company's name appears only inside its logo. The printed name line under the logo was… Trending dataset on Hugging Face · 12 likes · 169…
-  - ♥ 12 on HF
-- **[inclusionAI/LingSante-MedGuard](https://huggingface.co/datasets/inclusionAI/LingSante-MedGuard)** — HF Datasets · 7d ago · `open-source` `science-health`
-  - LingSante MedGuardBench English | 中文 Technical Report · PDF · Data Files · Quick Start · Citation LingSante MedGuardBench evaluates medical AI responses for… Trending dataset on Hugging Face · 31 likes · 159 downloads.
-  - ♥ 31 on HF
+- **[datapointai/multilingual-tts-ad-human-preferences-270k](https://huggingface.co/datasets/datapointai/multilingual-tts-ad-human-preferences-270k)** — HF Datasets · 2d ago · `open-source`
+  - Ad voiceover human preferences: 270K votes across 10 TTS models in 8 languages This dataset contains the complete voting record behind the Datapoint Ad… Trending dataset on Hugging Face · 44 likes · 354 downloads.
+  - ♥ 44 on HF
+- **[xlangai/RoboWild](https://huggingface.co/datasets/xlangai/RoboWild)** — HF Datasets · 5d ago · `agents` `open-source` `research` `robotics`
+  - RoboWild 🏠 Homepage · 📄 Paper · 📊 Slides · 💻 Code RoboWild agents use robots to carry out tasks across 38 simulated environments. This dataset contains the… Trending dataset on Hugging Face · 77 likes · 8,861 downloads.
+  - ♥ 77 on HF
 
-## Releases (13)
+## Releases (7)
 
-- **[claude-code v2.1.332](https://github.com/anthropics/claude-code/releases/tag/v2.1.332)** — GitHub Releases · 7h ago · `agents` `llm`
-  - What's changed Added skills from MCP servers (beta). They show as server:skill in the / menu; other skills keep their names Added a PreSkillShellCommand hook event that can refuse a skill or command's inline shell…
-- **[mastra@1.40.2](https://github.com/mastra-ai/mastra/releases/tag/mastra%401.40.2)** — GitHub Releases · 7h ago
-  - mastra@1.40.2
-- **[mastracode@0.50.3](https://github.com/mastra-ai/mastra/releases/tag/mastracode%400.50.3)** — GitHub Releases · 7h ago
-  - mastracode@0.50.3
-- **[pydantic-ai v2.74.0 (2026-11-24)](https://github.com/pydantic/pydantic-ai/releases/tag/v2.74.0)** — GitHub Releases · 8h ago
-  - What's Changed 🛡️ Security GHSA-wm3r-gc4c-q7qg (medium, CVE-2026-136639): Pydantic AI Harness's PlaywrightBrowser private-address block did not refuse IPv6 site-local addresses ( fec0::/10 ), so on a network that still…
-- **[@ai-sdk/workflow-harness@1.0.193](https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fworkflow-harness%401.0.193)** — GitHub Releases · 10h ago
-  - Patch Changes Updated dependencies \[ 7fffff9 \] Updated dependencies \[ 3334b4d \] Updated dependencies \[ d84bf24 \] @ai-sdk/harness@1.0.193
-- **[@ai-sdk/xai@5.0.50](https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fxai%405.0.50)** — GitHub Releases · 10h ago · `llm`
-  - Patch Changes 565db6d : refactor(xai): declare language model capabilities per model ID in the model catalog
-- **[anthropic-sdk-python v2.14.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.14.0)** — GitHub Releases · 11h ago
-  - Features api: add Google-managed data controls for Google Cloud projects api: add Google-managed data controls for user profiles api: add support for compliance review cases, notices, and items Bug Fixes client: honor…
-- **[openai-python v3.59.0](https://github.com/openai/openai-python/releases/tag/v3.59.0)** — GitHub Releases · 13h ago · `agents` `science-health`
-  - 3.59.0 (2026-11-24) Features api: add healthcare model IDs for Responses ( #4327 ) ( 804a9af ) Bug Fixes check the agent upload directory after path resolution ( #4323 ) ( bc02da4 ) redact credential headers on API…
-- **[langfuse v4.86.0](https://github.com/langfuse/langfuse/releases/tag/v4.86.0)** — GitHub Releases · 13h ago · `agents`
-  - What's Changed chore(deps): bump msgpackr to 2.1.4 for BullMQ by @nimarb in #20773 feat(mcp): render charts inline as an MCP App, served by Next.js by @tobi12345 in #20727 fix(ingestion): match TypeScript tool-column…
-- **[transformers Patch release v5.24.1](https://github.com/huggingface/transformers/releases/tag/v5.24.1)** — GitHub Releases · 16h ago · `infra` `llm` `open-source`
-  - Patch release v5.24.1 A patch to fix a bunch of stuff for vLLM, a few distributed issues, and some model fixes (llama4, dory); see the full list vLLM related Fix backward compatibility of the cache rename for remote…
-- **[langfuse v4.85.0](https://github.com/langfuse/langfuse/releases/tag/v4.85.0)** — GitHub Releases · 19h ago
-  - What's Changed Features feat(billing): meter Stripe from the billable units ledger by @Steffen911 in #20526 feat(web): Use unified session & trace view for session table by @bezbac in #20373 feat(skills): remove beta…
-- **[ollama v0.40.18](https://github.com/ollama/ollama/releases/tag/v0.40.18)** — GitHub Releases · 1d ago · `open-source` `llm`
-  - What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove…
-- **[browser-use 1.0.7](https://github.com/browser-use/browser-use/releases/tag/1.0.7)** — GitHub Releases · 4d ago · `agents` `coding`
-  - pip install 'browser-use==1.0.7' MCP calls no longer time out at 60 s. A long browser_exec now replies within 50 s with the output so far, so Cursor and other clients with a 60 s limit get a result instead of Request…
+- **[openai-python v3.60.0](https://github.com/openai/openai-python/releases/tag/v3.60.0)** — GitHub Releases · 1h ago · `multimodal`
+  - 3.60.0 (2026-11-26) Features api: add spend alerts and response compaction fields ( #4335 ) ( 4713afd ) api: support updating session vaults ( #4334 ) ( c386f19 ) Chores api: clarify message retries and Batch endpoints…
+- **[@ai-sdk/zai@3.0.59](https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fzai%403.0.59)** — GitHub Releases · 3h ago
+  - Patch Changes Updated dependencies \[80d778a\] @ai-sdk/provider-utils@5.0.85 @ai-sdk/openai-compatible@3.0.96
+- **[@ai-sdk/zai@2.0.24](https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fzai%402.0.24)** — GitHub Releases · 3h ago
+  - Patch Changes Updated dependencies \[ 9e7f32b \] @ai-sdk/provider-utils@4.0.69 @ai-sdk/openai-compatible@2.0.96
+- **[langgraph-cli==0.4.44](https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.44)** — GitHub Releases · 11h ago
+  - Changes since cli==0.4.43 feat(cli): add url to deploy list --json ( #9793 ) release(cli): 0.4.44 ( #9794 ) fix(cli): omit an empty secrets list when updating a deployment ( #9737 ) chore(deps): bump opentelemetry-api…
+- **[pydantic-ai v2.75.0 (2026-11-25)](https://github.com/pydantic/pydantic-ai/releases/tag/v2.75.0)** — GitHub Releases · 14h ago
+  - What's Changed ⚠️ Compatibility Notes Keep workspace files below 'operator' authority out of the instructions in RepoContext , Skills and Memory , and add lowest_authority_under by @adtyavrdhn in #11837 Text from a…
+- **[trl v1.19.0](https://github.com/huggingface/trl/releases/tag/v1.19.0)** — GitHub Releases · 15h ago · `agents` `open-source`
+  - Features 👥 Multi-teacher and agent distillation DistillationTrainer takes a dict of teachers, and each example's teacher_id column picks the one that scores its completion: the fusion stage of MOPD . It also takes…
+- **[open-webui v0.13.5](https://github.com/open-webui/open-webui/releases/tag/v0.13.5)** — GitHub Releases · 22h ago
+  - Added Folder workspaces. Run your project’s tests in a terminal and try the app in a browser while your chat stays open beside them. Choose the computer and project directory once for the folder. Even in a shared…
 
-## Discussions (14)
-
-- **[Marginalia Search, Money, C++, Rust, AI, Stuff](https://www.marginalia.nu/log/a_141_marginalia_update/)** — Hacker News · 5h ago
-  - HN 96 pts · 37 comments · discussion: [HN](https://news.ycombinator.com/item?id=50638220)
-- **[Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark](https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/)** — Hacker News · 15h ago
-  - HN 215 pts · 114 comments · discussion: [HN](https://news.ycombinator.com/item?id=50631210)
-- **[Serving Qwen via AWS Lambdas for fun and 80x negative profit](https://noahbuilt.it/writing/qwen-on-5600-lambdas)** — Hacker News · 5h ago · `llm`
-  - HN 61 pts · 10 comments · discussion: [HN](https://news.ycombinator.com/item?id=50638070)
-- **[OpenAI reveals they solved VP ≠ VNP before Anthropic](https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026)** — Hacker News · 13h ago
-  - HN 90 pts · 92 comments · discussion: [HN](https://news.ycombinator.com/item?id=50632756)
-- **[Top open problems in mathematics ranked by LLM-assessed importance](https://www.proofatlas.ai/open-problems/)** — Hacker News · 5h ago · `llm`
-  - HN 46 pts · 15 comments · discussion: [HN](https://news.ycombinator.com/item?id=50637871)
-- **[Anthropic CEO Dario Amodei and Sister Daniela Sold $561M in Stock During IPO](https://www.forbes.com/sites/siladityaray/2026/11/24/anthropic-ceo-dario-amodei-sold-280-million-in-shares-as-part-of-record-ipo/)** — Hacker News · 10h ago · `business`
-  - HN 43 pts · 14 comments · discussion: [HN](https://news.ycombinator.com/item?id=50635706)
-- **[Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex](https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/)** — Hacker News · 23h ago
-  - HN 79 pts · 40 comments · discussion: [HN](https://news.ycombinator.com/item?id=50625888)
-- **[New York Ban AI Toys for 5 Years](https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot)** — Hacker News · 11h ago · `policy`
-  - HN 32 pts · 3 comments · discussion: [HN](https://news.ycombinator.com/item?id=50635246)
-- **[Compiling web applications into verified operations for AI agents](https://protocolis.co/paper/)** — Hacker News · 13h ago · `agents`
-  - HN 34 pts · 12 comments · discussion: [HN](https://news.ycombinator.com/item?id=50632998)
-- **[Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump](https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026)** — Hacker News · 11h ago · `infra`
-  - HN 28 pts · 2 comments · discussion: [HN](https://news.ycombinator.com/item?id=50634815)
-- **[Quit Internet Videos Before AI Perfects Them](https://nomagicpill.substack.com/p/quit-internet-videos-before-ai-perfects)** — Hacker News · 20h ago
-  - HN 35 pts · 18 comments · discussion: [HN](https://news.ycombinator.com/item?id=50627131)
-
-_Generated 2026-11-25 08:50 UTC by ai-radar._
+_Generated 2026-11-26 08:35 UTC by ai-radar._

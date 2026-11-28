@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AI Radar</title>
+  <id>urn:ai-radar:feed</id>
+  <updated>2026-11-28T08:02:12Z</updated>
+  <author>
+    <name>ai-radar</name>
+  </author>
+  <entry>
+    <title>[AINews] Inside the exploding Coding Data Market</title>
+    <id>https://latent.space/p/ainews-inside-the-exploding-coding-data-market</id>
+    <link href="https://latent.space/p/ainews-inside-the-exploding-coding-data-market/" />
+    <updated>2026-11-28T03:45:59Z</updated>
+    <summary type="text">November 27, 2026 — How frontier labs buy training data.</summary>
+    <category term="blog" />
+    <category term="coding" />
+    <link rel="related" href="https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/" title="Inside the AI Training Data Market — Gabe Greenberg, G2i" />
+  </entry>
+  <entry>
+    <title>Anthropic Shares Close Above IPO Price After Two Sessions Below It</title>
+    <id>https://unite.ai/anthropic-shares-close-above-ipo-price-after-two-sessions-below-it</id>
+    <link href="https://www.unite.ai/anthropic-shares-close-above-ipo-price-after-two-sessions-below-it/" />
+    <updated>2026-11-28T03:36:04Z</updated>
+    <summary type="text">Anthropic’s Class A shares closed at $91.88 on November 27, 2026, rising 10.98% to move back above the company’s $83 initial public offering price after two sessions below it, according to Nasdaq’s official quote record. That finish put the shares approximately 10.7% above the IPO price, calculated from the reported close and offer price. It was also Anthropic’s highest close since its November…</summary>
+    <category term="news" />
+    <category term="business" />
+    <link rel="related" href="https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading" title="Anthropic breaks below $83 IPO price" />
+    <link rel="related" href="https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa" title="Anthropic is below its IPO price" />
+    <link rel="related" href="https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/" title="Anthropic shares fall below IPO price, a worrying sign for AI startups" />
+    <link rel="related" href="https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html" title="Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price" />
+    <link rel="related" href="https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html" title="Anthropic closes below $83 IPO price, but analysts are still largely positive" />
+  </entry>
+  <entry>
+    <title>Woman evicted after landlord's AI assistant told her she could delay rent</title>
+    <id>https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai</id>
+    <link href="https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai" />
+    <updated>2026-11-28T01:32:56Z</updated>
+    <summary type="text">Woman evicted after landlord's AI assistant told her she could delay rent</summary>
+    <category term="discussion" />
+  </entry>
+  <entry>
+    <title>datasette-charts 0.4a0</title>
+    <id>https://simonwillison.net/2026/Nov/27/datasette-charts</id>
+    <link href="https://simonwillison.net/2026/Nov/27/datasette-charts/" />
+    <updated>2026-11-27T23:57:17Z</updated>
+    <summary type="text">Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional chart…</summary>
+    <category term="blog" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>Banks look to dump AI debt</title>
+    <id>https://semafor.com/article/11/26/2026/banks-look-to-dump-ai-debt</id>
+    <link href="https://www.semafor.com/article/11/26/2026/banks-look-to-dump-ai-debt" />
+    <updated>2026-11-27T20:56:17Z</updated>
+    <summary type="text">Banks look to dump AI debt</summary>
+    <category term="discussion" />
+  </entry>
+  <entry>
+    <title>Prospero: Bloat-free, native AI coding harness with ImGui</title>
+    <id>https://github.com/skeeto/prospero</id>
+    <link href="https://github.com/skeeto/prospero" />
+    <updated>2026-11-27T20:23:14Z</updated>
+    <summary type="text">Prospero: Bloat-free, native AI coding harness with ImGui</summary>
+    <category term="discussion" />
+    <category term="coding" />
+  </entry>
+  <entry>
+    <title>Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10</title>
+    <id>https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10</id>
+    <link href="https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/" />
+    <updated>2026-11-27T18:59:55Z</updated>
+    <summary type="text">Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10</summary>
+    <category term="discussion" />
+    <category term="infra" />
+  </entry>
+  <entry>
+    <title>I'm Scared of AI</title>
+    <id>https://thesoapbox.email/archive/3</id>
+    <link href="https://thesoapbox.email/archive/3" />
+    <updated>2026-11-27T17:45:31Z</updated>
+    <summary type="text">I'm Scared of AI</summary>
+    <category term="discussion" />
+  </entry>
+  <entry>
+    <title>SAP plans to cut at least 10,000 jobs as it pivots to AI</title>
+    <id>https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai</id>
+    <link href="https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/" />
+    <updated>2026-11-27T14:57:25Z</updated>
+    <summary type="text">SAP is preparing to eliminate at least 10,000 positions as part of a sweeping AI restructuring, Bloomberg reports, citing people familiar with the matter. The article SAP plans to cut at least 10,000 jobs as it pivots to AI appeared first on The Decoder .</summary>
+    <category term="news" />
+    <link rel="related" href="https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html" title="Tech German software major SAP is reportedly weighing cutting at least 10,000 jobs in AI push" />
+    <link rel="related" href="https://www.unite.ai/sap-could-cut-at-least-10-000-jobs-in-reported-ai-overhaul/" title="SAP Could Cut at Least 10,000 Jobs in Reported AI Overhaul" />
+  </entry>
+  <entry>
+    <title>AI on brink of making online security useless, mathematicians fear</title>
+    <id>https://thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8</id>
+    <link href="https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8" />
+    <updated>2026-11-27T11:09:04Z</updated>
+    <summary type="text">AI on brink of making online security useless, mathematicians fear</summary>
+    <category term="discussion" />
+  </entry>
+  <entry>
+    <title>zhouxiaoka/autoclip</title>
+    <id>https://github.com/zhouxiaoka/autoclip</id>
+    <link href="https://github.com/zhouxiaoka/autoclip" />
+    <updated>2026-11-27T08:47:26Z</updated>
+    <summary type="text">AutoClip｜The open-source OpusClip alternative — local-first AI clipping &amp; MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。</summary>
+    <category term="repo" />
+    <category term="agents" />
+    <category term="open-source" />
+  </entry>
+  <entry>
+    <title>The group chat where your AI talks behind your back</title>
+    <id>https://construct22.com/</id>
+    <link href="https://construct22.com/" />
+    <updated>2026-11-27T06:44:34Z</updated>
+    <summary type="text">The group chat where your AI talks behind your back</summary>
+    <category term="discussion" />
+  </entry>
+  <entry>
+    <title>Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability</title>
+    <id>https://arxiv.org/abs/2611.34051</id>
+    <link href="https://arxiv.org/abs/2611.34051" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry…</summary>
+    <category term="paper" />
+    <category term="rag-search" />
+  </entry>
+  <entry>
+    <title>OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms</title>
+    <id>https://arxiv.org/abs/2611.34232</id>
+    <link href="https://arxiv.org/abs/2611.34232" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">A live cross-platform benchmark evaluates computer-using agents on long-horizon workflows across Windows, Ubuntu, macOS, iOS, Android, and Web, showing that current agents remain far from platform-robust computer use and trail humans on iOS and macOS.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="evals" />
+  </entry>
+  <entry>
+    <title>What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models</title>
+    <id>https://arxiv.org/abs/2611.31619</id>
+    <link href="https://arxiv.org/abs/2611.31619" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">A tool called Vernier measures the smallest score difference a time-series forecasting leaderboard can distinguish, showing that most boards cannot separate top entries and that ranking order can change with pool composition.</summary>
+    <category term="paper" />
+    <category term="evals" />
+  </entry>
+  <entry>
+    <title>ProxyGenBench: Benchmarking Proxy-Guided Video Generation</title>
+    <id>https://arxiv.org/abs/2611.34457</id>
+    <link href="https://arxiv.org/abs/2611.34457" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">A benchmark assesses how well video generators follow animated 3D blockouts while preserving structure, filling missing content, correcting proxy artifacts, and binding multimodal conditions to the correct entities and events.</summary>
+    <category term="paper" />
+    <category term="multimodal" />
+    <category term="evals" />
+  </entry>
+  <entry>
+    <title>OpenAI cost controls 💰, measuring RSI 📈, looped transformers ➰</title>
+    <id>https://tldr.tech/ai/2026-11-27</id>
+    <link href="https://tldr.tech/ai/2026-11-27" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">OpenAI cost controls 💰, measuring RSI 📈, looped transformers ➰</summary>
+    <category term="blog" />
+    <category term="llm" />
+    <link rel="related" href="https://micjm.com/blog/openai-is-in-cost-control-mode/" title="OpenAI may be in cost control mode" />
+  </entry>
+  <entry>
+    <title>StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation</title>
+    <id>https://arxiv.org/abs/2611.34290</id>
+    <link href="https://arxiv.org/abs/2611.34290" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">StateWeaver improves long-video generation by preserving cross-shot consistency and updating visual references through active state tracking and hierarchical collaboration.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>ShowNow: Fine-Grained Speculative Streaming for Responsive World Models</title>
+    <id>https://arxiv.org/abs/2611.34693</id>
+    <link href="https://arxiv.org/abs/2611.34693" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">A fine-grained speculative streaming framework prepares action-conditioned video futures during playback to reduce input-to-display latency in interactive world models while sustaining real-time generation.</summary>
+    <category term="paper" />
+    <category term="infra" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation</title>
+    <id>https://arxiv.org/abs/2611.32238</id>
+    <link href="https://arxiv.org/abs/2611.32238" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">A method that explicitly shapes and expands the handoff boundary of visuomotor policies improves coordination between multimodal agents and robot policies, yielding higher success and lower cost.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="multimodal" />
+    <category term="robotics" />
+  </entry>
+  <entry>
+    <title>Ndarrr07/pro-llm-api-hub</title>
+    <id>https://github.com/ndarrr07/pro-llm-api-hub</id>
+    <link href="https://github.com/Ndarrr07/pro-llm-api-hub" />
+    <updated>2026-11-26T23:24:29Z</updated>
+    <summary type="text">Pro LLM API Hub: Structured Dataset of Large Language Model Interfaces</summary>
+    <category term="repo" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>titisseptian-SS/omniroute-explorer</title>
+    <id>https://github.com/titisseptian-ss/omniroute-explorer</id>
+    <link href="https://github.com/titisseptian-SS/omniroute-explorer" />
+    <updated>2026-11-26T22:49:29Z</updated>
+    <summary type="text">OmniRoute Explorer: Lightweight, Open-Access Routing Tool</summary>
+    <category term="repo" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>Birubhai1964/interview-copilot</title>
+    <id>https://github.com/birubhai1964/interview-copilot</id>
+    <link href="https://github.com/Birubhai1964/interview-copilot" />
+    <updated>2026-11-26T21:57:38Z</updated>
+    <summary type="text">Interview Copilot: EdTech Platform Connecting Learning to Your Dream Career</summary>
+    <category term="repo" />
+    <category term="agents" />
+    <category term="coding" />
+  </entry>
+  <entry>
+    <title>AI made self-hosting fun again</title>
+    <id>https://janlukas.blog/posts/ai-self-hosting</id>
+    <link href="https://janlukas.blog/posts/ai-self-hosting" />
+    <updated>2026-11-26T21:47:45Z</updated>
+    <summary type="text">Comments</summary>
+    <category term="discussion" />
+  </entry>
+  <entry>
+    <title>thebodytheory01-commits/final-round-ai-desktop</title>
+    <id>https://github.com/thebodytheory01-commits/final-round-ai-desktop</id>
+    <link href="https://github.com/thebodytheory01-commits/final-round-ai-desktop" />
+    <updated>2026-11-26T21:37:37Z</updated>
+    <summary type="text">Final Round AI Desktop: Real-Time Interview Coaching, Speech Transcription, and Response Suggestions</summary>
+    <category term="repo" />
+    <category term="agents" />
+    <category term="llm" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>gary23w/f-ck_data_brokers</title>
+    <id>https://github.com/gary23w/f-ck_data_brokers</id>
+    <link href="https://github.com/gary23w/f-ck_data_brokers" />
+    <updated>2026-11-26T17:53:07Z</updated>
+    <summary type="text">fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.</summary>
+    <category term="repo" />
+    <category term="open-source" />
+    <category term="policy" />
+  </entry>
+  <entry>
+    <title>Tracking Diseases Cured by AI</title>
+    <id>https://diseasescuredbyai.com/</id>
+    <link href="https://diseasescuredbyai.com/" />
+    <updated>2026-11-26T17:16:41Z</updated>
+    <summary type="text">Tracking Diseases Cured by AI</summary>
+    <category term="discussion" />
+  </entry>
+  <entry>
+    <title>ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF</title>
+    <id>https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF</id>
+    <link href="https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF" />
+    <updated>2026-11-26T13:01:01Z</updated>
+    <summary type="text">Trending text-generation on Hugging Face · 162 likes.</summary>
+    <category term="model" />
+    <category term="open-source" />
+  </entry>
+  <entry>
+    <title>Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon</title>
+    <id>https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</id>
+    <link href="https://huggingface.co/blog/ggml-org/llamacpp-amd-bench" />
+    <updated>2026-11-26T11:37:17Z</updated>
+    <summary type="text">Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon</summary>
+    <category term="blog" />
+    <category term="evals" />
+    <category term="llm" />
+    <category term="open-source" />
+    <link rel="related" href="https://devnull.land/amd-specific-llama-cpp" title="AMD-specific fork of llama.cpp" />
+  </entry>
+  <entry>
+    <title>Where to host an MCP server</title>
+    <id>https://dev.to/hpoyrazk/where-to-host-an-mcp-server-153a</id>
+    <link href="https://dev.to/hpoyrazk/where-to-host-an-mcp-server-153a" />
+    <updated>2026-11-26T08:29:32Z</updated>
+    <summary type="text">Originally published on gregale.dev . I build Gregale, so read this as a vendor's page. Competitor details come from each vendor's own docs, linked in the post. Host a remote MCP server on a platform that serves Streamable HTTP over HTTPS, lets you require OAuth tokens, and allows tool calls that run for minutes. On Gregale, gregale mcp server init creates a working server in Node, Go or Python…</summary>
+    <category term="blog" />
+    <category term="agents" />
+    <link rel="related" href="https://techstackups.com/articles/google-workspace-ai-agents-mcp/" title="Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email" />
+    <link rel="related" href="https://dev.to/shekhar_verma/mcp-servers-clients-and-tools-how-the-pieces-fit-1ch2" title="MCP Servers, Clients, and Tools: How the Pieces Fit" />
+    <link rel="related" href="https://dev.to/reclusivecoder/foxit-mcp-server-give-ai-agents-direct-access-to-30-pdf-tools-via-model-context-protocol-44na" title="Foxit MCP Server: Give AI Agents Direct Access to 30+ PDF Tools via Model Context Protocol" />
+    <link rel="related" href="https://dev.to/supana74/foxits-mcp-server-lets-ai-agents-handle-pdfs-without-the-boilerplate-5ad0" title="Foxit’s MCP Server Lets AI Agents Handle PDFs Without the Boilerplate" />
+  </entry>
+  <entry>
+    <title>Sage-Med: Scaling Medical Multimodal Intelligence</title>
+    <id>https://arxiv.org/abs/2611.34575</id>
+    <link href="https://arxiv.org/abs/2611.34575" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling…</summary>
+    <category term="paper" />
+    <category term="business" />
+    <category term="llm" />
+    <category term="multimodal" />
+    <category term="science-health" />
+  </entry>
+  <entry>
+    <title>VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation</title>
+    <id>https://arxiv.org/abs/2611.34237</id>
+    <link href="https://arxiv.org/abs/2611.34237" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of…</summary>
+    <category term="paper" />
+    <category term="multimodal" />
+    <category term="agents" />
+    <category term="coding" />
+  </entry>
+  <entry>
+    <title>PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents</title>
+    <id>https://arxiv.org/abs/2611.33144</id>
+    <link href="https://arxiv.org/abs/2611.33144" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">A framework enables coding agents to develop dexterous manipulation policies without demonstrations by exploring and distilling successful attempts into a program, then refining it for strong simulated and real-world results.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="coding" />
+  </entry>
+  <entry>
+    <title>Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts</title>
+    <id>https://arxiv.org/abs/2611.28732</id>
+    <link href="https://arxiv.org/abs/2611.28732" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level human-robot pairs are not temporally aligned with robot actions, and standard…</summary>
+    <category term="paper" />
+    <category term="robotics" />
+  </entry>
+  <entry>
+    <title>Playfulness as Feedback for Agentic Game Development</title>
+    <id>https://arxiv.org/abs/2611.33457</id>
+    <link href="https://arxiv.org/abs/2611.33457" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">Play2Evolve uses AI agents to iteratively playtest, diagnose, and improve generated games through initialization, refinement, and evolution stages, enhancing functionality, visuals, and gameplay quality.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="coding" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts</title>
+    <id>https://arxiv.org/abs/2611.34466</id>
+    <link href="https://arxiv.org/abs/2611.34466" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, agents can identify objects and activities relevant to user requests and ground digital tasks in the…</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="evals" />
+  </entry>
+  <entry>
+    <title>Let Vision-Language Models Generate Images through Their Representations</title>
+    <id>https://arxiv.org/abs/2611.31237</id>
+    <link href="https://arxiv.org/abs/2611.31237" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">Integral converts a pretrained vision-language model into a unified multimodal model by constructing a shared visual representation space, preserving understanding while enabling strong visual generation.</summary>
+    <category term="paper" />
+    <category term="multimodal" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos</title>
+    <id>https://arxiv.org/abs/2611.34347</id>
+    <link href="https://arxiv.org/abs/2611.34347" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">Embodied agents operating around people must not only recognize social cues, but also decide when the available evidence is sufficient, whether to intervene, and how to respond without violating social norms. Existing benchmarks typically evaluate these abilities in isolation or with access to completed videos, obscuring where an online social decision fails. We introduce AIRIS, a causal…</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="evals" />
+    <category term="research" />
+    <category term="robotics" />
+  </entry>
+  <entry>
+    <title>FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images</title>
+    <id>https://arxiv.org/abs/2611.34128</id>
+    <link href="https://arxiv.org/abs/2611.34128" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">A generalizable pipeline reconstructs continuous, high-fidelity 3D surfaces from unposed images by integrating pointmap and ray-based representations, achieving strong zero-shot generalization.</summary>
+    <category term="paper" />
+  </entry>
+  <entry>
+    <title>Target-Part Preference Optimization for Part-Aware 3D Generation</title>
+    <id>https://arxiv.org/abs/2611.30472</id>
+    <link href="https://arxiv.org/abs/2611.30472" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">Preference fine-tuning based on Direct Preference Optimization adapts a pretrained part-aware 3D generator with limited part annotations, yielding the best multi-part results at medium scale but less consistent gains under distribution shift.</summary>
+    <category term="paper" />
+  </entry>
+  <entry>
+    <title>Beyond Self-Consistency: Recursive Self-Improvement at Test Time</title>
+    <id>https://arxiv.org/abs/2611.30965</id>
+    <link href="https://arxiv.org/abs/2611.30965" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">A label-free test-time framework, TT-RSI, improves large language models by repeatedly re-solving questions with prior solutions and distilling refinements into model weights, outperforming self-consistency methods under the same test-time scaling budget.</summary>
+    <category term="paper" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>What Is Redundant at High Resolution? Efficient Attention and Feed-Forward Design for All-in-One Image Restoration</title>
+    <id>https://arxiv.org/abs/2611.33636</id>
+    <link href="https://arxiv.org/abs/2611.33636" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">A multi-scale image restoration network reduces redundant computation in attention and feed-forward layers to achieve state-of-the-art restoration with faster inference.</summary>
+    <category term="paper" />
+    <category term="infra" />
+  </entry>
+  <entry>
+    <title>Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures</title>
+    <id>https://arxiv.org/abs/2611.33925</id>
+    <link href="https://arxiv.org/abs/2611.33925" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">Training world models on simulated manipulation failures with interaction alignment and surface correspondence reduces object trajectory and action-outcome prediction errors, including on unseen objects and real data.</summary>
+    <category term="paper" />
+    <category term="robotics" />
+    <category term="safety" />
+  </entry>
+  <entry>
+    <title>SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation</title>
+    <id>https://arxiv.org/abs/2611.33915</id>
+    <link href="https://arxiv.org/abs/2611.33915" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">SEEK retains executable manipulation procedures and measured action effects across attempts, enabling fixed foundation-model robots to improve without retraining.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="multimodal" />
+    <category term="robotics" />
+  </entry>
+  <entry>
+    <title>Letting Models Manage Their Own Context: Where We Stand</title>
+    <id>https://arxiv.org/abs/2611.34147</id>
+    <link href="https://arxiv.org/abs/2611.34147" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">Model-driven context management through a context API improves accuracy and token efficiency over harness-triggered compaction, while reusing KV caches after edits reduces prefill compute.</summary>
+    <category term="paper" />
+    <category term="agents" />
+  </entry>
+  <entry>
+    <title>Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations</title>
+    <id>https://arxiv.org/abs/2611.28010</id>
+    <link href="https://arxiv.org/abs/2611.28010" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">SlidesWeaver combines language and vision agents with diffusion-based planning and shared state to generate editable, high-quality PPTX presentations while preserving native text and layout.</summary>
+    <category term="paper" />
+    <category term="multimodal" />
+    <category term="agents" />
+  </entry>
+  <entry>
+    <title>iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control</title>
+    <id>https://arxiv.org/abs/2611.33922</id>
+    <link href="https://arxiv.org/abs/2611.33922" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">iMFPO enables efficient one-step action generation for embodied control by decoupling velocity learning and aligning drift-aware velocities during reward-driven policy optimization.</summary>
+    <category term="paper" />
+    <category term="robotics" />
+    <category term="safety" />
+  </entry>
+  <entry>
+    <title>WorldBridge: Bridging Scattered Views for Coherent 3D World Generation</title>
+    <id>https://arxiv.org/abs/2611.34079</id>
+    <link href="https://arxiv.org/abs/2611.34079" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">WorldBridge generates coherent and controllable 3D worlds from scattered, low-overlap images by encoding references into a global scene context and using attention and latent-reference consistency optimization.</summary>
+    <category term="paper" />
+  </entry>
+  <entry>
+    <title>Much shorter version of GRH Lean verification from Anthropic</title>
+    <id>https://github.com/lsernau/grh-lean</id>
+    <link href="https://github.com/lsernau/grh-lean" />
+    <updated>2026-11-25T21:48:10Z</updated>
+    <summary type="text">Much shorter version of GRH Lean verification from Anthropic</summary>
+    <category term="discussion" />
+  </entry>
+  <entry>
+    <title>Improving and Expanding Video Editing Capabilities Without Videos</title>
+    <id>https://arxiv.org/abs/2611.34941</id>
+    <link href="https://arxiv.org/abs/2611.34941" />
+    <updated>2026-11-25T18:59:55Z</updated>
+    <summary type="text">Image-to-Video Transfer improves pretrained video editors by training them as image editors on single images, enabling new video editing tasks and state-of-the-art results on OpenVE-Bench and OpenVE++.</summary>
+    <category term="paper" />
+    <category term="research" />
+  </entry>
+  <entry>
+    <title>High-Fidelity Image Matting with Pixel-Space Diffusion Transformers</title>
+    <id>https://arxiv.org/abs/2611.34929</id>
+    <link href="https://arxiv.org/abs/2611.34929" />
+    <updated>2026-11-25T18:59:12Z</updated>
+    <summary type="text">Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting. We present PixelMatte, a framework that adapts…</summary>
+    <category term="paper" />
+    <category term="llm" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>Mixture-of-Loops Transformer</title>
+    <id>https://arxiv.org/abs/2611.34923</id>
+    <link href="https://arxiv.org/abs/2611.34923" />
+    <updated>2026-11-25T18:58:53Z</updated>
+    <summary type="text">A Mixture-of-Loops Transformer reuses key-value memory across loops and depths, and its U-shaped variant improves pretraining efficiency and inference latency.</summary>
+    <category term="paper" />
+    <category term="infra" />
+    <category term="llm" />
+    <category term="research" />
+  </entry>
+  <entry>
+    <title>Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation</title>
+    <id>https://arxiv.org/abs/2611.34907</id>
+    <link href="https://arxiv.org/abs/2611.34907" />
+    <updated>2026-11-25T18:54:03Z</updated>
+    <summary type="text">Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent systems provide such memory for offline multi-shot generation, yet they read the whole script in advance, plan each shot before generating it, and regenerate failed shots, which a live stream does not…</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents</title>
+    <id>https://arxiv.org/abs/2611.34852</id>
+    <link href="https://arxiv.org/abs/2611.34852" />
+    <updated>2026-11-25T18:25:30Z</updated>
+    <summary type="text">Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them. We introduce DRBench Pro, a benchmark that makes structured knowledge…</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="business" />
+    <category term="evals" />
+    <category term="research" />
+  </entry>
+  <entry>
+    <title>Real2SimLab: A Unified Platform for Real-to-Simulation Transfer</title>
+    <id>https://arxiv.org/abs/2611.34849</id>
+    <link href="https://arxiv.org/abs/2611.34849" />
+    <updated>2026-11-25T18:23:41Z</updated>
+    <summary type="text">Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads…</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="coding" />
+    <category term="evals" />
+  </entry>
+  <entry>
+    <title>Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models</title>
+    <id>https://arxiv.org/abs/2611.34813</id>
+    <link href="https://arxiv.org/abs/2611.34813" />
+    <updated>2026-11-25T18:01:22Z</updated>
+    <summary type="text">Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in…</summary>
+    <category term="paper" />
+    <category term="multimodal" />
+    <category term="agents" />
+    <category term="coding" />
+  </entry>
+  <entry>
+    <title>HOG-WAM: Improving Visual Robustness through Future Gradient Prediction</title>
+    <id>https://arxiv.org/abs/2611.34811</id>
+    <link href="https://arxiv.org/abs/2611.34811" />
+    <updated>2026-11-25T17:59:24Z</updated>
+    <summary type="text">HOG-WAM improves visually robust control in world-action models by adding future Histograms of Oriented Gradients as auxiliary structural supervision through a training-only HOG diffusion transformer, yielding higher success under observation corruptions while preserving the original RGB-to-action inference architecture.</summary>
+    <category term="paper" />
+    <category term="infra" />
+    <category term="llm" />
+    <category term="multimodal" />
+    <category term="research" />
+  </entry>
+  <entry>
+    <title>RoboEvo^2: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution</title>
+    <id>https://arxiv.org/abs/2611.34675</id>
+    <link href="https://arxiv.org/abs/2611.34675" />
+    <updated>2026-11-25T16:39:10Z</updated>
+    <summary type="text">RoboEvo$^2$ recursively co-evolves a coding-agent harness and a vision-language-action policy, using policy failures to discover reusable skills and preference distillation to improve motor control, yielding large success gains without extra human demonstrations.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="coding" />
+    <category term="multimodal" />
+    <category term="robotics" />
+    <category term="business" />
+  </entry>
+  <entry>
+    <title>New York bans AI toys, including those using internet to talk to children</title>
+    <id>https://theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys</id>
+    <link href="https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys" />
+    <updated>2026-11-25T15:29:21Z</updated>
+    <summary type="text">The state attorney general says she would ‘not hesitate to enforce’ the five-year ban signed by Governor Kathy Hochul The New York governor, Kathy Hochul , signed legislation on Wednesday that places a five-year ban on the manufacture and sale of toys powered by AI chatbots, including talking stuffed animals, dolls and robots that use the internet to hold conversations with children. The recently…</summary>
+    <category term="news" />
+    <category term="policy" />
+    <category term="llm" />
+    <category term="robotics" />
+    <link rel="related" href="https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot" title="New York Ban AI Toys for 5 Years" />
+  </entry>
+  <entry>
+    <title>DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding</title>
+    <id>https://arxiv.org/abs/2611.34420</id>
+    <link href="https://arxiv.org/abs/2611.34420" />
+    <updated>2026-11-25T14:11:06Z</updated>
+    <summary type="text">DocSEAM is a lightweight module between a pretrained vision encoder and language model that enriches page visual tokens with neighboring-page context via center-anchored masked self-attention, improving multi-page document VQA and reducing boundary sensitivity.</summary>
+    <category term="paper" />
+    <category term="llm" />
+    <category term="multimodal" />
+    <category term="research" />
+  </entry>
+  <entry>
+    <title>Amazon and Meta reportedly in talks to lift blockade on AI agent Muse</title>
+    <id>https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse</id>
+    <link href="https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/" />
+    <updated>2026-11-25T14:10:18Z</updated>
+    <summary type="text">Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.</summary>
+    <category term="news" />
+    <category term="agents" />
+    <link rel="related" href="https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions" title="Amazon is reportedly in talks to end Muse AI shopping block" />
+    <link rel="related" href="https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/" title="Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store." />
+    <link rel="related" href="https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping" title="Meta launches Muse in UK – the AI agent that can do your Christmas shopping" />
+  </entry>
+  <entry>
+    <title>nexu-io/opengame</title>
+    <id>https://github.com/nexu-io/opengame</id>
+    <link href="https://github.com/nexu-io/opengame" />
+    <updated>2026-11-25T10:35:45Z</updated>
+    <summary type="text">The Super Game Agent — the Unity &amp; Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D &amp; mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.</summary>
+    <category term="repo" />
+    <category term="coding" />
+    <category term="llm" />
+    <category term="agents" />
+  </entry>
+  <entry>
+    <title>Agent Identity &amp; Instructions</title>
+    <id>https://dev.to/eslamheikal/agent-identity-instructions-5h3d</id>
+    <link href="https://dev.to/eslamheikal/agent-identity-instructions-5h3d" />
+    <updated>2026-11-25T08:41:27Z</updated>
+    <summary type="text">Imagine an online retailer called YuMes . YuMes sells electronics, home appliances, accessories, and household products through its website and mobile application. Its customer service department handles requests through: • Website chat. • Mobile application. • Email. • Customer support portal. The company wants to introduce an AI agent that can handle common customer service requests without…</summary>
+    <category term="blog" />
+    <category term="agents" />
+    <link rel="related" href="https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/" title="Notion's official MCP inject hidden upsell instructions into agent context" />
+  </entry>
+  <entry>
+    <title>alesha-pro/llm.asm</title>
+    <id>https://github.com/alesha-pro/llm.asm</id>
+    <link href="https://github.com/alesha-pro/llm.asm" />
+    <updated>2026-11-25T07:28:51Z</updated>
+    <summary type="text">Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.</summary>
+    <category term="repo" />
+    <category term="llm" />
+    <category term="infra" />
+  </entry>
+  <entry>
+    <title>Antom 3-in-1 Transformer: A Payment Foundation Model</title>
+    <id>https://arxiv.org/abs/2611.25403</id>
+    <link href="https://arxiv.org/abs/2611.25403" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route. Antom 3-in-1 Transformer is pretrained to learn reusable behavioral and relational representations, primarily on Ant…</summary>
+    <category term="paper" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents</title>
+    <id>https://arxiv.org/abs/2611.28947</id>
+    <link href="https://arxiv.org/abs/2611.28947" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">NightWatch adds a lightweight streaming watcher to vision-language computer-use agents to keep perception synchronized with dynamic interfaces, reducing latency and wasted time while maintaining or improving task success.</summary>
+    <category term="paper" />
+    <category term="infra" />
+    <category term="agents" />
+    <category term="llm" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>Rewirable Circuits in Transformers with Loom Attention</title>
+    <id>https://arxiv.org/abs/2611.30634</id>
+    <link href="https://arxiv.org/abs/2611.30634" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the…</summary>
+    <category term="paper" />
+    <category term="llm" />
+    <category term="research" />
+  </entry>
+  <entry>
+    <title>ACAP: Asynchronous Coding Agents for Efficient Robot Control</title>
+    <id>https://arxiv.org/abs/2611.31205</id>
+    <link href="https://arxiv.org/abs/2611.31205" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each member reasons and acts for a configurable control group, such as an arm with its gripper or the torso…</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="coding" />
+    <category term="research" />
+    <category term="robotics" />
+  </entry>
+  <entry>
+    <title>Self-Evolving Evaluation Environments for Computer-Use Agents</title>
+    <id>https://arxiv.org/abs/2611.30962</id>
+    <link href="https://arxiv.org/abs/2611.30962" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">CUA-SEE is a closed-loop evaluation environment that co-evolves tasks and executable verifiers to adaptively measure computer-use agents’ capabilities, boundaries, and progress reliability.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="business" />
+    <category term="evals" />
+  </entry>
+  <entry>
+    <title>S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence</title>
+    <id>https://arxiv.org/abs/2611.28649</id>
+    <link href="https://arxiv.org/abs/2611.28649" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">Spatial intelligence, the ability to reason about 3D space from visual observations, becomes essential as multimodal large language models (MLLMs) move into the physical world. Beyond perceiving each view, it rests on two cornerstones of human cognition: fusing multiple views into one coherent 3D scene and mentally transforming that scene to new viewpoints as reasoning unfolds. Yet our spatial…</summary>
+    <category term="paper" />
+    <category term="llm" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement</title>
+    <id>https://arxiv.org/abs/2611.32554</id>
+    <link href="https://arxiv.org/abs/2611.32554" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">A training-free agentic framework integrates pretrained 3D and 2D experts with closed-loop refinement to achieve state-of-the-art 3D part segmentation across multiple benchmarks.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="evals" />
+  </entry>
+  <entry>
+    <title>Migrating our Messages API to Rust</title>
+    <id>https://anthropic.com/research/migrating-api-to-rust</id>
+    <link href="https://www.anthropic.com/research/migrating-api-to-rust" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions.</summary>
+    <category term="blog" />
+    <category term="agents" />
+    <category term="llm" />
+    <link rel="related" href="https://dev.to/_bd591a1907f9af94491a9/claude-rewrote-anthropics-core-api-from-python-to-rust-70-less-cpu-and-exposed-ai-codings-e5" title="Claude Rewrote Anthropic’s Core API From Python to Rust (70% Less CPU)—And Exposed AI Coding’s Biggest Lie" />
+    <link rel="related" href="https://www.unite.ai/anthropic-details-claude-assisted-rust-migration-of-messages-api/" title="Anthropic Details Claude-Assisted Rust Migration of Messages API" />
+    <link rel="related" href="https://dev.to/alexr/anthropic-rewrote-its-messages-api-in-rust-the-tests-said-98-production-said-25-58m7" title="Anthropic rewrote its Messages API in Rust. The tests said 98%. Production said 25%." />
+  </entry>
+  <entry>
+    <title>LingSante MedGuard Technical Report</title>
+    <id>https://arxiv.org/abs/2611.25509</id>
+    <link href="https://arxiv.org/abs/2611.25509" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">As medical AI is increasingly used for patient consultation and clinical decision support, identifying harmful, non-compliant, or ethically problematic responses is essential for responsible deployment. Assessing these risks requires checking clinical claims against relevant evidence, verifying calculations, and applying medical requirements under their intended conditions. We introduce LingSante…</summary>
+    <category term="paper" />
+    <category term="science-health" />
+    <category term="research" />
+  </entry>
+  <entry>
+    <title>Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation</title>
+    <id>https://arxiv.org/abs/2611.32736</id>
+    <link href="https://arxiv.org/abs/2611.32736" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">Fine-tuning a generator on a complete high-resolution canvas requires long image sequences and substantial computation, yet local regions can still exhibit unnatural repetitive stripes when training resources are limited. We introduce Qwen-Image-HD, which adapts Qwen-Image 2.0 to high-resolution synthesis through local training and blockwise autoregressive generation. Each prediction covers a…</summary>
+    <category term="paper" />
+    <category term="multimodal" />
+    <category term="llm" />
+    <category term="research" />
+  </entry>
+  <entry>
+    <title>KMed-31B Technical Report</title>
+    <id>https://arxiv.org/abs/2611.28719</id>
+    <link href="https://arxiv.org/abs/2611.28719" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">We present KMed-31B, a medical large language model post-trained from an open-weight model for on-premises deployment with limited hardware. Post-training a model for diverse medical tasks remains difficult, because improving one kind of task can lower performance on another. We attribute this to differences between tasks in expected output and available feedback. Medical question answering and…</summary>
+    <category term="paper" />
+    <category term="llm" />
+    <category term="open-source" />
+    <category term="science-health" />
+  </entry>
+  <entry>
+    <title>ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks</title>
+    <id>https://arxiv.org/abs/2611.32183</id>
+    <link href="https://arxiv.org/abs/2611.32183" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">A two-stage training approach uses visual pretext tasks to generate interleaved image-text reasoning traces and automatically built demonstrations, improving multimodal reasoning over instruction tuning alone.</summary>
+    <category term="paper" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification</title>
+    <id>https://arxiv.org/abs/2611.33143</id>
+    <link href="https://arxiv.org/abs/2611.33143" />
+    <updated>2026-11-24T18:56:22Z</updated>
+    <summary type="text">Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes from completion of these task requirements. We introduce ROAM-Bench to evaluate these abilities under robot motion and collision constraints. Independent checks use simulation state and episode…</summary>
+    <category term="paper" />
+    <category term="robotics" />
+    <category term="agents" />
+    <category term="evals" />
+    <category term="research" />
+  </entry>
+  <entry>
+    <title>Tidal announces ban on AI-generated music; 27 million tracks will be deleted</title>
+    <id>https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9</id>
+    <link href="https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/" />
+    <updated>2026-11-24T17:34:34Z</updated>
+    <summary type="text">AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.</summary>
+    <category term="news" />
+    <category term="policy" />
+    <link rel="related" href="https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/" title="Tidal bans AI-generated music" />
+    <link rel="related" href="https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/" title="Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming" />
+    <link rel="related" href="https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music" title="Tidal bans 100% AI-generated music with plans to delete more than 27m tracks" />
+  </entry>
+  <entry>
+    <title>GPT 6.2 Astra Solves a Historical Mystery</title>
+    <id>https://simonwillison.net/2026/Nov/24/astra-historical-mystery</id>
+    <link href="https://simonwillison.net/2026/Nov/24/astra-historical-mystery/" />
+    <updated>2026-11-24T16:53:59Z</updated>
+    <summary type="text">GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Beinecke Library . It did so extremely quickly (in just 22 minutes), using publicly available primary…</summary>
+    <category term="blog" />
+    <category term="llm" />
+    <link rel="related" href="https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical" title="GPT 6.2 Astra solves a historical mystery" />
+    <link rel="related" href="https://twitter.com/thsottiaux/status/2125784147889393806" title="OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster" />
+    <link rel="related" href="https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/" title="GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error" />
+    <link rel="related" href="https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/" title="GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy" />
+  </entry>
+  <entry>
+    <title>GPT-6 models demonstrate intrinsic protein-design capabilities</title>
+    <id>https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities</id>
+    <link href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities" />
+    <updated>2026-11-24T13:00:00Z</updated>
+    <summary type="text">GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.</summary>
+    <category term="blog" />
+    <category term="llm" />
+    <category term="science-health" />
+    <link rel="related" href="https://www.unite.ai/openai-reports-gpt-6-designs-proteins-with-reasoning-and-code/" title="OpenAI Reports GPT-6 Designs Proteins With Reasoning and Code" />
+  </entry>
+  <entry>
+    <title>LLM agents work for their parent companies, not for you</title>
+    <id>https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you</id>
+    <link href="https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/" />
+    <updated>2026-11-24T12:40:15Z</updated>
+    <summary type="text">LLM agents work for their parent companies, not for you</summary>
+    <category term="discussion" />
+    <category term="agents" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>elementalsouls/Claude-BugHunter</title>
+    <id>https://github.com/elementalsouls/claude-bughunter</id>
+    <link href="https://github.com/elementalsouls/Claude-BugHunter" />
+    <updated>2026-11-24T05:44:44Z</updated>
+    <summary type="text">A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.</summary>
+    <category term="repo" />
+    <category term="coding" />
+    <category term="llm" />
+    <category term="safety" />
+  </entry>
+  <entry>
+    <title>Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control</title>
+    <id>https://arxiv.org/abs/2611.29897</id>
+    <link href="https://arxiv.org/abs/2611.29897" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference…</summary>
+    <category term="paper" />
+    <category term="robotics" />
+    <category term="agents" />
+    <category term="infra" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>WorldLeague: Benchmarking Physical Agency</title>
+    <id>https://arxiv.org/abs/2611.30989</id>
+    <link href="https://arxiv.org/abs/2611.30989" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">WorldLeague benchmarks 13 AI systems on 60 simulated robot tasks spanning exploration, rearrangement, and adaptation, measuring progress and success to compare autonomous physical goal achievement.</summary>
+    <category term="paper" />
+    <category term="robotics" />
+    <category term="agents" />
+    <category term="evals" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness</title>
+    <id>https://arxiv.org/abs/2611.31201</id>
+    <link href="https://arxiv.org/abs/2611.31201" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">A systematic framework shows that frontier multimodal models can serve as robot policies when harnessed with interfaces favoring native visual reasoning and tool use, achieving high success in simulated and real manipulation tasks.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="multimodal" />
+    <category term="robotics" />
+  </entry>
+  <entry>
+    <title>3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets</title>
+    <id>https://arxiv.org/abs/2611.30013</id>
+    <link href="https://arxiv.org/abs/2611.30013" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">A new benchmark evaluates rigging and motion generation across six 3D morphology categories, compares specialized, video-based, and agent-driven paradigms, and proposes an agentic framework that writes compact parametric skeleton and motion programs executed deterministically for reliable control.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="evals" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation</title>
+    <id>https://arxiv.org/abs/2611.29338</id>
+    <link href="https://arxiv.org/abs/2611.29338" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">nanoAstra combines semantic action modeling with capability-preserving supervised fine-tuning to train vision-language models for generalizable robot manipulation, achieving strong zero-shot success and faster streaming execution.</summary>
+    <category term="paper" />
+    <category term="llm" />
+    <category term="multimodal" />
+    <category term="robotics" />
+  </entry>
+  <entry>
+    <title>WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce</title>
+    <id>https://arxiv.org/abs/2611.30662</id>
+    <link href="https://arxiv.org/abs/2611.30662" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">WeMM-Ecom, a family of multimodal large language models spanning dense and mixture-of-experts sizes, is trained with continued pre-training and hybrid-thinking post-training to achieve strong e-commerce and general-purpose results and is deployed in WeChat.</summary>
+    <category term="paper" />
+    <category term="llm" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood</title>
+    <id>https://arxiv.org/abs/2611.12164</id>
+    <link href="https://arxiv.org/abs/2611.12164" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">A code localizer is trained with scores from a frozen fixer via weighted supervised fine-tuning, improving bug localization and patch success for a small coding agent without tests or reinforcement learning.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="coding" />
+  </entry>
+  <entry>
+    <title>Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation</title>
+    <id>https://arxiv.org/abs/2611.31358</id>
+    <link href="https://arxiv.org/abs/2611.31358" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects…</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="research" />
+  </entry>
+  <entry>
+    <title>ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step</title>
+    <id>https://arxiv.org/abs/2611.26389</id>
+    <link href="https://arxiv.org/abs/2611.26389" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">ViDecide trains video diffusion models to make causal state-transition and stopping decisions, using Corrective Fine-tuning to improve multi-step planning success without policy gradients.</summary>
+    <category term="paper" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>Innata-0: A Native Embodied World System with Model-Agent Co-Design</title>
+    <id>https://arxiv.org/abs/2611.30254</id>
+    <link href="https://arxiv.org/abs/2611.30254" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">Innata-0 is a native embodied world system that co-designs a world-action model and an agent to enable reliable long-horizon physical behaviors through integrated understanding, prediction, action generation, memory, verification, and recovery.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="llm" />
+    <category term="robotics" />
+  </entry>
+  <entry>
+    <title>AutoPILOT: A Visual Agent Harness for Real-Time Gameplay</title>
+    <id>https://arxiv.org/abs/2611.28202</id>
+    <link href="https://arxiv.org/abs/2611.28202" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">A harness that lets multimodal foundation models emit primitive actions, open-loop macros, or closed-loop controllers improves real-time game performance and reduces API cost.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training</title>
+    <id>https://arxiv.org/abs/2611.27376</id>
+    <link href="https://arxiv.org/abs/2611.27376" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">RL post-training typically produces domain experts that must then be consolidated into one model, and as new experts keep arriving, this consolidation becomes a continual process. Weight merging and multi-teacher on-policy distillation (MOPD) must re-consolidate the whole model whenever an expert is added, and can erode capabilities outside the target domains. We propose Composable Soft-Prompt…</summary>
+    <category term="paper" />
+    <category term="research" />
+  </entry>
+  <entry>
+    <title>OpenAI and Cisco introduce Shirudo</title>
+    <id>https://openai.com/index/introducing-shirudo</id>
+    <link href="https://openai.com/index/introducing-shirudo" />
+    <updated>2026-11-23T21:20:00Z</updated>
+    <summary type="text">OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.</summary>
+    <category term="blog" />
+    <category term="open-source" />
+    <link rel="related" href="https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/" title="OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime" />
+  </entry>
+  <entry>
+    <title>DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers</title>
+    <id>https://arxiv.org/abs/2611.30844</id>
+    <link href="https://arxiv.org/abs/2611.30844" />
+    <updated>2026-11-23T15:27:20Z</updated>
+    <summary type="text">A dynamic looped mixture-of-experts diffusion transformer reuses shared parameters and varies compute across noise levels, improving image generation quality under matched budgets.</summary>
+    <category term="paper" />
+    <category term="multimodal" />
+    <category term="llm" />
+    <category term="research" />
+  </entry>
+  <entry>
+    <title>cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction</title>
+    <id>https://arxiv.org/abs/2611.27193</id>
+    <link href="https://arxiv.org/abs/2611.27193" />
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="text">Constraining residual stream mixing within the Birkhoff polytope via geometric contraction improves stability and scalability of hyper-connections in large-scale dense and mixture-of-experts model pretraining.</summary>
+    <category term="paper" />
+  </entry>
+  <entry>
+    <title>Non-penetrating World Models</title>
+    <id>https://arxiv.org/abs/2611.27963</id>
+    <link href="https://arxiv.org/abs/2611.27963" />
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="text">A benchmark and lightweight framework leverage hidden states from frozen diffusion transformers to detect and prevent object penetration in interactive video world models, reducing physical violations and generalizing zero-shot.</summary>
+    <category term="paper" />
+    <category term="evals" />
+    <category term="llm" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation</title>
+    <id>https://arxiv.org/abs/2611.26954</id>
+    <link href="https://arxiv.org/abs/2611.26954" />
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="text">Future-OPSD trains vision-language models via on-policy self-distillation and a contrastive privilege advantage derived from a foresight score, improving video foresight prediction and planning without extra annotations or LLM supervision.</summary>
+    <category term="paper" />
+    <category term="llm" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>EL4CTEO/fast-anything</title>
+    <id>https://github.com/el4cteo/fast-anything</id>
+    <link href="https://github.com/EL4CTEO/fast-anything" />
+    <updated>2026-11-21T14:40:27Z</updated>
+    <summary type="text">Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.</summary>
+    <category term="repo" />
+    <category term="coding" />
+    <category term="agents" />
+    <category term="llm" />
+  </entry>
+</feed>

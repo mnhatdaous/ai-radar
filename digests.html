@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Radar · Digests</title>
+<meta name="description" content="A daily digest of AI news, research, tools, models and repos.">
+<link rel="alternate" type="application/atom+xml" title="AI Radar" href="ai-radar.atom">
+<style>
+:root { color-scheme: light dark; --bg: #fff; --fg: #1b1b1f; --muted: #5f6368;
+  --line: #e4e4e7; --chip: #f1f3f4; --accent: #0b57d0; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #121212; --fg: #e6e6e6; --muted: #9aa0a6; --line: #2c2c2e; --chip: #26282b;
+    --accent: #8ab4f8; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 0 1rem 4rem; }
+header.top { display: flex; flex-wrap: wrap; gap: .4rem 1rem; align-items: baseline;
+  justify-content: space-between; padding: 1.2rem 0 .7rem; border-bottom: 1px solid var(--line); }
+header.top .brand { font-weight: 700; font-size: 1.1rem; color: var(--fg); }
+header.top nav { display: flex; gap: 1rem; font-size: .92rem; }
+h1 { font-size: 1.5rem; margin: 1.2rem 0 .4rem; }
+h2 { font-size: 1.15rem; margin: 2.2rem 0 .4rem; padding-bottom: .3rem;
+  border-bottom: 1px solid var(--line); scroll-margin-top: 1rem; }
+h3 { font-size: 1rem; margin: 1.6rem 0 .3rem; }
+blockquote { margin: .5rem 0 1rem; padding: .6rem .9rem; background: var(--chip);
+  border-radius: 8px; color: var(--muted); font-size: .92rem; }
+blockquote p { margin: 0; }
+ul, ol { padding-left: 1.4rem; }
+li { margin: .7rem 0; }
+li > ul { list-style: none; padding-left: 0; margin: .15rem 0 0; color: var(--muted);
+  font-size: .9rem; }
+li > ul > li { margin: .1rem 0; }
+code { font: inherit; font-size: .76rem; background: var(--chip); padding: .05rem .45rem;
+  border-radius: 999px; color: var(--muted); }
+.jump { display: flex; flex-wrap: wrap; gap: .3rem .9rem; margin: .9rem 0; font-size: .9rem; }
+.tools { margin: 1rem 0 .2rem; }
+input[type=search] { width: 100%; padding: .55rem .8rem; font: inherit; color: var(--fg);
+  background: var(--bg); border: 1px solid var(--line); border-radius: 8px; }
+.pager { display: flex; justify-content: space-between; margin: 1.4rem 0; font-size: .92rem; }
+footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line);
+  color: var(--muted); font-size: .85rem; }
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid var(--line);
+  vertical-align: top; }
+th { color: var(--muted); font-weight: 600; font-size: .85rem; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+td:first-child { white-space: nowrap; }
+.hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><a class="brand" href="index.html">AI Radar</a><nav><a href="digests.html">Digests</a> <a href="ai-radar.atom">Feed</a> <a href="https://github.com/mnhatdaous/ai-radar">GitHub</a></nav></header>
+<h1>Digests</h1><table><thead><tr><th>Day</th><th class="num">Items</th><th class="num">Stories</th><th>Top story</th></tr></thead><tbody><tr><td><a href="2026-11-28.html">2026-11-28</a></td><td class="num">122</td><td class="num">119</td><td>Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability</td></tr><tr><td><a href="2026-11-27.html">2026-11-27</a></td><td class="num">129</td><td class="num">128</td><td>AI made self-hosting fun again</td></tr><tr><td><a href="2026-11-26.html">2026-11-26</a></td><td class="num">280</td><td class="num">273</td><td>Antom 3-in-1 Transformer: A Payment Foundation Model</td></tr><tr><td><a href="2026-11-25.html">2026-11-25</a></td><td class="num">360</td><td class="num">342</td><td>GPT-6 models demonstrate intrinsic protein-design capabilities</td></tr><tr><td><a href="2026-11-24.html">2026-11-24</a></td><td class="num">671</td><td class="num">647</td><td>OpenAI and Cisco introduce Shirudo</td></tr></tbody></table>
+<footer>Built from the daily digests. Headlines and short excerpts come from the sources' own feeds, and every item links back to its source. Source: <a href="https://github.com/mnhatdaous/ai-radar">mnhatdaous/ai-radar</a>.</footer>
+</div>
+<script>
+(function () {
+  var box = document.getElementById("q");
+  var main = document.getElementById("digest");
+  if (!box || !main) return;
+  box.addEventListener("input", function () {
+    var needle = box.value.trim().toLowerCase();
+    var groups = [], current = null;
+    Array.prototype.forEach.call(main.children, function (el) {
+      if (el.tagName === "H2" || el.tagName === "H3") {
+        current = { heading: el, entries: [] };
+        groups.push(current);
+      } else if (current && (el.tagName === "UL" || el.tagName === "OL")) {
+        Array.prototype.forEach.call(el.children, function (li) { current.entries.push(li); });
+      }
+    });
+    groups.forEach(function (group) {
+      var shown = 0;
+      group.entries.forEach(function (li) {
+        var match = !needle || li.textContent.toLowerCase().indexOf(needle) > -1;
+        li.classList.toggle("hidden", !match);
+        if (match) shown++;
+      });
+      group.heading.classList.toggle("hidden", !!needle && group.entries.length > 0 && shown === 0);
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -2,10 +2,103 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>AI Radar</title>
   <id>urn:ai-radar:feed</id>
-  <updated>2026-11-27T08:47:26Z</updated>
+  <updated>2026-11-28T08:02:12Z</updated>
   <author>
     <name>ai-radar</name>
   </author>
+  <entry>
+    <title>[AINews] Inside the exploding Coding Data Market</title>
+    <id>https://latent.space/p/ainews-inside-the-exploding-coding-data-market</id>
+    <link href="https://latent.space/p/ainews-inside-the-exploding-coding-data-market/" />
+    <updated>2026-11-28T03:45:59Z</updated>
+    <summary type="text">November 27, 2026 — How frontier labs buy training data.</summary>
+    <category term="blog" />
+    <category term="coding" />
+    <link rel="related" href="https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/" title="Inside the AI Training Data Market — Gabe Greenberg, G2i" />
+  </entry>
+  <entry>
+    <title>Anthropic Shares Close Above IPO Price After Two Sessions Below It</title>
+    <id>https://unite.ai/anthropic-shares-close-above-ipo-price-after-two-sessions-below-it</id>
+    <link href="https://www.unite.ai/anthropic-shares-close-above-ipo-price-after-two-sessions-below-it/" />
+    <updated>2026-11-28T03:36:04Z</updated>
+    <summary type="text">Anthropic’s Class A shares closed at $91.88 on November 27, 2026, rising 10.98% to move back above the company’s $83 initial public offering price after two sessions below it, according to Nasdaq’s official quote record. That finish put the shares approximately 10.7% above the IPO price, calculated from the reported close and offer price. It was also Anthropic’s highest close since its November…</summary>
+    <category term="news" />
+    <category term="business" />
+    <link rel="related" href="https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading" title="Anthropic breaks below $83 IPO price" />
+    <link rel="related" href="https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa" title="Anthropic is below its IPO price" />
+    <link rel="related" href="https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/" title="Anthropic shares fall below IPO price, a worrying sign for AI startups" />
+    <link rel="related" href="https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html" title="Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price" />
+    <link rel="related" href="https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html" title="Anthropic closes below $83 IPO price, but analysts are still largely positive" />
+  </entry>
+  <entry>
+    <title>Woman evicted after landlord's AI assistant told her she could delay rent</title>
+    <id>https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai</id>
+    <link href="https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai" />
+    <updated>2026-11-28T01:32:56Z</updated>
+    <summary type="text">Woman evicted after landlord's AI assistant told her she could delay rent</summary>
+    <category term="discussion" />
+  </entry>
+  <entry>
+    <title>datasette-charts 0.4a0</title>
+    <id>https://simonwillison.net/2026/Nov/27/datasette-charts</id>
+    <link href="https://simonwillison.net/2026/Nov/27/datasette-charts/" />
+    <updated>2026-11-27T23:57:17Z</updated>
+    <summary type="text">Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional chart…</summary>
+    <category term="blog" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>Banks look to dump AI debt</title>
+    <id>https://semafor.com/article/11/26/2026/banks-look-to-dump-ai-debt</id>
+    <link href="https://www.semafor.com/article/11/26/2026/banks-look-to-dump-ai-debt" />
+    <updated>2026-11-27T20:56:17Z</updated>
+    <summary type="text">Banks look to dump AI debt</summary>
+    <category term="discussion" />
+  </entry>
+  <entry>
+    <title>Prospero: Bloat-free, native AI coding harness with ImGui</title>
+    <id>https://github.com/skeeto/prospero</id>
+    <link href="https://github.com/skeeto/prospero" />
+    <updated>2026-11-27T20:23:14Z</updated>
+    <summary type="text">Prospero: Bloat-free, native AI coding harness with ImGui</summary>
+    <category term="discussion" />
+    <category term="coding" />
+  </entry>
+  <entry>
+    <title>Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10</title>
+    <id>https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10</id>
+    <link href="https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/" />
+    <updated>2026-11-27T18:59:55Z</updated>
+    <summary type="text">Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10</summary>
+    <category term="discussion" />
+    <category term="infra" />
+  </entry>
+  <entry>
+    <title>I'm Scared of AI</title>
+    <id>https://thesoapbox.email/archive/3</id>
+    <link href="https://thesoapbox.email/archive/3" />
+    <updated>2026-11-27T17:45:31Z</updated>
+    <summary type="text">I'm Scared of AI</summary>
+    <category term="discussion" />
+  </entry>
+  <entry>
+    <title>SAP plans to cut at least 10,000 jobs as it pivots to AI</title>
+    <id>https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai</id>
+    <link href="https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/" />
+    <updated>2026-11-27T14:57:25Z</updated>
+    <summary type="text">SAP is preparing to eliminate at least 10,000 positions as part of a sweeping AI restructuring, Bloomberg reports, citing people familiar with the matter. The article SAP plans to cut at least 10,000 jobs as it pivots to AI appeared first on The Decoder .</summary>
+    <category term="news" />
+    <link rel="related" href="https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html" title="Tech German software major SAP is reportedly weighing cutting at least 10,000 jobs in AI push" />
+    <link rel="related" href="https://www.unite.ai/sap-could-cut-at-least-10-000-jobs-in-reported-ai-overhaul/" title="SAP Could Cut at Least 10,000 Jobs in Reported AI Overhaul" />
+  </entry>
+  <entry>
+    <title>AI on brink of making online security useless, mathematicians fear</title>
+    <id>https://thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8</id>
+    <link href="https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8" />
+    <updated>2026-11-27T11:09:04Z</updated>
+    <summary type="text">AI on brink of making online security useless, mathematicians fear</summary>
+    <category term="discussion" />
+  </entry>
   <entry>
     <title>zhouxiaoka/autoclip</title>
     <id>https://github.com/zhouxiaoka/autoclip</id>
@@ -25,12 +118,111 @@
     <category term="discussion" />
   </entry>
   <entry>
-    <title>New AI research suggests AI bubble bursting and to expect major market collapse</title>
-    <id>https://london.edu/think/ai-bubble-about-to-burst</id>
-    <link href="https://www.london.edu/think/ai-bubble-about-to-burst" />
-    <updated>2026-11-27T02:44:12Z</updated>
-    <summary type="text">New AI research suggests AI bubble bursting and to expect major market collapse</summary>
-    <category term="discussion" />
+    <title>Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability</title>
+    <id>https://arxiv.org/abs/2611.34051</id>
+    <link href="https://arxiv.org/abs/2611.34051" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry…</summary>
+    <category term="paper" />
+    <category term="rag-search" />
+  </entry>
+  <entry>
+    <title>OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms</title>
+    <id>https://arxiv.org/abs/2611.34232</id>
+    <link href="https://arxiv.org/abs/2611.34232" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">A live cross-platform benchmark evaluates computer-using agents on long-horizon workflows across Windows, Ubuntu, macOS, iOS, Android, and Web, showing that current agents remain far from platform-robust computer use and trail humans on iOS and macOS.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="evals" />
+  </entry>
+  <entry>
+    <title>What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models</title>
+    <id>https://arxiv.org/abs/2611.31619</id>
+    <link href="https://arxiv.org/abs/2611.31619" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">A tool called Vernier measures the smallest score difference a time-series forecasting leaderboard can distinguish, showing that most boards cannot separate top entries and that ranking order can change with pool composition.</summary>
+    <category term="paper" />
+    <category term="evals" />
+  </entry>
+  <entry>
+    <title>ProxyGenBench: Benchmarking Proxy-Guided Video Generation</title>
+    <id>https://arxiv.org/abs/2611.34457</id>
+    <link href="https://arxiv.org/abs/2611.34457" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">A benchmark assesses how well video generators follow animated 3D blockouts while preserving structure, filling missing content, correcting proxy artifacts, and binding multimodal conditions to the correct entities and events.</summary>
+    <category term="paper" />
+    <category term="multimodal" />
+    <category term="evals" />
+  </entry>
+  <entry>
+    <title>OpenAI cost controls 💰, measuring RSI 📈, looped transformers ➰</title>
+    <id>https://tldr.tech/ai/2026-11-27</id>
+    <link href="https://tldr.tech/ai/2026-11-27" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">OpenAI cost controls 💰, measuring RSI 📈, looped transformers ➰</summary>
+    <category term="blog" />
+    <category term="llm" />
+    <link rel="related" href="https://micjm.com/blog/openai-is-in-cost-control-mode/" title="OpenAI may be in cost control mode" />
+  </entry>
+  <entry>
+    <title>StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation</title>
+    <id>https://arxiv.org/abs/2611.34290</id>
+    <link href="https://arxiv.org/abs/2611.34290" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">StateWeaver improves long-video generation by preserving cross-shot consistency and updating visual references through active state tracking and hierarchical collaboration.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>ShowNow: Fine-Grained Speculative Streaming for Responsive World Models</title>
+    <id>https://arxiv.org/abs/2611.34693</id>
+    <link href="https://arxiv.org/abs/2611.34693" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">A fine-grained speculative streaming framework prepares action-conditioned video futures during playback to reduce input-to-display latency in interactive world models while sustaining real-time generation.</summary>
+    <category term="paper" />
+    <category term="infra" />
+    <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation</title>
+    <id>https://arxiv.org/abs/2611.32238</id>
+    <link href="https://arxiv.org/abs/2611.32238" />
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="text">A method that explicitly shapes and expands the handoff boundary of visuomotor policies improves coordination between multimodal agents and robot policies, yielding higher success and lower cost.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="multimodal" />
+    <category term="robotics" />
+  </entry>
+  <entry>
+    <title>Ndarrr07/pro-llm-api-hub</title>
+    <id>https://github.com/ndarrr07/pro-llm-api-hub</id>
+    <link href="https://github.com/Ndarrr07/pro-llm-api-hub" />
+    <updated>2026-11-26T23:24:29Z</updated>
+    <summary type="text">Pro LLM API Hub: Structured Dataset of Large Language Model Interfaces</summary>
+    <category term="repo" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>titisseptian-SS/omniroute-explorer</title>
+    <id>https://github.com/titisseptian-ss/omniroute-explorer</id>
+    <link href="https://github.com/titisseptian-SS/omniroute-explorer" />
+    <updated>2026-11-26T22:49:29Z</updated>
+    <summary type="text">OmniRoute Explorer: Lightweight, Open-Access Routing Tool</summary>
+    <category term="repo" />
+    <category term="llm" />
+  </entry>
+  <entry>
+    <title>Birubhai1964/interview-copilot</title>
+    <id>https://github.com/birubhai1964/interview-copilot</id>
+    <link href="https://github.com/Birubhai1964/interview-copilot" />
+    <updated>2026-11-26T21:57:38Z</updated>
+    <summary type="text">Interview Copilot: EdTech Platform Connecting Learning to Your Dream Career</summary>
+    <category term="repo" />
+    <category term="agents" />
+    <category term="coding" />
   </entry>
   <entry>
     <title>AI made self-hosting fun again</title>
@@ -41,20 +233,15 @@
     <category term="discussion" />
   </entry>
   <entry>
-    <title>Top-cited AI scientists at four US companies compared</title>
-    <id>https://topcitedscientists.com/figures/ai-at-four-us-companies</id>
-    <link href="https://topcitedscientists.com/figures/ai-at-four-us-companies/" />
-    <updated>2026-11-26T19:44:31Z</updated>
-    <summary type="text">Top-cited AI scientists at four US companies compared</summary>
-    <category term="discussion" />
-  </entry>
-  <entry>
-    <title>An introduction to uncertainty in machine learning</title>
-    <id>https://chrhenning.com/blog/2026/introduction-to-uncertainty</id>
-    <link href="https://chrhenning.com/blog/2026/introduction-to-uncertainty/" />
-    <updated>2026-11-26T19:04:50Z</updated>
-    <summary type="text">An introduction to uncertainty in machine learning</summary>
-    <category term="discussion" />
+    <title>thebodytheory01-commits/final-round-ai-desktop</title>
+    <id>https://github.com/thebodytheory01-commits/final-round-ai-desktop</id>
+    <link href="https://github.com/thebodytheory01-commits/final-round-ai-desktop" />
+    <updated>2026-11-26T21:37:37Z</updated>
+    <summary type="text">Final Round AI Desktop: Real-Time Interview Coaching, Speech Transcription, and Response Suggestions</summary>
+    <category term="repo" />
+    <category term="agents" />
+    <category term="llm" />
+    <category term="multimodal" />
   </entry>
   <entry>
     <title>gary23w/f-ck_data_brokers</title>
@@ -67,48 +254,12 @@
     <category term="policy" />
   </entry>
   <entry>
-    <title>'AI' might be the end of our careers</title>
-    <id>https://baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers</id>
-    <link href="https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/" />
-    <updated>2026-11-26T17:29:28Z</updated>
-    <summary type="text">'AI' might be the end of our careers</summary>
-    <category term="discussion" />
-  </entry>
-  <entry>
-    <title>GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error</title>
-    <id>https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error</id>
-    <link href="https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/" />
-    <updated>2026-11-26T17:28:56Z</updated>
-    <summary type="text">OpenAI says a billing bug gave GPT-6.2 users incorrect discounts. After the fix, Astra and Sol users hit their limits 40 and 25 percent faster than last week. As an apology, subscribers get an extra reset, and business users get free Fast Mode through year-end. OpenAI is also testing a Chat and Work mode merger. The article GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a…</summary>
-    <category term="news" />
-    <category term="llm" />
-    <link rel="related" href="https://twitter.com/thsottiaux/status/2125784147889393806" title="OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster" />
-    <link rel="related" href="https://simonwillison.net/2026/Nov/24/astra-historical-mystery/" title="GPT 6.2 Astra Solves a Historical Mystery" />
-  </entry>
-  <entry>
     <title>Tracking Diseases Cured by AI</title>
     <id>https://diseasescuredbyai.com/</id>
     <link href="https://diseasescuredbyai.com/" />
     <updated>2026-11-26T17:16:41Z</updated>
     <summary type="text">Tracking Diseases Cured by AI</summary>
     <category term="discussion" />
-  </entry>
-  <entry>
-    <title>One guy is doing a hunger strike outside Anthropic, currently in his 3rd day</title>
-    <id>https://x.com/ElliotC1/status/2125689373337489419</id>
-    <link href="https://twitter.com/ElliotC1/status/2125689373337489419" />
-    <updated>2026-11-26T16:55:15Z</updated>
-    <summary type="text">One guy is doing a hunger strike outside Anthropic, currently in his 3rd day</summary>
-    <category term="discussion" />
-  </entry>
-  <entry>
-    <title>Testers think they're hitting Claude Opus 5.6 through an Opus 5.5 Extra route</title>
-    <id>https://testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6</id>
-    <link href="https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/" />
-    <updated>2026-11-26T14:38:57Z</updated>
-    <summary type="text">Testers think they're hitting Claude Opus 5.6 through an Opus 5.5 Extra route</summary>
-    <category term="discussion" />
-    <category term="llm" />
   </entry>
   <entry>
     <title>ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF</title>
@@ -143,23 +294,6 @@
     <link rel="related" href="https://dev.to/shekhar_verma/mcp-servers-clients-and-tools-how-the-pieces-fit-1ch2" title="MCP Servers, Clients, and Tools: How the Pieces Fit" />
     <link rel="related" href="https://dev.to/reclusivecoder/foxit-mcp-server-give-ai-agents-direct-access-to-30-pdf-tools-via-model-context-protocol-44na" title="Foxit MCP Server: Give AI Agents Direct Access to 30+ PDF Tools via Model Context Protocol" />
     <link rel="related" href="https://dev.to/supana74/foxits-mcp-server-lets-ai-agents-handle-pdfs-without-the-boilerplate-5ad0" title="Foxit’s MCP Server Lets AI Agents Handle PDFs Without the Boilerplate" />
-  </entry>
-  <entry>
-    <title>OpenAI may be in cost control mode</title>
-    <id>https://micjm.com/blog/openai-is-in-cost-control-mode</id>
-    <link href="https://micjm.com/blog/openai-is-in-cost-control-mode/" />
-    <updated>2026-11-26T07:33:12Z</updated>
-    <summary type="text">OpenAI may be in cost control mode</summary>
-    <category term="discussion" />
-  </entry>
-  <entry>
-    <title>The New York Times warns photographers not to update Photoshop over AI features</title>
-    <id>https://simonwillison.net/2026/Nov/26/hn-50651685</id>
-    <link href="https://simonwillison.net/2026/Nov/26/hn-50651685/" />
-    <updated>2026-11-26T05:08:46Z</updated>
-    <summary type="text">My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping and…</summary>
-    <category term="blog" />
-    <link rel="related" href="https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features" title="The New York Times warns photographers not to update Photoshop over AI features" />
   </entry>
   <entry>
     <title>Sage-Med: Scaling Medical Multimodal Intelligence</title>
@@ -204,16 +338,6 @@
     <category term="robotics" />
   </entry>
   <entry>
-    <title>EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts</title>
-    <id>https://arxiv.org/abs/2611.34466</id>
-    <link href="https://arxiv.org/abs/2611.34466" />
-    <updated>2026-11-26T00:00:00Z</updated>
-    <summary type="text">AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, agents can identify objects and activities relevant to user requests and ground digital tasks in the…</summary>
-    <category term="paper" />
-    <category term="agents" />
-    <category term="evals" />
-  </entry>
-  <entry>
     <title>Playfulness as Feedback for Agentic Game Development</title>
     <id>https://arxiv.org/abs/2611.33457</id>
     <link href="https://arxiv.org/abs/2611.33457" />
@@ -223,6 +347,16 @@
     <category term="agents" />
     <category term="coding" />
     <category term="multimodal" />
+  </entry>
+  <entry>
+    <title>EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts</title>
+    <id>https://arxiv.org/abs/2611.34466</id>
+    <link href="https://arxiv.org/abs/2611.34466" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, agents can identify objects and activities relevant to user requests and ground digital tasks in the…</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="evals" />
   </entry>
   <entry>
     <title>Let Vision-Language Models Generate Images through Their Representations</title>
@@ -281,34 +415,70 @@
     <category term="infra" />
   </entry>
   <entry>
+    <title>Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures</title>
+    <id>https://arxiv.org/abs/2611.33925</id>
+    <link href="https://arxiv.org/abs/2611.33925" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">Training world models on simulated manipulation failures with interaction alignment and surface correspondence reduces object trajectory and action-outcome prediction errors, including on unseen objects and real data.</summary>
+    <category term="paper" />
+    <category term="robotics" />
+    <category term="safety" />
+  </entry>
+  <entry>
+    <title>SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation</title>
+    <id>https://arxiv.org/abs/2611.33915</id>
+    <link href="https://arxiv.org/abs/2611.33915" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">SEEK retains executable manipulation procedures and measured action effects across attempts, enabling fixed foundation-model robots to improve without retraining.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="multimodal" />
+    <category term="robotics" />
+  </entry>
+  <entry>
+    <title>Letting Models Manage Their Own Context: Where We Stand</title>
+    <id>https://arxiv.org/abs/2611.34147</id>
+    <link href="https://arxiv.org/abs/2611.34147" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">Model-driven context management through a context API improves accuracy and token efficiency over harness-triggered compaction, while reusing KV caches after edits reduces prefill compute.</summary>
+    <category term="paper" />
+    <category term="agents" />
+  </entry>
+  <entry>
+    <title>Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations</title>
+    <id>https://arxiv.org/abs/2611.28010</id>
+    <link href="https://arxiv.org/abs/2611.28010" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">SlidesWeaver combines language and vision agents with diffusion-based planning and shared state to generate editable, high-quality PPTX presentations while preserving native text and layout.</summary>
+    <category term="paper" />
+    <category term="multimodal" />
+    <category term="agents" />
+  </entry>
+  <entry>
+    <title>iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control</title>
+    <id>https://arxiv.org/abs/2611.33922</id>
+    <link href="https://arxiv.org/abs/2611.33922" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">iMFPO enables efficient one-step action generation for embodied control by decoupling velocity learning and aligning drift-aware velocities during reward-driven policy optimization.</summary>
+    <category term="paper" />
+    <category term="robotics" />
+    <category term="safety" />
+  </entry>
+  <entry>
+    <title>WorldBridge: Bridging Scattered Views for Coherent 3D World Generation</title>
+    <id>https://arxiv.org/abs/2611.34079</id>
+    <link href="https://arxiv.org/abs/2611.34079" />
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary type="text">WorldBridge generates coherent and controllable 3D worlds from scattered, low-overlap images by encoding references into a global scene context and using attention and latent-reference consistency optimization.</summary>
+    <category term="paper" />
+  </entry>
+  <entry>
     <title>Much shorter version of GRH Lean verification from Anthropic</title>
     <id>https://github.com/lsernau/grh-lean</id>
     <link href="https://github.com/lsernau/grh-lean" />
     <updated>2026-11-25T21:48:10Z</updated>
     <summary type="text">Much shorter version of GRH Lean verification from Anthropic</summary>
     <category term="discussion" />
-  </entry>
-  <entry>
-    <title>Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it</title>
-    <id>https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it</id>
-    <link href="https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/" />
-    <updated>2026-11-25T19:54:57Z</updated>
-    <summary type="text">Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.</summary>
-    <category term="news" />
-    <category term="infra" />
-    <link rel="related" href="https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return" title="How Jensen Huang ended up as Nvidia CEO again" />
-    <link rel="related" href="https://www.bbc.co.uk/news/articles/c68798vdprwpo" title="How important are Nvidia and Jensen Huang to the US economy?" />
-  </entry>
-  <entry>
-    <title>uxpilot-ai/frontend-design-skill</title>
-    <id>https://github.com/uxpilot-ai/frontend-design-skill</id>
-    <link href="https://github.com/uxpilot-ai/frontend-design-skill" />
-    <updated>2026-11-25T19:40:33Z</updated>
-    <summary type="text">Free frontend design skill for Claude Code, Codex and Cursor: designs your UI on a UX Pilot canvas, then builds it in your code</summary>
-    <category term="repo" />
-    <category term="coding" />
-    <category term="agents" />
-    <category term="llm" />
   </entry>
   <entry>
     <title>Improving and Expanding Video Editing Capabilities Without Videos</title>
@@ -351,6 +521,18 @@
     <category term="multimodal" />
   </entry>
   <entry>
+    <title>DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents</title>
+    <id>https://arxiv.org/abs/2611.34852</id>
+    <link href="https://arxiv.org/abs/2611.34852" />
+    <updated>2026-11-25T18:25:30Z</updated>
+    <summary type="text">Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them. We introduce DRBench Pro, a benchmark that makes structured knowledge…</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="business" />
+    <category term="evals" />
+    <category term="research" />
+  </entry>
+  <entry>
     <title>Real2SimLab: A Unified Platform for Real-to-Simulation Transfer</title>
     <id>https://arxiv.org/abs/2611.34849</id>
     <link href="https://arxiv.org/abs/2611.34849" />
@@ -360,6 +542,17 @@
     <category term="agents" />
     <category term="coding" />
     <category term="evals" />
+  </entry>
+  <entry>
+    <title>Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models</title>
+    <id>https://arxiv.org/abs/2611.34813</id>
+    <link href="https://arxiv.org/abs/2611.34813" />
+    <updated>2026-11-25T18:01:22Z</updated>
+    <summary type="text">Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in…</summary>
+    <category term="paper" />
+    <category term="multimodal" />
+    <category term="agents" />
+    <category term="coding" />
   </entry>
   <entry>
     <title>HOG-WAM: Improving Visual Robustness through Future Gradient Prediction</title>
@@ -372,6 +565,19 @@
     <category term="llm" />
     <category term="multimodal" />
     <category term="research" />
+  </entry>
+  <entry>
+    <title>RoboEvo^2: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution</title>
+    <id>https://arxiv.org/abs/2611.34675</id>
+    <link href="https://arxiv.org/abs/2611.34675" />
+    <updated>2026-11-25T16:39:10Z</updated>
+    <summary type="text">RoboEvo$^2$ recursively co-evolves a coding-agent harness and a vision-language-action policy, using policy failures to discover reusable skills and preference distillation to improve motor control, yielding large success gains without extra human demonstrations.</summary>
+    <category term="paper" />
+    <category term="agents" />
+    <category term="coding" />
+    <category term="multimodal" />
+    <category term="robotics" />
+    <category term="business" />
   </entry>
   <entry>
     <title>New York bans AI toys, including those using internet to talk to children</title>
@@ -397,15 +603,16 @@
     <category term="research" />
   </entry>
   <entry>
-    <title>AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant</title>
-    <id>https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant</id>
-    <link href="https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/" />
-    <updated>2026-11-25T13:23:36Z</updated>
-    <summary type="text">Google Deepmind uses AI agents to run experiments on their own for upcoming Gemini models. Research chief Koray Kavukcuoglu says the lab is still far from recursive self-improvement. For oversight, Deepmind intentionally leaves the agents' internal chains of thought untrained so they can be reviewed. Kavukcuoglu measures AGI by everyday user trust rather than benchmarks. The article AI agents now…</summary>
+    <title>Amazon and Meta reportedly in talks to lift blockade on AI agent Muse</title>
+    <id>https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse</id>
+    <link href="https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/" />
+    <updated>2026-11-25T14:10:18Z</updated>
+    <summary type="text">Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.</summary>
     <category term="news" />
     <category term="agents" />
-    <category term="evals" />
-    <category term="llm" />
+    <link rel="related" href="https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions" title="Amazon is reportedly in talks to end Muse AI shopping block" />
+    <link rel="related" href="https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/" title="Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store." />
+    <link rel="related" href="https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping" title="Meta launches Muse in UK – the AI agent that can do your Christmas shopping" />
   </entry>
   <entry>
     <title>nexu-io/opengame</title>
@@ -513,16 +720,6 @@
     <category term="evals" />
   </entry>
   <entry>
-    <title>LingSante MedGuard Technical Report</title>
-    <id>https://arxiv.org/abs/2611.25509</id>
-    <link href="https://arxiv.org/abs/2611.25509" />
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary type="text">As medical AI is increasingly used for patient consultation and clinical decision support, identifying harmful, non-compliant, or ethically problematic responses is essential for responsible deployment. Assessing these risks requires checking clinical claims against relevant evidence, verifying calculations, and applying medical requirements under their intended conditions. We introduce LingSante…</summary>
-    <category term="paper" />
-    <category term="science-health" />
-    <category term="research" />
-  </entry>
-  <entry>
     <title>Migrating our Messages API to Rust</title>
     <id>https://anthropic.com/research/migrating-api-to-rust</id>
     <link href="https://www.anthropic.com/research/migrating-api-to-rust" />
@@ -532,19 +729,18 @@
     <category term="agents" />
     <category term="llm" />
     <link rel="related" href="https://dev.to/_bd591a1907f9af94491a9/claude-rewrote-anthropics-core-api-from-python-to-rust-70-less-cpu-and-exposed-ai-codings-e5" title="Claude Rewrote Anthropic’s Core API From Python to Rust (70% Less CPU)—And Exposed AI Coding’s Biggest Lie" />
-    <link rel="related" href="https://dev.to/alexr/anthropic-rewrote-its-messages-api-in-rust-the-tests-said-98-production-said-25-58m7" title="Anthropic rewrote its Messages API in Rust. The tests said 98%. Production said 25%." />
     <link rel="related" href="https://www.unite.ai/anthropic-details-claude-assisted-rust-migration-of-messages-api/" title="Anthropic Details Claude-Assisted Rust Migration of Messages API" />
+    <link rel="related" href="https://dev.to/alexr/anthropic-rewrote-its-messages-api-in-rust-the-tests-said-98-production-said-25-58m7" title="Anthropic rewrote its Messages API in Rust. The tests said 98%. Production said 25%." />
   </entry>
   <entry>
-    <title>KMed-31B Technical Report</title>
-    <id>https://arxiv.org/abs/2611.28719</id>
-    <link href="https://arxiv.org/abs/2611.28719" />
+    <title>LingSante MedGuard Technical Report</title>
+    <id>https://arxiv.org/abs/2611.25509</id>
+    <link href="https://arxiv.org/abs/2611.25509" />
     <updated>2026-11-25T00:00:00Z</updated>
-    <summary type="text">We present KMed-31B, a medical large language model post-trained from an open-weight model for on-premises deployment with limited hardware. Post-training a model for diverse medical tasks remains difficult, because improving one kind of task can lower performance on another. We attribute this to differences between tasks in expected output and available feedback. Medical question answering and…</summary>
+    <summary type="text">As medical AI is increasingly used for patient consultation and clinical decision support, identifying harmful, non-compliant, or ethically problematic responses is essential for responsible deployment. Assessing these risks requires checking clinical claims against relevant evidence, verifying calculations, and applying medical requirements under their intended conditions. We introduce LingSante…</summary>
     <category term="paper" />
-    <category term="llm" />
-    <category term="open-source" />
     <category term="science-health" />
+    <category term="research" />
   </entry>
   <entry>
     <title>Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation</title>
@@ -558,6 +754,17 @@
     <category term="research" />
   </entry>
   <entry>
+    <title>KMed-31B Technical Report</title>
+    <id>https://arxiv.org/abs/2611.28719</id>
+    <link href="https://arxiv.org/abs/2611.28719" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="text">We present KMed-31B, a medical large language model post-trained from an open-weight model for on-premises deployment with limited hardware. Post-training a model for diverse medical tasks remains difficult, because improving one kind of task can lower performance on another. We attribute this to differences between tasks in expected output and available feedback. Medical question answering and…</summary>
+    <category term="paper" />
+    <category term="llm" />
+    <category term="open-source" />
+    <category term="science-health" />
+  </entry>
+  <entry>
     <title>ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks</title>
     <id>https://arxiv.org/abs/2611.32183</id>
     <link href="https://arxiv.org/abs/2611.32183" />
@@ -565,72 +772,6 @@
     <summary type="text">A two-stage training approach uses visual pretext tasks to generate interleaved image-text reasoning traces and automatically built demonstrations, improving multimodal reasoning over instruction tuning alone.</summary>
     <category term="paper" />
     <category term="multimodal" />
-  </entry>
-  <entry>
-    <title>ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds</title>
-    <id>https://arxiv.org/abs/2611.32649</id>
-    <link href="https://arxiv.org/abs/2611.32649" />
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary type="text">An online benchmark evaluates in-context learning across computer-use and robot-use agent tasks, revealing large gaps between digital and physical performance and between recognizing rules and acting on them.</summary>
-    <category term="paper" />
-    <category term="agents" />
-    <category term="evals" />
-    <category term="infra" />
-    <category term="robotics" />
-  </entry>
-  <entry>
-    <title>PhyCoVE: Benchmarking Physical Counterfactual Video Editing across Diverse Material Dynamics</title>
-    <id>https://arxiv.org/abs/2611.29184</id>
-    <link href="https://arxiv.org/abs/2611.29184" />
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary type="text">PhyCoVE, a 533-case benchmark, and counterfactual fidelity evaluate video editing models on physical counterfactual edits involving rigid, elastic, and fluid dynamics, showing that even the best model reproduces only about one seventh of the physical change.</summary>
-    <category term="paper" />
-    <category term="agents" />
-    <category term="coding" />
-    <category term="evals" />
-    <category term="llm" />
-  </entry>
-  <entry>
-    <title>Reinforcing Diffusion Models by Instantaneous Trajectory Distribution Matching</title>
-    <id>https://arxiv.org/abs/2611.30986</id>
-    <link href="https://arxiv.org/abs/2611.30986" />
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary type="text">Forward diffusion reinforcement learning (RL)---enabling deterministic ODE sampling without trajectory backpropagation---has grown increasingly popular for efficiently aligning diffusion models. However, we reveal that existing methods essentially rely on signed reward-weighted regression (RWR), regressing the trainable policy velocity onto rollouts from a behavior distribution. Unbiased baseline…</summary>
-    <category term="paper" />
-    <category term="multimodal" />
-  </entry>
-  <entry>
-    <title>SpecEngineeringBench: Evaluating Coding Agents as Autonomous Specification Engineers</title>
-    <id>https://arxiv.org/abs/2611.32973</id>
-    <link href="https://arxiv.org/abs/2611.32973" />
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary type="text">Autonomous specification engineering requires coding agents to translate functional requirements into executable tests and use the results to discover and validate defects. However, existing benchmarks evaluate coding agents on explicitly specified test generation tasks, commonly providing an issue description, a designated test entry point, or files to inspect, leaving the ability to determine…</summary>
-    <category term="paper" />
-    <category term="agents" />
-    <category term="coding" />
-    <category term="evals" />
-  </entry>
-  <entry>
-    <title>Coding4Games: Can Modern Coding Agents Play Modern Video Games?</title>
-    <id>https://arxiv.org/abs/2611.31974</id>
-    <link href="https://arxiv.org/abs/2611.31974" />
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary type="text">Games, especially modern AAA games, challenge language models to perceive complex scenes, control actions, and make decisions over long horizons. Existing game benchmarks primarily test language models as computer-use agents that query a language model throughout play, incurring repeated inference cost and, in real-time games, acting while the environment continues to evolve. We ask whether…</summary>
-    <category term="paper" />
-    <category term="agents" />
-    <category term="coding" />
-    <category term="evals" />
-    <category term="infra" />
-  </entry>
-  <entry>
-    <title>CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies</title>
-    <id>https://arxiv.org/abs/2611.33148</id>
-    <link href="https://arxiv.org/abs/2611.33148" />
-    <updated>2026-11-24T18:58:53Z</updated>
-    <summary type="text">Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are closed models whose chain-of-thought is hidden behind an API. We show that the chain-of-thought can…</summary>
-    <category term="paper" />
-    <category term="agents" />
-    <category term="llm" />
   </entry>
   <entry>
     <title>ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification</title>
@@ -645,17 +786,6 @@
     <category term="research" />
   </entry>
   <entry>
-    <title>Anthropic shares fall below IPO price, a worrying sign for AI startups</title>
-    <id>https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups</id>
-    <link href="https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/" />
-    <updated>2026-11-24T18:30:42Z</updated>
-    <summary type="text">Anthropic’s post-IPO slump could put pressure on AI startup valuations.</summary>
-    <category term="news" />
-    <category term="business" />
-    <link rel="related" href="https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading" title="Anthropic breaks below $83 IPO price" />
-    <link rel="related" href="https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa" title="Anthropic is below its IPO price" />
-  </entry>
-  <entry>
     <title>Tidal announces ban on AI-generated music; 27 million tracks will be deleted</title>
     <id>https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9</id>
     <link href="https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/" />
@@ -668,60 +798,17 @@
     <link rel="related" href="https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music" title="Tidal bans 100% AI-generated music with plans to delete more than 27m tracks" />
   </entry>
   <entry>
-    <title>Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies</title>
-    <id>https://arxiv.org/abs/2611.33010</id>
-    <link href="https://arxiv.org/abs/2611.33010" />
-    <updated>2026-11-24T17:32:00Z</updated>
-    <summary type="text">A new benchmark shows that many robot manipulation policies perform worse when mirrors are present, often because they confuse reflections with real objects rather than simply colliding with the mirror.</summary>
-    <category term="paper" />
-    <category term="robotics" />
-    <category term="agents" />
-    <category term="evals" />
-    <category term="multimodal" />
-    <category term="research" />
-  </entry>
-  <entry>
-    <title>Meta brings its Muse AI assistant directly into Instagram DMs</title>
-    <id>https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms</id>
-    <link href="https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/" />
-    <updated>2026-11-24T17:00:00Z</updated>
-    <summary type="text">The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.</summary>
-    <category term="news" />
-    <category term="agents" />
-    <link rel="related" href="https://www.theguardian.com/technology/2026/nov/24/have-you-downloaded-metas-ai-assistant-muse-or-do-you-plan-to" title="Have you downloaded Meta’s AI assistant Muse or do you plan to?" />
-    <link rel="related" href="https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html" title="How Meta is using Instagram to get an ad boost from its Muse personal AI agent" />
-    <link rel="related" href="https://www.unite.ai/meta-adds-muse-ai-agent-to-instagram-dms-for-saved-content-planning/" title="Meta Adds Muse AI Agent to Instagram DMs for Saved-Content Planning" />
-  </entry>
-  <entry>
-    <title>Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?</title>
-    <id>https://news.ycombinator.com/item?id=50630809</id>
-    <link href="https://news.ycombinator.com/item?id=50630809" />
-    <updated>2026-11-24T16:45:44Z</updated>
-    <summary type="text">Basically the title. Anthropic is accusing me and my company of using their API for distillation. We are not. We do not train our own models. Our only usage which I think could get us flagged is automated regression benchmarks whenever we change some AI settings. But this is not against their policy? Now I've got 24h to prove we didn't. Has anyone dealt with this too? How can you prove that you…</summary>
-    <category term="discussion" />
-    <category term="evals" />
-  </entry>
-  <entry>
-    <title>prism-ml/Ternary-Bonsai-2.5-27B-GGUF</title>
-    <id>https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF</id>
-    <link href="https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF" />
-    <updated>2026-11-24T16:32:20Z</updated>
-    <summary type="text">Trending text-generation on Hugging Face · 177 likes.</summary>
-    <category term="model" />
-    <category term="open-source" />
+    <title>GPT 6.2 Astra Solves a Historical Mystery</title>
+    <id>https://simonwillison.net/2026/Nov/24/astra-historical-mystery</id>
+    <link href="https://simonwillison.net/2026/Nov/24/astra-historical-mystery/" />
+    <updated>2026-11-24T16:53:59Z</updated>
+    <summary type="text">GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Beinecke Library . It did so extremely quickly (in just 22 minutes), using publicly available primary…</summary>
+    <category term="blog" />
     <category term="llm" />
-  </entry>
-  <entry>
-    <title>Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe</title>
-    <id>https://arxiv.org/abs/2611.32884</id>
-    <link href="https://arxiv.org/abs/2611.32884" />
-    <updated>2026-11-24T16:17:51Z</updated>
-    <summary type="text">A reinforcement learning method rewards agents for delaying commitment until their inferred posterior over answers is sufficiently narrow, improving evidence-based answering across vision-language benchmarks.</summary>
-    <category term="paper" />
-    <category term="agents" />
-    <category term="evals" />
-    <category term="multimodal" />
-    <category term="business" />
+    <link rel="related" href="https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical" title="GPT 6.2 Astra solves a historical mystery" />
+    <link rel="related" href="https://twitter.com/thsottiaux/status/2125784147889393806" title="OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster" />
+    <link rel="related" href="https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/" title="GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error" />
+    <link rel="related" href="https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/" title="GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy" />
   </entry>
   <entry>
     <title>GPT-6 models demonstrate intrinsic protein-design capabilities</title>
@@ -754,25 +841,6 @@
     <category term="coding" />
     <category term="llm" />
     <category term="safety" />
-  </entry>
-  <entry>
-    <title>cathrynlavery/diagram-design</title>
-    <id>https://github.com/cathrynlavery/diagram-design</id>
-    <link href="https://github.com/cathrynlavery/diagram-design" />
-    <updated>2026-11-24T05:44:44Z</updated>
-    <summary type="text">Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.</summary>
-    <category term="repo" />
-    <category term="coding" />
-    <category term="llm" />
-  </entry>
-  <entry>
-    <title>mvanhorn/last30days-skill</title>
-    <id>https://github.com/mvanhorn/last30days-skill</id>
-    <link href="https://github.com/mvanhorn/last30days-skill" />
-    <updated>2026-11-24T05:44:44Z</updated>
-    <summary type="text">AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary</summary>
-    <category term="repo" />
-    <category term="agents" />
   </entry>
   <entry>
     <title>Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control</title>
@@ -901,57 +969,6 @@
     <category term="research" />
   </entry>
   <entry>
-    <title>Plan4D: Generative Plannable 4D Worlds</title>
-    <id>https://arxiv.org/abs/2611.26516</id>
-    <link href="https://arxiv.org/abs/2611.26516" />
-    <updated>2026-11-24T00:00:00Z</updated>
-    <summary type="text">Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling. In this paper, we introduce plan4d, a possible next milestone towards building a generative plannable 4D world model that predicts future RGB videos together with dense 4D geometry…</summary>
-    <category term="paper" />
-    <category term="research" />
-  </entry>
-  <entry>
-    <title>RUIBench: What Makes a Good Robot-Use Interface?</title>
-    <id>https://arxiv.org/abs/2611.31115</id>
-    <link href="https://arxiv.org/abs/2611.31115" />
-    <updated>2026-11-24T00:00:00Z</updated>
-    <summary type="text">Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To systematically study its impact, we introduce RUIBench, comprising 30 manipulation tasks across five…</summary>
-    <category term="paper" />
-    <category term="agents" />
-    <category term="research" />
-    <category term="robotics" />
-  </entry>
-  <entry>
-    <title>Distilling Visual Agents from Limited Interaction Experience</title>
-    <id>https://arxiv.org/abs/2611.28618</id>
-    <link href="https://arxiv.org/abs/2611.28618" />
-    <updated>2026-11-24T00:00:00Z</updated>
-    <summary type="text">A few selected interaction trajectories combined with on-policy distillation allow a small visual agent to transfer broadly and recover most of a larger teacher's performance with minimal online experience.</summary>
-    <category term="paper" />
-    <category term="agents" />
-  </entry>
-  <entry>
-    <title>ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild</title>
-    <id>https://arxiv.org/abs/2611.30597</id>
-    <link href="https://arxiv.org/abs/2611.30597" />
-    <updated>2026-11-24T00:00:00Z</updated>
-    <summary type="text">Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion. Recent methods leverage pretrained video diffusion model (VDM) priors to recover occluded hands directly from full-frame videos, but their appearance-based depth regression generalizes poorly to unseen cameras. In this work, we propose ViDiHand2, a geometry-driven framework that reformulates…</summary>
-    <category term="paper" />
-    <category term="multimodal" />
-    <category term="research" />
-    <category term="robotics" />
-  </entry>
-  <entry>
-    <title>DiLE: Discrimination-Aware Latent-Space Learning for Universal Multimodal Embeddings</title>
-    <id>https://arxiv.org/abs/2611.25419</id>
-    <link href="https://arxiv.org/abs/2611.25419" />
-    <updated>2026-11-24T00:00:00Z</updated>
-    <summary type="text">A discrimination-aware latent-space learning framework combines task guidance with on-policy retrieval feedback to preserve discriminative evidence in multimodal embeddings and improve retrieval across modalities and tasks.</summary>
-    <category term="paper" />
-    <category term="rag-search" />
-    <category term="llm" />
-    <category term="multimodal" />
-  </entry>
-  <entry>
     <title>OpenAI and Cisco introduce Shirudo</title>
     <id>https://openai.com/index/introducing-shirudo</id>
     <link href="https://openai.com/index/introducing-shirudo" />
@@ -1000,30 +1017,6 @@
     <category term="paper" />
     <category term="llm" />
     <category term="multimodal" />
-  </entry>
-  <entry>
-    <title>Clover-35B-A3B-Preview Technical Report</title>
-    <id>https://arxiv.org/abs/2611.24636</id>
-    <link href="https://arxiv.org/abs/2611.24636" />
-    <updated>2026-11-23T00:00:00Z</updated>
-    <summary type="text">We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside the current block. Historical memory…</summary>
-    <category term="paper" />
-    <category term="business" />
-    <category term="llm" />
-    <category term="multimodal" />
-    <category term="research" />
-  </entry>
-  <entry>
-    <title>qianyiai/kurocat</title>
-    <id>https://github.com/qianyiai/kurocat</id>
-    <link href="https://github.com/qianyiai/kurocat" />
-    <updated>2026-11-21T15:49:31Z</updated>
-    <summary type="text">KuroCat — Free open-source desktop typing cat pet &amp; OBS overlay (Bongo Cat alternative, Tauri v2 + Rust + MCP)｜轻量级透明置顶桌面打字小黑猫伴侣（6款猫咪+鲸鱼娘大肥鱼 / 输密码防偷窥 / OBS透明源 / AI捏猫 / Win·Mac·Linux·Android）</summary>
-    <category term="repo" />
-    <category term="agents" />
-    <category term="open-source" />
-    <category term="coding" />
-    <category term="llm" />
   </entry>
   <entry>
     <title>EL4CTEO/fast-anything</title>
